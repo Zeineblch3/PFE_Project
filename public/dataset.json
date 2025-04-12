@@ -1,0 +1,122 @@
+[
+    {
+      "tour_id": 1,
+      "name": "Paris Night Tour: Eiffel Tower & Montmartre",
+      "description": "See the Eiffel Tower light up at night, then explore the charming streets of Montmartre. Enjoy a coffee at a cozy café with great views.",
+      "latitude": 48.858093,
+      "longitude": 2.294694,
+      "photo_url": "https://images.pexels.com/photos/338515/pexels-photo-338515.jpeg"
+    },
+    {
+      "tour_id": 2,
+      "name": "Rome Colosseum & Ancient Ruins Tour",
+      "description": "Visit the famous Colosseum and walk through Rome’s historic ruins. Learn about gladiators and emperors from your guide.",
+      "latitude": 41.890251,
+      "longitude": 12.492373,
+      "photo_url": "https://images.pexels.com/photos/1797161/pexels-photo-1797161.jpeg"
+    },
+    {
+      "tour_id": 3,
+      "name": "New York City Highlights Tour",
+      "description": "See top NYC sights like Times Square, Central Park, and the Statue of Liberty. Perfect for first-time visitors.",
+      "latitude": 40.748817,
+      "longitude": -73.985428,
+      "photo_url": "https://images.pexels.com/photos/2190283/pexels-photo-2190283.jpeg"
+    },
+    {
+      "tour_id": 4,
+      "name": "Tokyo Old & New Tour",
+      "description": "Explore ancient temples and high-tech districts in Tokyo. Try sushi at a local restaurant and see the famous Shibuya Crossing.",
+      "latitude": 35.722983,
+      "longitude": 139.686533,
+      "photo_url": "https://images.pexels.com/photos/242246/pexels-photo-242246.jpeg"
+    },
+    {
+      "tour_id": 5,
+      "name": "Sydney Beaches & Harbour Tour",
+      "description": "Visit Bondi Beach, the Sydney Opera House, and Harbour Bridge. Great for photos and ocean views.",
+      "latitude": -33.856159,
+      "longitude": 151.215256,
+      "photo_url": "https://images.pexels.com/photos/719396/pexels-photo-719396.jpeg"
+    },
+    {
+      "tour_id": 6,
+      "name": "Cape Town Scenic Tour",
+      "description": "See Table Mountain, penguins at Boulders Beach, and stunning coastal views. Includes a cable car ride.",
+      "latitude": -33.924870,
+      "longitude": 18.424055,
+      "photo_url": "https://images.pexels.com/photos/2901209/pexels-photo-2901209.jpeg"
+    },
+    {
+      "tour_id": 7,
+      "name": "Rio de Janeiro City Tour",
+      "description": "Visit Christ the Redeemer, Sugarloaf Mountain, and Copacabana Beach. Experience Rio’s vibrant culture.",
+      "latitude": -22.911014,
+      "longitude": -43.209373,
+      "photo_url": "https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg"
+    },
+    {
+      "tour_id": 8,
+      "name": "Venice Gondola & Canals Tour",
+      "description": "Take a romantic gondola ride through Venice’s canals and visit St. Mark’s Square. Includes gelato tasting.",
+      "latitude": 45.434336,
+      "longitude": 12.338785,
+      "photo_url": "https://images.pexels.com/photos/7245328/pexels-photo-7245328.jpeg"
+    },
+    {
+      "tour_id": 9,
+      "name": "Dubai City Tour",
+      "description": "See the Burj Khalifa, Palm Jumeirah, and Dubai Mall. Option to visit the desert for a safari.",
+      "latitude": 25.197197,
+      "longitude": 55.274376,
+      "photo_url": "https://images.pexels.com/photos/2044434/pexels-photo-2044434.jpeg"
+    },
+    {
+      "tour_id": 10,
+      "name": "Bangkok Street Food Tour",
+      "description": "Taste delicious Thai street food like pad thai, mango sticky rice, and more. Visit lively night markets.",
+      "latitude": 13.756331,
+      "longitude": 100.501762,
+      "photo_url": "https://images.pexels.com/photos/2347311/pexels-photo-2347311.jpeg"
+    },
+    {
+      "tour_id": 11,
+      "name": "Iceland Golden Circle Tour",
+      "description": "See geysers, waterfalls, and the famous Blue Lagoon. Great for nature lovers.",
+      "latitude": 64.126521,
+      "longitude": -21.817439,
+      "photo_url": "https://images.pexels.com/photos/360912/pexels-photo-360912.jpeg"
+    },
+    {
+      "tour_id": 12,
+      "name": "Marrakech Market Tour",
+      "description": "Explore colorful souks, try Moroccan tea, and visit historic palaces. A feast for the senses.",
+      "latitude": 31.629472,
+      "longitude": -7.981084,
+      "photo_url": "https://images.pexels.com/photos/5638741/pexels-photo-5638741.jpeg"
+    },
+    {
+      "tour_id": 13,
+      "name": "Kyoto Temples & Gardens Tour",
+      "description": "Visit beautiful temples, bamboo forests, and traditional tea houses. Peaceful and scenic.",
+      "latitude": 35.011665,
+      "longitude": 135.768326,
+      "photo_url": "https://images.pexels.com/photos/161401/fushimi-inari-taisha-shrine-kyoto-japan-temple-161401.jpeg"
+    },
+    {
+      "tour_id": 14,
+      "name": "Barcelona Gaudi Tour",
+      "description": "See the Sagrada Familia, Park Güell, and other famous Gaudi landmarks. Full of unique architecture.",
+      "latitude": 41.403629,
+      "longitude": 2.174356,
+      "photo_url": "https://images.pexels.com/photos/1388030/pexels-photo-1388030.jpeg"
+    },
+    {
+      "tour_id": 15,
+      "name": "Amsterdam Canals & Museums Tour",
+      "description": "Take a boat ride through the canals and visit the Van Gogh Museum. A perfect mix of culture and fun.",
+      "latitude": 52.367573,
+      "longitude": 4.904139,
+      "photo_url": "https://images.pexels.com/photos/1483053/pexels-photo-1483053.jpeg"
+    }
+  ]
