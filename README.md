@@ -3,7 +3,7 @@
 
 GlobeQuest is a 3D Tour Management System built with Next.js ,React-Three-Fiber and Supabase. It provides a 3D globe for user interaction, along with a back office for managing guides and tours.
 
-![GlobeQuest Logo](./public/globequest-logo.png)
+![GlobeQuest Logo](./public/demo_cap.png)
 
 ## Getting Started
 
@@ -17,6 +17,6 @@ npm run dev
 
 ```
 
-Open [Live_Demo](https://globe-quest-lime.vercel.app/homepage) to see the result.
+Open [Live_Demo](https://pfe-project-six.vercel.app/homepage) to see the result.
 
 
