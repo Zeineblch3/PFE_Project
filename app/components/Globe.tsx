@@ -55,7 +55,6 @@ const Globe: React.FC<GlobeProps> = ({
   }, []);
 
   const { recommendations, setShowRecommendations } = useTourRecommendations(
-    tours,
     selectedTour?.id
   );
 

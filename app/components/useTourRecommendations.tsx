@@ -1,20 +1,13 @@
 import React, { useState, useEffect } from 'react';
 
-export const useTourRecommendations = (selectedTour: any[], targetTourId: string) => {
+export const useTourRecommendations = (targetTourId: string) => {
   const [recommendations, setRecommendations] = useState<any[]>([]);
   const [showRecommendations, setShowRecommendations] = useState(false);
 
   useEffect(() => {
     console.log('Target Tour ID:', targetTourId); // Check the targetTourId value
     if (targetTourId) {
-      // Format tours for the recommendation API
-      const formattedTours = selectedTour.map((tour: any) => ({
-        tour_id: tour.id,
-        name: tour.name,
-        description: tour.description,
-        latitude: tour.latitude,
-        longitude: tour.longitude,
-      }));
+      
 
       const fetchRecommendations = async () => {
         try {
@@ -22,12 +15,12 @@ export const useTourRecommendations = (selectedTour: any[], targetTourId: string
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
-              tours: formattedTours,      // Send only selected tour
-              target_tour_id: targetTourId, // The ID of the clicked tour
+              target_tour_id: Number(targetTourId),
               top_n: 5,
               alpha: 0.7,
             }),
           });
+          
 
           if (!res.ok) {
             throw new Error(`HTTP error! Status: ${res.status}`);
@@ -44,7 +37,7 @@ export const useTourRecommendations = (selectedTour: any[], targetTourId: string
 
       fetchRecommendations();
     }
-  }, [selectedTour, targetTourId]);  // Re-run effect if selectedTour or targetTourId changes
+  }, [targetTourId]);  // Re-run effect if selectedTour or targetTourId changes
 
   return { recommendations, showRecommendations, setShowRecommendations };
 };

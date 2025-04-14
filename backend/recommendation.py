@@ -21,10 +21,10 @@ class Tour(BaseModel):
     longitude: float
 
 class RecommendRequest(BaseModel):
-    tours: List[Tour]
     target_tour_id: int
     top_n: int = 5
-    alpha: float = 0.7  # Tuning parameter
+    alpha: float = 0.7
+
 
 # Allow CORS requests from any origin (or specify the correct origins)
 app.add_middleware(
@@ -54,8 +54,9 @@ tours = [Tour(**tour) for tour in tours_data]
 # Endpoint for recommendations
 @app.post("/recommend")
 def recommend(req: RecommendRequest):
-    # Convert to DataFrame
-    df = pd.DataFrame([tour.dict() for tour in req.tours])
+    # Use the backend-loaded dataset
+    df = pd.DataFrame([tour.dict() for tour in tours])
+
     target = df[df['tour_id'] == req.target_tour_id].iloc[0]
 
     # Generate embeddings
@@ -73,6 +74,7 @@ def recommend(req: RecommendRequest):
     df = df[df['tour_id'] != req.target_tour_id]
 
     # Return top N recommendations
-    top_results = df[['tour_id', 'name', 'score']].sort_values(by='score', ascending=False).head(req.top_n)
+    top_results = df.sort_values(by='score', ascending=False).head(req.top_n)
     return top_results.to_dict(orient='records')
+
 
