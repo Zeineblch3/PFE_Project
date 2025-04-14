@@ -1,13 +1,11 @@
-'use client';
-
 import React, { useRef, useState, useEffect } from 'react';
-import { Html, Sphere, useGLTF } from '@react-three/drei';
+import { Html, useGLTF } from '@react-three/drei';
 import * as THREE from 'three';
 import { useThree, useFrame } from '@react-three/fiber';
 import TourPopup from './TourPopup';
 import { fetchTours } from '../Services/tourService';
+import { useTourRecommendations } from './useTourRecommendations';
 
-// Convert Lat/Lon to 3D Coordinates
 const toCartesian = (lat: number, lon: number, radius: number) => {
   const latRad = THREE.MathUtils.degToRad(lat);
   const lonRad = THREE.MathUtils.degToRad(lon);
@@ -19,10 +17,18 @@ const toCartesian = (lat: number, lon: number, radius: number) => {
   return new THREE.Vector3(x, y, z);
 };
 
-const Globe: React.FC<{ scale?: number; position?: [number, number, number]; rotate?: boolean }> = ({
+interface GlobeProps {
+  scale?: number;
+  position?: [number, number, number];
+  rotate?: boolean;
+  openAIModel: (recs: any[]) => void;
+}
+
+const Globe: React.FC<GlobeProps> = ({
   scale = 1,
   position = [0, 0, 0],
   rotate = true,
+  openAIModel,
 }) => {
   const { scene } = useGLTF('/models/scene.gltf');
   const globeRef = useRef<THREE.Group>(null);
@@ -36,21 +42,31 @@ const Globe: React.FC<{ scale?: number; position?: [number, number, number]; rot
 
   useEffect(() => {
     const getTours = async () => {
-      const { data } = await fetchTours();
-      setTours(data ?? []);
+      try {
+        const { data } = await fetchTours();
+        setTours(data ?? []);
+      } catch (error) {
+        console.error('Error fetching tours:', error);
+        setTours([]);
+      }
     };
 
     getTours();
   }, []);
 
+  const { recommendations, setShowRecommendations } = useTourRecommendations(
+    tours,
+    selectedTour?.id
+  );
+
   const handleNextImage = () => {
-    if (selectedTour && selectedTour.photo_urls) {
+    if (selectedTour?.photo_urls) {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % selectedTour.photo_urls.length);
     }
   };
 
   const handlePrevImage = () => {
-    if (selectedTour && selectedTour.photo_urls) {
+    if (selectedTour?.photo_urls) {
       setCurrentImageIndex(
         (prevIndex) => (prevIndex - 1 + selectedTour.photo_urls.length) % selectedTour.photo_urls.length
       );
@@ -59,48 +75,45 @@ const Globe: React.FC<{ scale?: number; position?: [number, number, number]; rot
 
   const handleClosePopup = () => {
     setSelectedTour(null);
+    setShowRecommendations(false);
   };
 
-  // Adjust popup position and rotation to always face the user
   useFrame(() => {
     if (popupRef.current && selectedTour) {
       const popupPosition = new THREE.Vector3(selectedTour.x, selectedTour.y + 0.05, selectedTour.z);
-  
-      // Smoothly interpolate position to avoid rapid movement
-      popupRef.current.position.lerp(popupPosition, 0.1);  // 0.1 is the smoothing factor
-  
+      popupRef.current.position.lerp(popupPosition, 0.1);
       popupRef.current.lookAt(camera.position);
     }
-  });
-  
 
-  //globe rotation
-  useFrame(() => {
     if (rotate && globeRef.current) {
-      globeRef.current.rotation.y += 0.003; // smooth automatic rotation
+      globeRef.current.rotation.y += 0.003;
+    }
+
+    if (pinsRef.current.length) {
+      const distance = camera.position.length();
+      const baseSize = 0.1;
+      const scaleFactor = Math.max(0.02, baseSize * (distance / 5));
+      pinsRef.current.forEach((pin) => pin?.scale.set(scaleFactor, scaleFactor, scaleFactor));
     }
   });
 
-  // Dynamic pin scaling based on camera zoom
-  useFrame(() => {
-    if (!pinsRef.current.length) return;
+  const handlePinClick = (tour: any, x: number, y: number, z: number) => {
+    setSelectedTour({ ...tour, x, y, z });
+    setCurrentImageIndex(0);
+    setShowRecommendations(false);
+  };
 
-    const distance = camera.position.length();
-    const baseSize = 0.1;
-    const scaleFactor = Math.max(0.02, baseSize * (distance / 5));
-
-    pinsRef.current.forEach((pin) => {
-      if (pin) pin.scale.set(scaleFactor, scaleFactor, scaleFactor);
-    });
-  });
+  const triggerAIRecommendations = () => {
+    if (recommendations.length > 0) {
+      openAIModel(recommendations);
+    }
+  };
 
   return (
     <>
       <group ref={globeRef}>
-        {/* 3D Globe Model */}
         <primitive object={scene} scale={scale} position={position} rotation={[0, 1.2, 0]} />
 
-        {/* 3D Tour Pins */}
         {tours.map((tour, index) => {
           const radius = 2.5;
           const { x, y, z } = toCartesian(tour.latitude, tour.longitude, radius);
@@ -115,21 +128,16 @@ const Globe: React.FC<{ scale?: number; position?: [number, number, number]; rot
               rotation={[-Math.PI, 0, 0]}
               onPointerDown={(event) => {
                 event.stopPropagation();
-                setSelectedTour({ ...tour, x, y, z });
-                setCurrentImageIndex(0);
+                handlePinClick(tour, x, y, z);
               }}
             >
-              {/* Cone base */}
               <coneGeometry args={[0.2, 1.5, 32]} />
               <meshStandardMaterial color={selectedTour?.id === tour.id ? 'yellow' : 'red'} />
             </mesh>
-
-
           );
         })}
       </group>
 
-      {/* Tour Popup - Always Faces the User */}
       {selectedTour && (
         <group ref={popupRef}>
           <Html center distanceFactor={2} transform>
@@ -139,6 +147,7 @@ const Globe: React.FC<{ scale?: number; position?: [number, number, number]; rot
               onNextImage={handleNextImage}
               onPrevImage={handlePrevImage}
               onClose={handleClosePopup}
+              openAIModel={triggerAIRecommendations}
             />
           </Html>
         </group>
@@ -147,7 +156,5 @@ const Globe: React.FC<{ scale?: number; position?: [number, number, number]; rot
   );
 };
 
-// Preload GLTF Model
 useGLTF.preload('/models/scene.gltf');
-
 export default Globe;

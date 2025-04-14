@@ -1,9 +1,11 @@
 {
-  "name": "new_project",
+  "name": "globequest",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "concurrently \"npm run next\" \"npm run api\"",
+    "next": "next dev",
+    "api": "cd backend && uvicorn recommendation:app --reload || echo 'Failed to start API server'",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -27,6 +29,7 @@
     "@types/papaparse": "^5.3.15",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "concurrently": "^9.1.2",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

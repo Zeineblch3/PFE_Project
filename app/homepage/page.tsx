@@ -8,13 +8,15 @@ import { Canvas } from '@react-three/fiber';
 import Stars from './Stars';
 import { X } from 'lucide-react';
 import { FaGlobe } from 'react-icons/fa';
-
+import AIModal from '../components/AI'; // Adjust the path if different
 
 const GlobePage: React.FC = () => {
   const controlsRef = useRef(null);
   const [isContactOpen, setIsContactOpen] = useState(false);
   const [isAboutOpen, setIsAboutOpen] = useState(false);
   const [autoRotate, setAutoRotate] = useState(true);
+  const [showAI, setShowAI] = useState(false);
+const [aiData, setAIData] = useState<any[]>([]);
 
 
   const handleBackOffice = () => {
@@ -29,6 +31,7 @@ const GlobePage: React.FC = () => {
   const toggleAboutPanel = () => setIsAboutOpen(!isAboutOpen);
 
   return (
+    
     <div className="relative w-full h-screen flex flex-col text-white animated-bg">
       <Stars />
       {/* Header Navigation */}
@@ -81,10 +84,25 @@ const GlobePage: React.FC = () => {
         <Canvas>
           <ambientLight intensity={1.5} />
           <directionalLight position={[1, 1, 1]} intensity={2} />
-          <Globe scale={15} position={[0, 0, 0]} rotate={autoRotate}/>
+          <Globe
+            scale={15}
+            position={[0, 0, 0]}
+            rotate={autoRotate}
+            openAIModel={(recs: any[]) => {
+              setAIData(recs);
+              setShowAI(true);
+            }}
+          />
+
           <OrbitControls ref={controlsRef} minDistance={2.8} maxDistance={7} />
         </Canvas>
       </div>
+      {showAI && (
+        <div className="fixed right-4 top-1/2 transform -translate-y-1/2 z-50 max-w-sm w-[350px]">
+          <AIModal recommendations={aiData} onClose={() => setShowAI(false)} />
+        </div>
+      )}
+
 
      {/* Contact Panel - Enhanced UI */}
       {isContactOpen && (
