@@ -19,6 +19,8 @@ class Tour(BaseModel):
     description: str
     latitude: float
     longitude: float
+    photo_url: str  
+
 
 class RecommendRequest(BaseModel):
     target_tour_id: int

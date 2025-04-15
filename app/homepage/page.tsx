@@ -98,8 +98,8 @@ const [aiData, setAIData] = useState<any[]>([]);
         </Canvas>
       </div>
       {showAI && (
-        <div className="fixed right-4 top-1/2 transform -translate-y-1/2 z-50 max-w-sm w-[350px]">
-          <AIModal recommendations={aiData} onClose={() => setShowAI(false)} />
+        <div className="fixed right-15 top-1/2 transform -translate-y-1/2 z-50 w-full max-w-md px-4">
+        <AIModal recommendations={aiData} onClose={() => setShowAI(false)} />
         </div>
       )}
 

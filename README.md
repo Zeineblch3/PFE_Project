@@ -17,6 +17,5 @@ npm run dev
 
 ```
 
-Open [Live_Demo](https://pfe-project-six.vercel.app/homepage) to see the result.
 
 
