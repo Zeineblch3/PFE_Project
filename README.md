@@ -11,8 +11,9 @@ First, run the development server:
 
 ```bash
 
-npm install
-npm run dev
+GlobeQuest - PFE>npm install
+GlobeQuest - PFE\backend> uvicorn recommendation:app --reload
+GlobeQuest - PFE>npm run dev
 
 
 ```
