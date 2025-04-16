@@ -5,7 +5,7 @@
       "description": "See the Eiffel Tower light up at night, then explore the charming streets of Montmartre. Enjoy a coffee at a cozy café with great views.",
       "latitude": 48.858093,
       "longitude": 2.294694,
-      "photo_url": "https://images.pexels.com/photos/338515/pexels-photo-338515.jpeg"
+      "photo_url": "https://images.pexels.com/photos/17185651/pexels-photo-17185651/free-photo-of-ville-soleil-couchant-coucher-de-soleil-coucher-du-soleil.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
       "tour_id": 2,
@@ -37,7 +37,7 @@
       "description": "Visit Bondi Beach, the Sydney Opera House, and Harbour Bridge. Great for photos and ocean views.",
       "latitude": -33.856159,
       "longitude": 151.215256,
-      "photo_url": "https://images.pexels.com/photos/719396/pexels-photo-719396.jpeg"
+      "photo_url": "https://media.tacdn.com/media/attractions-splice-spp-674x446/0a/66/aa/87.jpg"
     },
     {
       "tour_id": 6,
@@ -53,7 +53,7 @@
       "description": "Visit Christ the Redeemer, Sugarloaf Mountain, and Copacabana Beach. Experience Rio’s vibrant culture.",
       "latitude": -22.911014,
       "longitude": -43.209373,
-      "photo_url": "https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg"
+      "photo_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/8c/62/4d/caption.jpg?w=500&h=400&s=1"
     },
     {
       "tour_id": 8,
@@ -77,7 +77,7 @@
       "description": "Taste delicious Thai street food like pad thai, mango sticky rice, and more. Visit lively night markets.",
       "latitude": 13.756331,
       "longitude": 100.501762,
-      "photo_url": "https://images.pexels.com/photos/2347311/pexels-photo-2347311.jpeg"
+      "photo_url": "https://images.ctfassets.net/qzslvo8u2q4l/6XL8Kryok60rUnOJRSMNmu/1efa89e15256e45cd13226d4293e25bd/street_food_in_bangk_XCroM.jpg"
     },
     {
       "tour_id": 11,
@@ -93,7 +93,7 @@
       "description": "Explore colorful souks, try Moroccan tea, and visit historic palaces. A feast for the senses.",
       "latitude": 31.629472,
       "longitude": -7.981084,
-      "photo_url": "https://images.pexels.com/photos/5638741/pexels-photo-5638741.jpeg"
+      "photo_url": "https://www.vjv.com/media/thjldkr1/jamaa-el-fna-market-square-marrakesh-morocco_shutterstock-685174879.jpg?width=1920&height=1080&quality=60"
     },
     {
       "tour_id": 13,
@@ -117,6 +117,94 @@
       "description": "Take a boat ride through the canals and visit the Van Gogh Museum. A perfect mix of culture and fun.",
       "latitude": 52.367573,
       "longitude": 4.904139,
-      "photo_url": "https://images.pexels.com/photos/1483053/pexels-photo-1483053.jpeg"
+      "photo_url": "https://res.cloudinary.com/lastminute-contenthub/s--oCpS-iT_--/c_limit,h_999999,w_1920/f_auto/q_auto:eco/v1/DAM/Photos/Destinations/Europe/Netherlands/Amsterdam/shutterstock_245364502_Rijksmuseum"
+    },
+    {
+      "tour_id": 16,
+      "name": "Athens Ancient Ruins & Acropolis Tour",
+      "description": "Explore the Acropolis and Parthenon, and walk through the ancient Agora. Discover the cradle of Western civilization.",
+      "latitude": 37.971532,
+      "longitude": 23.726705,
+      "photo_url": "https://lp-cms-production.imgix.net/2022-06/Greece_Athens_Zeus-temple.jpg?auto=format,compress&q=72&w=1440&h=810&fit=crop"
+    },
+    {
+      "tour_id": 17,
+      "name": "Machu Picchu Inca Trail Tour",
+      "description": "Hike the famous Inca Trail and explore the lost city of the Incas. A breathtaking adventure in the Peruvian mountains.",
+      "latitude": -13.163141,
+      "longitude": -72.545019,
+      "photo_url": "https://static.toiimg.com/thumb/msid-58047049,width-550,height-433/58047049.jpg"
+    },
+    {
+      "tour_id": 18,
+      "name": "Cairo Pyramids & Egyptian Museum Tour",
+      "description": "Marvel at the Great Pyramids of Giza and the Sphinx, then visit the Egyptian Museum to see ancient treasures.",
+      "latitude": 29.979175,
+      "longitude": 31.134235,
+      "photo_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/7e/7d/2c/pyramids-of-giza.jpg?w=1200&h=1200&s=1"
+    },
+    {
+      "tour_id": 19,
+      "name": "London Historic Landmarks Tour",
+      "description": "Explore London's iconic landmarks including the Tower of London, Buckingham Palace, and Big Ben.",
+      "latitude": 51.507351,
+      "longitude": -0.127758,
+      "photo_url": "https://uktravelplanning.com/wp-content/uploads/2021/03/Tower-of-London-1.jpg"
+    },
+    {
+      "tour_id": 20,
+      "name": "Petra Jordan Ancient City Tour",
+      "description": "Discover the Rose City of Petra, a UNESCO World Heritage site with stunning rock-cut architecture.",
+      "latitude": 30.328459,
+      "longitude": 35.444362,
+      "photo_url": "https://i0.wp.com/www.touristjordan.com/wp-content/uploads/2022/05/shutterstock_1030695895-scaled.jpg?resize=2000%2C800&ssl=1"
+    },
+    {
+      "tour_id": 21,
+      "name": "Helsinki Archipelago Tour",
+      "description": "Cruise through Helsinki's beautiful archipelago, stopping at charming islands and enjoying stunning sea views.",
+      "latitude": 60.169855,
+      "longitude": 24.938379,
+      "photo_url": "https://veronikasadventure.com/wp-content/uploads/2024/07/2-hours-private-modern-boat-tour-in-helsinki-archipelago-2.jpg"
+    },
+    {
+      "tour_id": 22,
+      "name": "Argentina & Culture Tour",
+      "description": "Experience the heart of Argentina’s culture with a guided tour through Buenos Aires' vibrant neighborhoods.",
+      "latitude": -34.603684,
+      "longitude": -58.381559,
+      "photo_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/e0/63/16/caption.jpg?w=500&h=400&s=1"
+    },
+    {
+      "tour_id": 23,
+      "name": "Seoul Palaces & Modern Culture Tour",
+      "description": "Visit the Gyeongbokgung Palace and Bukchon Hanok Village, then explore Seoul’s modern shopping districts.",
+      "latitude": 37.566535,
+      "longitude": 126.977969,
+      "photo_url": "https://images.pexels.com/photos/2098997/pexels-photo-2098997.jpeg"
+    },
+    {
+      "tour_id": 24,
+      "name": "Dubai Desert Safari & Adventure Tour",
+      "description": "Go on a thrilling desert safari with dune bashing, camel rides, and a traditional Bedouin-style dinner.",
+      "latitude": 24.426607,
+      "longitude": 55.715426,
+      "photo_url": "https://www.mediaoffice.ae/-/media/2024/december/05-12/11/gdmo2-p01-05-12-24.jpg"
+    },
+    {
+      "tour_id": 25,
+      "name": "Singapore Gardens by the Bay Tour",
+      "description": "Visit the stunning Gardens by the Bay, featuring the iconic Supertree Grove and Cloud Forest. Enjoy a light show in the evening amidst beautiful flora.",
+      "latitude": 1.2816,
+      "longitude": 103.8637,
+      "photo_url": "https://d3iso9mq9tb10q.cloudfront.net/magefan_blog/g/a/gardens-by-the-bay_article.jpg"
+    },
+    {
+      "tour_id": 26,
+      "name": "Istanbul Bosphorus Cruise Tour",
+      "description": "Experience a scenic cruise on the Bosphorus Strait, witnessing the stunning skyline of Istanbul. Visit historic palaces and enjoy traditional Turkish tea.",
+      "latitude": 41.0082,
+      "longitude": 28.9784,
+      "photo_url": "https://res.klook.com/image/upload/c_fill,w_627,h_470/q_80/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/sddws2d1dxpaxzyylkew.webp"
     }
   ]
