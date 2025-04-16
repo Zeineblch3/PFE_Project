@@ -28,6 +28,9 @@ export default function ManageTours() {
     const [photoUrls, setPhotoUrls] = useState<string[]>([]); // Changed to an array
     const [price, setPrice] = useState<number | string>(''); 
     const [tripAdvisor_link, setTripAdvisor_link] = useState('');
+    const [book_link, setBook_link] = useState('');
+    const [bookLinkError, setBookLinkError] = useState('');
+
 
     const [photoUrlError, setPhotoUrlError] = useState('');
     const [tripAdvisorLinkError, setTripAdvisorLinkError] = useState('');
@@ -63,6 +66,8 @@ export default function ManageTours() {
         setPhotoUrls(tour.photo_urls || []); // Set the existing photo URLs
         setPrice(tour.price);
         setTripAdvisor_link(tour.tripAdvisor_link || '');
+        setBook_link(tour.book_link || '');
+
     };
 
     const closeModal = () => {
@@ -81,6 +86,9 @@ export default function ManageTours() {
         setTripAdvisor_link('');
         setPhotoUrlError('');
         setTripAdvisorLinkError('');
+        setBook_link('');
+        setBookLinkError('');
+
     };
 
     const handleCreateTour = async (e: React.FormEvent) => {
@@ -88,6 +96,7 @@ export default function ManageTours() {
 
         setPhotoUrlError('');
         setTripAdvisorLinkError('');
+        setBookLinkError('');
 
         let valid = true;
 
@@ -107,6 +116,10 @@ export default function ManageTours() {
             setTripAdvisorLinkError('Please enter a valid URL.');
             valid = false;
         }
+        if (book_link && !isValidUrl(book_link)) {
+            setBookLinkError('Please enter a valid booking URL.');
+            valid = false;
+        }
 
         if (!valid) return;
 
@@ -117,7 +130,9 @@ export default function ManageTours() {
             longitude: parseFloat(longitude as string) || 0, 
             photo_urls: photoUrls,  
             price: parseFloat(price as string) || 0, 
-            tripAdvisor_link: tripAdvisor_link 
+            tripAdvisor_link: tripAdvisor_link,
+            book_link: book_link
+
         };
 
         const { error } = await tourService.createTour(newTour);
@@ -135,6 +150,8 @@ export default function ManageTours() {
 
         setPhotoUrlError('');
         setTripAdvisorLinkError('');
+        setBookLinkError('');
+
 
         let valid = true;
 
@@ -154,6 +171,10 @@ export default function ManageTours() {
             setTripAdvisorLinkError('Please enter a valid URL.');
             valid = false;
         }
+        if (book_link && !isValidUrl(book_link)) {
+            setBookLinkError('Please enter a valid booking URL.');
+            valid = false;
+        }
 
         if (!valid) return;
 
@@ -164,7 +185,9 @@ export default function ManageTours() {
             longitude: parseFloat(longitude as string) || 0, 
             photo_urls: photoUrls, 
             price: parseFloat(price as string) || 0, 
-            tripAdvisor_link: tripAdvisor_link 
+            tripAdvisor_link: tripAdvisor_link,
+            book_link: book_link
+
         };
 
         const { error } = await tourService.updateTour(updatedTour, editingTour.id);
@@ -225,6 +248,8 @@ export default function ManageTours() {
         { key: 'longitude', label: 'Longitude' },
         { key: 'price', label: 'price' },
         { key: 'tripAdvisor_link', label: 'TripAdvisor_link' },
+        { key: 'book_link', label: 'Booking Link' },
+
         
       ];
 
@@ -268,7 +293,8 @@ export default function ManageTours() {
                             <th className="px-6 py-3 text-left">Longitude</th>
                             <th className="px-6 py-3 text-left">Photo</th>
                             <th className="px-6 py-3 text-left">Price</th>
-                            <th className="px-6 py-3 text-left">TripAdvisor</th>
+                            <th className="px-6 py-3 text-left min-w-[60px]">TripAdvisor</th>
+                            <th className="px-6 py-3 text-left min-w-[60px]">Booking</th>
                             <th className="px-6 py-3 text-left">Actions</th>
                         </tr>
                     </thead>
@@ -296,9 +322,13 @@ export default function ManageTours() {
                                     )}
                                 </td>
                                 <td className="px-6 py-3 text-gray-800">${tour.price}</td>
-                                <td className="px-6 py-3 text-blue-600 underline">
-                                    <a href={tour.tripAdvisor_link} target="_blank" rel="noopener noreferrer">View</a>
+                                <td className="px-6 py-3 text-blue-600 underline text-sm whitespace-nowrap">
+                                    <a href={tour.tripAdvisor_link} target="_blank" rel="noopener noreferrer">Advisor</a>
                                 </td>
+                                <td className="px-6 py-3 text-blue-600 underline text-sm whitespace-nowrap">
+                                    <a href={tour.book_link} target="_blank" rel="noopener noreferrer">Book</a>
+                                </td>
+
                                 <td className="px-6 py-3">
                                     <div className="flex flex-col space-y-4">
                                         <button
@@ -434,6 +464,18 @@ export default function ManageTours() {
                                 />
                                 {tripAdvisorLinkError && <p className="text-red-600 text-sm">{tripAdvisorLinkError}</p>}
                             </div>
+                            <div>
+                                <label htmlFor="book_link" className="block text-sm font-medium text-gray-900">Booking Link</label>
+                                <input
+                                    type="text"
+                                    id="book_link"
+                                    value={book_link}
+                                    onChange={(e) => setBook_link(e.target.value)}
+                                    className="w-full p-3 mt-2 bg-white text-gray-800 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                />
+                                {bookLinkError && <p className="text-red-600 text-sm">{bookLinkError}</p>}
+                            </div>
+
 
                             <div className="flex justify-between space-x-4">
                                 <button

@@ -40,21 +40,38 @@ const TourPopup: React.FC<TourPopupProps> = ({
 
       <p className="text-gray-700 my-2">{tour.description}</p>
 
-      <a
-        href={tour.tripAdvisor_link}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-blue-500 underline font-medium hover:text-blue-600 transition"
-      >
-        Visit TripAdvisor
-      </a>
+       {/* Container for left-aligned TripAdvisor and Book Now links */}
+       <div className="flex justify-between mt-4">
+        <div className="flex flex-col space-y-2 items-start w-[120px]">
+          <a
+            href={tour.tripAdvisor_link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 underline font-medium hover:text-blue-600 transition"
+          >
+            Visit TripAdvisor
+          </a>
+          <a
+            href={tour.book_link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 underline font-medium hover:text-blue-600 transition"
+          >
+            Book Now
+          </a>
+        </div>
 
-      <button
-        onClick={openAIModel}
-        className="mt-4 text-purple-600 hover:underline font-medium"
-      >
-        View More
-      </button>
+        {/* Right-aligned Recommendation Button */}
+        <div>
+        <button
+          onClick={openAIModel}
+          className="mt-4 inline-flex items-center px-4 py-2 rounded-full bg-purple-50 text-purple-700 border border-purple-300 hover:bg-purple-100 hover:border-purple-400 transform hover:-translate-y-1 transition-all"
+        >
+          🔍 ✨ View Magic Picks
+        </button>
+
+        </div>
+      </div>
     </div>
   );
 };
