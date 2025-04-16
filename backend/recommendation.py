@@ -24,7 +24,7 @@ class Tour(BaseModel):
 class RecommendRequest(BaseModel):
     target_tour_id: int
     top_n: int = 5
-    alpha: float = 0.5
+    alpha: float = 0.7
 
 # Allow CORS requests from any origin (or specify the correct origins)
 app.add_middleware(

@@ -1,19 +1,19 @@
 [
     {
       "tour_id": 1,
-      "name": "Paris Night Tour: Eiffel Tower & Montmartre",
-      "description": "See the Eiffel Tower light up at night, then explore the charming streets of Montmartre. Enjoy a coffee at a cozy café with great views.",
-      "latitude": 48.858093,
-      "longitude": 2.294694,
-      "photo_url": "https://images.pexels.com/photos/17185651/pexels-photo-17185651/free-photo-of-ville-soleil-couchant-coucher-de-soleil-coucher-du-soleil.jpeg?auto=compress&cs=tinysrgb&w=600"
+      "name": "Sidi Bou Saïd",
+      "description": "A picturesque village, a gem known for blue-and-white architecture, Mediterranean views, charming cafes, art galleries, and peaceful historic streets.",
+      "latitude": 36.8494,
+      "longitude": 10.3290,
+      "photo_url": "https://images.musement.com/cover/0151/54/thumb_15053080_cover_header.jpeg"
     },
     {
       "tour_id": 2,
-      "name": "Rome Colosseum & Ancient Ruins Tour",
-      "description": "The Eternal City, known for its rich history, stunning architecture, and iconic landmarks like the Colosseum, Vatican City, and Trevi Fountain. A cultural and historical hub with over 2,500 years of legacy!",
-      "latitude": 41.890251,
-      "longitude": 12.492373,
-      "photo_url": "https://images.pexels.com/photos/1797161/pexels-photo-1797161.jpeg"
+      "name": "Sydney Beaches & Harbour Tour",
+      "description": "Visit Bondi Beach, the Sydney Opera House, and Harbour Bridge. Great for photos and ocean views.",
+      "latitude": -33.856159,
+      "longitude": 151.215256,
+      "photo_url": "https://media.tacdn.com/media/attractions-splice-spp-674x446/0a/66/aa/87.jpg"
     },
     {
       "tour_id": 3,
@@ -33,35 +33,35 @@
     },
     {
       "tour_id": 5,
-      "name": "Sydney Beaches & Harbour Tour",
-      "description": "Visit Bondi Beach, the Sydney Opera House, and Harbour Bridge. Great for photos and ocean views.",
-      "latitude": -33.856159,
-      "longitude": 151.215256,
+      "name": "Rome",
+      "description": "The Eternal City, known for its rich history, stunning architecture, and iconic landmarks like the Colosseum, Vatican City, and Trevi Fountain. A cultural and historical hub with over 2,500 years of legacy!",
+      "latitude": 41.9028,
+      "longitude": 12.4964,
       "photo_url": "https://media.tacdn.com/media/attractions-splice-spp-674x446/0a/66/aa/87.jpg"
     },
     {
       "tour_id": 6,
-      "name": "Cape Town Scenic Tour",
-      "description": "See Table Mountain, penguins at Boulders Beach, and stunning coastal views. Includes a cable car ride.",
-      "latitude": -33.924870,
-      "longitude": 18.424055,
-      "photo_url": "https://images.pexels.com/photos/2901209/pexels-photo-2901209.jpeg"
+      "name": "Dougga Tour",
+      "description": "Explore the ancient ruins of Dougga, from the Roman theatre to the Temple of Saturn. Discover mosaics, monuments, and stunning views of the Atlas Mountains.",
+      "latitude": 36.4599,
+      "longitude": 9.2325,
+      "photo_url": "https://www.impressivetunisia.com/wp-content/uploads/2022/03/dougga-panoramique-1.jpg"
     },
     {
       "tour_id": 7,
-      "name": "Rio de Janeiro City Tour",
-      "description": "Visit Christ the Redeemer, Sugarloaf Mountain, and Copacabana Beach. Experience Rio’s vibrant culture.",
-      "latitude": -22.911014,
-      "longitude": -43.209373,
-      "photo_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/8c/62/4d/caption.jpg?w=500&h=400&s=1"
+      "name": "Palestine: A Journey Through History",
+      "description": "From Gaza’s vibrant streets to ancient olive groves. Discover sacred lands filled with history, resilience, and deep connection.",
+      "latitude": 31.5,
+      "longitude": 35.2420,
+      "photo_url": "https://www.middleeasteye.net/sites/default/files/mosque-omari.jpg"
     },
     {
       "tour_id": 8,
-      "name": "Venice Gondola & Canals Tour",
-      "description": "Take a romantic gondola ride through Venice’s canals and visit St. Mark’s Square. Includes gelato tasting.",
-      "latitude": 45.434336,
-      "longitude": 12.338785,
-      "photo_url": "https://images.pexels.com/photos/7245328/pexels-photo-7245328.jpeg"
+      "name": "Algerian Sahara Exploration",
+      "description": "Vast dunes, ancient rocks, and Tuareg culture, immersing yourself in the desert’s tranquil beauty and rich history.",
+      "latitude": 27.2481,
+      "longitude": 2.4686,
+      "photo_url": "https://sahara-africa-tours.com/wp-content/uploads/2023/11/received_253249385347385-1024x768.jpeg"
     },
     {
       "tour_id": 9,
@@ -206,5 +206,37 @@
       "latitude": 41.0082,
       "longitude": 28.9784,
       "photo_url": "https://res.klook.com/image/upload/c_fill,w_627,h_470/q_80/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/sddws2d1dxpaxzyylkew.webp"
+    },
+    {
+      "tour_id": 27,
+      "name": "Cape Town Scenic Tour",
+      "description": "See Table Mountain, penguins at Boulders Beach, and stunning coastal views. Includes a cable car ride.",
+      "latitude": -33.924870,
+      "longitude": 18.424055,
+      "photo_url": "https://images.pexels.com/photos/2901209/pexels-photo-2901209.jpeg"
+    },
+    {
+      "tour_id": 28,
+      "name": "Paris Night Tour: Eiffel Tower & Montmartre",
+      "description": "See the Eiffel Tower light up at night, then explore the charming streets of Montmartre. Enjoy a coffee at a cozy café with great views.",
+      "latitude": 48.858093,
+      "longitude": 2.294694,
+      "photo_url": "https://images.pexels.com/photos/17185651/pexels-photo-17185651/free-photo-of-ville-soleil-couchant-coucher-de-soleil-coucher-du-soleil.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "tour_id": 29,
+      "name": "Rio de Janeiro City Tour",
+      "description": "Visit Christ the Redeemer, Sugarloaf Mountain, and Copacabana Beach. Experience Rio’s vibrant culture.",
+      "latitude": -22.911014,
+      "longitude": -43.209373,
+      "photo_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/8c/62/4d/caption.jpg?w=500&h=400&s=1"
+    },
+    {
+      "tour_id": 30,
+      "name": "Venice Gondola & Canals Tour",
+      "description": "Take a romantic gondola ride through Venice’s canals and visit St. Mark’s Square. Includes gelato tasting.",
+      "latitude": 45.434336,
+      "longitude": 12.338785,
+      "photo_url": "https://images.pexels.com/photos/7245328/pexels-photo-7245328.jpeg"
     }
   ]
