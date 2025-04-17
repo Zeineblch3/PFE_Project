@@ -238,5 +238,13 @@
       "latitude": 45.434336,
       "longitude": 12.338785,
       "photo_url": "https://images.pexels.com/photos/7245328/pexels-photo-7245328.jpeg"
+    },
+    {
+      "tour_id": 31,
+      "name": "Kuala Lumpur Urban Exploration & Culture Tour",
+      "description": "Experience the stunning skyline of Kuala Lumpur, home to the world-renowned **Petronas Twin Towers** and the futuristic **KL Tower**. Afterward, immerse yourself in the city's rich heritage with a visit to the **Batu Caves**, an ancient Hindu temple complex, followed by a stroll through **Central Market** for local crafts and cuisine.",
+      "latitude": 3.139003,
+      "longitude": 101.6869,
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Kuala_Lumpur_Skyline_at_dusk_1.jpg"
     }
   ]
