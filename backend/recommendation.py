@@ -3,14 +3,13 @@ import pandas as pd
 from fastapi import FastAPI
 from pydantic import BaseModel
 from typing import List
-from sentence_transformers import SentenceTransformer, util, InputExample, losses
 import math
 from fastapi.middleware.cors import CORSMiddleware
-from torch.utils.data import DataLoader
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
 
-# Initialize FastAPI and SentenceTransformer model
+# Initialize FastAPI
 app = FastAPI()
-model = SentenceTransformer('all-MiniLM-L6-v2')
 
 # Define data models
 class Tour(BaseModel):
@@ -42,23 +41,6 @@ with open('dataset.json', 'r') as file:
 # Convert the dataset into Tour objects
 tours = [Tour(**tour) for tour in tours_data]
 
-# Prepare data for fine-tuning (use pairs for training)
-train_examples = []
-for tour in tours_data:
-    description = tour['description']
-    # Use the description as both the "positive" pair and the "negative" pair for simplicity
-    # Normally, you'd use two different sentences for each pair
-    train_examples.append(InputExample(texts=[description, description], label=1))  # Positive pair
-
-# Create a DataLoader for batching
-train_dataloader = DataLoader(train_examples, shuffle=True, batch_size=16)
-
-# Use a loss function, e.g., CosineSimilarityLoss
-train_loss = losses.CosineSimilarityLoss(model)
-
-# Fine-tune the model
-model.fit(train_objectives=[(train_dataloader, train_loss)], epochs=1, warmup_steps=100)
-
 # Haversine function to calculate proximity
 def haversine(lat1, lon1, lat2, lon2):
     R = 6371  # Radius of Earth in km
@@ -76,12 +58,19 @@ def recommend(req: RecommendRequest):
 
     target = df[df['tour_id'] == req.target_tour_id].iloc[0]
 
-    # Generate embeddings for the descriptions
-    embeddings = model.encode(df['description'].tolist(), convert_to_tensor=True)
-    target_embedding = model.encode(target['description'], convert_to_tensor=True)
+   # Generate TF-IDF vectorizer for the names and descriptions
+    tfidf = TfidfVectorizer(stop_words="english")
+    # Concatenate the name and description for each tour
+    descriptions_and_names = df['name'] + " " + df['description']
+    tfidf_matrix = tfidf.fit_transform(descriptions_and_names.tolist())
 
-    # Calculate semantic similarity scores
-    semantic_scores = util.cos_sim(target_embedding, embeddings).cpu().numpy().flatten()
+    # Get the target tour's TF-IDF vector (name + description)
+    target_idx = df[df['tour_id'] == req.target_tour_id].index[0]
+    target_vector = tfidf_matrix[target_idx]
+
+    # Calculate semantic similarity using cosine similarity
+    semantic_scores = cosine_similarity(target_vector, tfidf_matrix).flatten()
+
 
     # Compute geographic proximity using the haversine function
     distances = df.apply(lambda row: haversine(target['latitude'], target['longitude'], row['latitude'], row['longitude']), axis=1)

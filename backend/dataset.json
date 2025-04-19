@@ -37,7 +37,7 @@
       "description": "The Eternal City, known for its rich history, stunning architecture, and iconic landmarks like the Colosseum, Vatican City, and Trevi Fountain. A cultural and historical hub with over 2,500 years of legacy!",
       "latitude": 41.9028,
       "longitude": 12.4964,
-      "photo_url": "https://media.tacdn.com/media/attractions-splice-spp-674x446/0a/66/aa/87.jpg"
+      "photo_url": "https://www.graveltravel.com/cdn/shop/articles/best-place-in-rome-vatican-and-river.jpg?v=1685826764"
     },
     {
       "tour_id": 6,
@@ -66,7 +66,7 @@
     {
       "tour_id": 9,
       "name": "Dubai City Tour",
-      "description": "See the Burj Khalifa, Palm Jumeirah, and Dubai Mall. Option to visit the desert for a safari.",
+      "description": "Stroll the man-made wonder of Palm Jumeirah, and explore luxury at the Dubai Mall. Then journey into the golden desert for a thrilling safari, where tradition meets the endless dunes under a starlit sky.",
       "latitude": 25.197197,
       "longitude": 55.274376,
       "photo_url": "https://images.pexels.com/photos/2044434/pexels-photo-2044434.jpeg"
@@ -82,7 +82,7 @@
     {
       "tour_id": 11,
       "name": "Iceland Golden Circle Tour",
-      "description": "See geysers, waterfalls, and the famous Blue Lagoon. Great for nature lovers.",
+      "description": "See geysers, waterfalls, Witness the magical dance of the Northern Lights as they illuminate the arctic sky — a paradise for those who seek nature’s raw, untouched beauty.",
       "latitude": 64.126521,
       "longitude": -21.817439,
       "photo_url": "https://images.pexels.com/photos/360912/pexels-photo-360912.jpeg"
@@ -181,7 +181,7 @@
       "description": "Visit the Gyeongbokgung Palace and Bukchon Hanok Village, then explore Seoul’s modern shopping districts.",
       "latitude": 37.566535,
       "longitude": 126.977969,
-      "photo_url": "https://images.pexels.com/photos/2098997/pexels-photo-2098997.jpeg"
+      "photo_url": "https://w0.peakpx.com/wallpaper/47/522/HD-wallpaper-seoul-skyscrapers-sunset-modern-buildings-south-korea-houses-streets.jpg"
     },
     {
       "tour_id": 24,
@@ -246,5 +246,174 @@
       "latitude": 3.139003,
       "longitude": 101.6869,
       "photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Kuala_Lumpur_Skyline_at_dusk_1.jpg"
-    }
-  ]
+    },
+    {
+      "tour_id": 32,
+      "name": "Batu Caves Spiritual Journey",
+      "description": "Climb the 272 steps to the majestic Batu Caves, where colorful temples meet towering limestone cliffs. Discover the sacred Hindu shrines and feel the spiritual energy that flows through the cavernous halls.",
+      "latitude": 3.2379,
+      "longitude": 101.6831,
+      "photo_url": "https://herasianadventures.com/wp-content/uploads/2024/09/9-1.jpg"
+    },
+    {
+      "tour_id": 33,
+      "name": "Petronas Twin Towers Night Tour",
+      "description": "Marvel at the iconic Petronas Twin Towers glowing against the Kuala Lumpur skyline. Walk the skybridge, capture unforgettable photos, and feel the pulse of Malaysia’s modern heartbeat.",
+      "latitude": 3.1579,
+      "longitude": 101.7111,
+      "photo_url": "https://cdn.getyourguide.com/image/format=auto,fit=crop,gravity=auto,quality=60,width=450,height=450,dpr=2/tour_img/57071d6fca705.jpeg"
+    },
+    {
+      "tour_id": 34,
+      "name": "Langkawi Island Nature Escape",
+      "description": "Relax on the white sand beaches of Langkawi, surrounded by emerald waters and ancient rainforests. Take a cable car up Gunung Mat Cincang and feel deeply connected to the island’s untamed beauty.",
+      "latitude": 6.35,
+      "longitude": 99.8,
+      "photo_url": "https://www.kkday.com/en-ph/blog/wp-content/uploads/my_langkawi_cable_cars-1170x680.jpg"
+    },
+    {
+      "tour_id": 35,
+      "name": "Malacca Heritage Walk",
+      "description": "Stroll through the colorful streets of Malacca, a UNESCO World Heritage site rich with Portuguese, Dutch, and British history. Visit ancient temples and taste local Peranakan cuisine in Jonker Street.",
+      "latitude": 2.1896,
+      "longitude": 102.2501,
+      "photo_url": "https://www.tripsavvy.com/thmb/HGx2LbxCK6b36r7v73ztmffkKg4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/melaka_tour_01-83cec3bde78c4284bc6ada92559341dd.jpg"
+    },
+    {
+      "tour_id": 36,
+      "name": "Cameron Highlands Tea & Mist Tour",
+      "description": "Breathe in the crisp mountain air as you explore lush tea plantations nestled in the Cameron Highlands. Wander through mossy forests and discover a peaceful world suspended in the clouds.",
+      "latitude": 4.4706,
+      "longitude": 101.3774,
+      "photo_url": "https://cdn.getyourguide.com/img/tour/98f231b0af40ee66a7b71dc9ded33f0907969ecf86c307457ce8dbda67740677.png/97.jpg"
+    },
+    {
+      "tour_id": 37,
+      "name": "Argentina: Perito Moreno Glacier Trek",
+      "description": "Hike across Argentina's iconic Perito Moreno Glacier in Los Glaciares National Park. Ice picks and crampons provided for this Patagonian adventure.",
+      "latitude": -50.4826,
+      "longitude": -73.0489,
+      "photo_url": "https://cdn.adventure-life.com/60/13/5/v4jwf53p/1300x820.webp"
+    },
+      {
+        "tour_id": 38,
+        "name": "Japan: Kyoto Nighttime Tea Ceremony",
+        "description": "Experience Japan's ancient tea culture in Kyoto. Participate in a traditional matcha ceremony by lantern light inside a 17th-century teahouse.",
+        "latitude": 35.0116,
+        "longitude": 135.7681,
+        "photo_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/e3/ea/c1/tea-ceremony-maikoya.jpg?w=1200&h=-1&s=1"
+      },
+      {
+        "tour_id": 39,
+        "name": "Romania: Transylvania Vampire Tour",
+        "description": "Explore Romania's Bran Castle (Dracula’s lair) and misty Carpathian villages. Dive into vampire folklore with a local guide.",
+        "latitude": 45.5152,
+        "longitude": 25.3671,
+        "photo_url": "https://visit-transylvania.eu/wp-content/uploads/2019/03/dracula-tours-generic-image-big-1024x893.jpg"
+      },
+      {
+        "tour_id": 40,
+        "name": "Portugal: Lisbon Fado Music & Alfama Tour",
+        "description": "Immerse in Portugal's soulful fado music in a candlelit Lisbon tavern. Wander Alfama’s cobblestone alleys, the oldest district in the city.",
+        "latitude": 38.7223,
+        "longitude": -9.1393,
+        "photo_url": "https://assets.cityfans.com/uploads/product_image/highlights_of_lisbon_fado_alfama_street_tram_big.jpg"
+      },
+      {
+        "tour_id": 41,
+        "name": "Bhutan: Paro Taktsang (Tiger’s Nest) Hike",
+        "description": "Trek to Bhutan’s sacred Tiger’s Nest Monastery, clinging to cliffs in the Paro Valley. Learn about Himalayan Buddhism from a local monk.",
+        "latitude": 27.4924,
+        "longitude": 89.3636,
+        "photo_url": "https://www.culturaobscura.com/wp-content/uploads/2019/05/IMG_2030-Version-2-copy-1200x750.jpg"
+      },
+      {
+        "tour_id": 42,
+        "name": "Mongolia: Kazakh Eagle Hunter Experience",
+        "description": "Live with Mongolia’s Kazakh nomads in the Altai Mountains. Ride horses and learn the ancient art of golden eagle hunting.",
+        "latitude": 48.0223,
+        "longitude": 91.5567,
+        "photo_url": "https://www.responsibletravel.com/imagesclient/L_242039.jpg"
+      },
+      {
+        "tour_id": 43,
+        "name": "Bolivia: Salar de Uyuni Salt Flats Expedition",
+        "description": "Walk Bolivia’s surreal Salar de Uyuni, the world’s largest salt flat. Visit Incahuasi Island and spot pink flamingos at sunset.",
+        "latitude": -20.1338,
+        "longitude": -67.4891,
+        "photo_url": "https://discovery.sndimg.com/content/dam/images/discovery/fullset/2020/3/3/GettyImages-697551975.jpg.rend.hgtvcom.1280.960.suffix/1583271262173.jpeg"
+      },
+      {
+        "tour_id": 44,
+        "name": "Tanzania: Zanzibar Spice Market & Dhow Cruise",
+        "description": "Wander Stone Town’s spice markets in Zanzibar. Sail a traditional dhow at sunset along the Indian Ocean.",
+        "latitude": -6.1659,
+        "longitude": 39.2026,
+        "photo_url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/07/36/58/9b.jpg"
+      },
+      {
+        "tour_id": 45,
+        "name": "Faroe Islands: Sheep Village & Puffin Tour",
+        "description": "Visit grass-roofed villages with iconic sheep. Hike cliffs to puffin colonies in the North Atlantic wilderness.",
+        "latitude": 62.0446,
+        "longitude": -6.9118,
+        "photo_url": "https://cdn.fstoppers.com/styles/full/s3/media/2018/06/17/faroe_5_of_15.jpg"
+      },
+      {
+        "tour_id": 46,
+        "name": "Austria: Vienna Imperial Chocolate Tasting",
+        "description": "Taste fine chocolate in Vienna’s historic cafés. Enjoy Sachertorte, espresso, and Habsburg-style elegance.",
+        "latitude": 48.2082,
+        "longitude": 16.3738,
+        "photo_url": "https://viennatouristinformation.com/en/wp-content/uploads/2024/08/Vienna-Chocolate-Workshop-in-Chocolate-Museum-with-Tasting-6.jpg"
+      },
+      {
+        "tour_id": 47,
+        "name": "Norway: Northern Lights Glass Igloo",
+        "description": "Watch the Northern Lights from a heated glass igloo. Reindeer sledding and Sami storytelling under Arctic skies.",
+        "latitude": 68.1477,
+        "longitude": 24.0246,
+        "photo_url": "https://i0.wp.com/theflainstravel.com/wp-content/uploads/2023/09/lyngen-north-2.jpg?fit=1652%2C1104&ssl=1"
+      },
+      {
+        "tour_id": 48,
+        "name": "Maldives: Underwater Villa Snorkeling",
+        "description": "Sleep in a glass underwater villa. Snorkel coral reefs, swim with tropical fish, and enjoy private island luxury.",
+        "latitude": 4.1755,
+        "longitude": 73.5093,
+        "photo_url": "https://d2qwq69i2ic1pk.cloudfront.net/sites/8/2022/02/Meeru-Diving-Featured-image-min-1110x700.jpg"
+      },
+      {
+        "tour_id": 49,
+        "name": "Thailand: Elephant Sanctuary & Jungle Trek",
+        "description": "Walk with rescued elephants in Chiang Mai. Bathe them and hike jungle trails with waterfalls and bamboo.",
+        "latitude": 18.7904,
+        "longitude": 98.9847,
+        "photo_url": "https://cdn-jhfnh.nitrocdn.com/iGtImbKeFrliSHINMRaKwFaacUtZqbqS/assets/images/optimized/rev-850f0fd/simbaseatrips.com/wp-content/uploads/2023/07/elephant-trekking-featured.jpg"
+      },
+      {
+        "tour_id": 50,
+        "name": "Chile: Atacama Desert Night Sky & Salt Flats",
+        "description": "Stargaze in Chile’s Atacama Desert. Visit salt flats, pink lagoons, steaming geysers, and lunar valleys.",
+        "latitude": -23.1085,
+        "longitude": -68.2147,
+        "photo_url": "https://www.travelandleisure.com/thmb/J8zSOjR7HItnmfbp8bmrd-iCL7g=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/09-stars-atacama-chile-milky-way-ATACAMA1217-fc8c434c7f3a45a699b993f965c2bf5e.jpg"
+      },
+      {
+        "tour_id": 51,
+        "name": "Bali: Ubud Yoga Retreat & Waterfall Healing",
+        "description": "Practice yoga in Ubud’s rice fields. Experience sound healing, waterfall blessings, and bamboo forest serenity.",
+        "latitude": -8.5069,
+        "longitude": 115.2625,
+        "photo_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/96/1b/f4/waterfall.jpg?w=1200&h=1200&s=1"
+      },
+      {
+        "tour_id": 52,
+        "name": "Tunisia: El Jem Roman Amphitheatre Tour",
+        "description": "Visit the El Jem Colosseum, Africa’s answer to Rome. This UNESCO Roman amphitheatre echoes the grandeur of the Colosseum, with vast arches, underground gladiator tunnels, and preserved Roman architecture.",
+        "latitude": 35.2967,
+        "longitude": 10.7109,
+        "photo_url": "https://my-make-bucket.s3.eu-north-1.amazonaws.com/Photos/fs9cuqwn1dnae8w67g74.webp"
+      }
+      
+    ]
