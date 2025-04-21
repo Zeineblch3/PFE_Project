@@ -1,19 +1,21 @@
 [
     {
       "tour_id": 1,
-      "name": "Sidi Bou Saïd",
+      "name": "Sidi Bou Said",
       "description": "A picturesque village, a gem known for blue-and-white architecture, Mediterranean views, charming cafes, art galleries, and peaceful historic streets.",
       "latitude": 36.8494,
       "longitude": 10.3290,
-      "photo_url": "https://images.musement.com/cover/0151/54/thumb_15053080_cover_header.jpeg"
+      "photo_url": "https://images.musement.com/cover/0151/54/thumb_15053080_cover_header.jpeg",
+      "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g316117-Sidi_Bou_Said_Tunis_Governorate-Vacations.html"
     },
     {
       "tour_id": 2,
-      "name": "Sydney Beaches & Harbour Tour",
+      "name": "Sydney Beaches, Harbour Tour",
       "description": "Visit Bondi Beach, the Sydney Opera House, and Harbour Bridge. Great for photos and ocean views.",
       "latitude": -33.856159,
       "longitude": 151.215256,
-      "photo_url": "https://media.tacdn.com/media/attractions-splice-spp-674x446/0a/66/aa/87.jpg"
+      "photo_url": "https://media.tacdn.com/media/attractions-splice-spp-674x446/0a/66/aa/87.jpg",
+      "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g1076516-d17244037-Sydney_harbour_and_ocean_beaches_Ku_Ring_Gai_National_Park-Kirribilli_North_Sydne.html"
     },
     {
       "tour_id": 3,
@@ -21,15 +23,17 @@
       "description": "See top NYC sights like Times Square, Central Park, and the Statue of Liberty. Perfect for first-time visitors.",
       "latitude": 40.748817,
       "longitude": -73.985428,
-      "photo_url": "https://images.pexels.com/photos/2190283/pexels-photo-2190283.jpeg"
+      "photo_url": "https://images.pexels.com/photos/2190283/pexels-photo-2190283.jpeg",
+      "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g60763-d17533937-Highlights_of_Manhattan_Luxury_Bus_Tour-New_York_City_New_York.html"
     },
     {
       "tour_id": 4,
-      "name": "Tokyo Old & New Tour",
+      "name": "Tokyo Old, New Tour",
       "description": "Explore ancient temples and high-tech districts in Tokyo. Try sushi at a local restaurant and see the famous Shibuya Crossing.",
       "latitude": 35.722983,
       "longitude": 139.686533,
-      "photo_url": "https://images.pexels.com/photos/242246/pexels-photo-242246.jpeg"
+      "photo_url": "https://images.pexels.com/photos/242246/pexels-photo-242246.jpeg",
+      "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g298184-Tokyo_Tokyo_Prefecture_Kanto-Vacations.html"
     },
     {
       "tour_id": 5,
@@ -37,7 +41,8 @@
       "description": "The Eternal City, known for its rich history, stunning architecture, and iconic landmarks like the Colosseum, Vatican City, and Trevi Fountain. A cultural and historical hub with over 2,500 years of legacy!",
       "latitude": 41.9028,
       "longitude": 12.4964,
-      "photo_url": "https://www.graveltravel.com/cdn/shop/articles/best-place-in-rome-vatican-and-river.jpg?v=1685826764"
+      "photo_url": "https://www.graveltravel.com/cdn/shop/articles/best-place-in-rome-vatican-and-river.jpg?v=1685826764",
+      "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g187791-d11449756-Rome_Colosseum_Roman_Forum_and_Palatine_Hill_Guided_Tour-Rome_Lazio.html"
     },
     {
       "tour_id": 6,
@@ -45,7 +50,8 @@
       "description": "Explore the ancient ruins of Dougga, from the Roman theatre to the Temple of Saturn. Discover mosaics, monuments, and stunning views of the Atlas Mountains.",
       "latitude": 36.4599,
       "longitude": 9.2325,
-      "photo_url": "https://www.impressivetunisia.com/wp-content/uploads/2022/03/dougga-panoramique-1.jpg"
+      "photo_url": "https://www.impressivetunisia.com/wp-content/uploads/2022/03/dougga-panoramique-1.jpg",
+      "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g293758-d25375588-Dougga_and_Bulla_Regia_Guided_Tour_From_Tunis-Tunis_Tunis_Governorate.html"
     },
     {
       "tour_id": 7,
@@ -53,7 +59,8 @@
       "description": "From Gaza’s vibrant streets to ancient olive groves. Discover sacred lands filled with history, resilience, and deep connection.",
       "latitude": 31.5,
       "longitude": 35.2420,
-      "photo_url": "https://www.middleeasteye.net/sites/default/files/mosque-omari.jpg"
+      "photo_url": "https://www.middleeasteye.net/sites/default/files/mosque-omari.jpg",
+      "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g663088-Gaza_City_Gaza-Vacations.html"
     },
     {
       "tour_id": 8,
@@ -61,15 +68,17 @@
       "description": "Vast dunes, ancient rocks, and Tuareg culture, immersing yourself in the desert’s tranquil beauty and rich history.",
       "latitude": 27.2481,
       "longitude": 2.4686,
-      "photo_url": "https://sahara-africa-tours.com/wp-content/uploads/2023/11/received_253249385347385-1024x768.jpeg"
+      "photo_url": "https://sahara-africa-tours.com/wp-content/uploads/2023/11/received_253249385347385-1024x768.jpeg",
+      "tripAdvisor_link": "https://www.tripadvisor.com/Attraction_Review-g424902-d504734-Reviews-Algerian_Sahara-Illizi_Illizi_Province.html"
     },
     {
       "tour_id": 9,
-      "name": "Dubai City Tour",
-      "description": "Stroll the man-made wonder of Palm Jumeirah, and explore luxury at the Dubai Mall. Then journey into the golden desert for a thrilling safari, where tradition meets the endless dunes under a starlit sky.",
-      "latitude": 25.197197,
-      "longitude": 55.274376,
-      "photo_url": "https://images.pexels.com/photos/2044434/pexels-photo-2044434.jpeg"
+      "name": "Shanghai Architecture, Riverside Culture Walk",
+      "description": "Stroll along the historic Bund and admire Shanghai’s skyline where colonial facades meet futuristic towers. Explore local street food, traditional tea houses, and riverfront art galleries in this fusion of old and new China.",
+      "latitude": 31.2304,
+      "longitude": 121.4737,
+      "photo_url": "https://chine365.fr/images/2000x1300/shanghai-architecture-moderne.jpg",
+      "tripAdvisor_link": "https://www.tripadvisor.com/Attraction_Review-g308272-d1979523-Reviews-Bund_International_Architecture_Exhibition-Shanghai.html"
     },
     {
       "tour_id": 10,
@@ -77,7 +86,8 @@
       "description": "Taste delicious Thai street food like pad thai, mango sticky rice, and more. Visit lively night markets.",
       "latitude": 13.756331,
       "longitude": 100.501762,
-      "photo_url": "https://images.ctfassets.net/qzslvo8u2q4l/6XL8Kryok60rUnOJRSMNmu/1efa89e15256e45cd13226d4293e25bd/street_food_in_bangk_XCroM.jpg"
+      "photo_url": "https://images.ctfassets.net/qzslvo8u2q4l/6XL8Kryok60rUnOJRSMNmu/1efa89e15256e45cd13226d4293e25bd/street_food_in_bangk_XCroM.jpg",
+      "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g293916-d27961133-Bangkok_Street_Food_Tour_with_Hotel_Pick_up_Dinner-Bangkok.html"
     },
     {
       "tour_id": 11,
@@ -85,7 +95,8 @@
       "description": "See geysers, waterfalls, Witness the magical dance of the Northern Lights as they illuminate the arctic sky — a paradise for those who seek nature’s raw, untouched beauty.",
       "latitude": 64.126521,
       "longitude": -21.817439,
-      "photo_url": "https://images.pexels.com/photos/360912/pexels-photo-360912.jpeg"
+      "photo_url": "https://images.pexels.com/photos/360912/pexels-photo-360912.jpeg",
+      "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g189970-d18834280-Golden_Circle_Blue_Lagoon_with_Ticket_and_Kerid_Volcanic_Crater-Reykjavik_Capital_.html"
     },
     {
       "tour_id": 12,
@@ -93,7 +104,8 @@
       "description": "Explore colorful souks, try Moroccan tea, and visit historic palaces. A feast for the senses.",
       "latitude": 31.629472,
       "longitude": -7.981084,
-      "photo_url": "https://www.vjv.com/media/thjldkr1/jamaa-el-fna-market-square-marrakesh-morocco_shutterstock-685174879.jpg?width=1920&height=1080&quality=60"
+      "photo_url": "https://www.vjv.com/media/thjldkr1/jamaa-el-fna-market-square-marrakesh-morocco_shutterstock-685174879.jpg?width=1920&height=1080&quality=60",
+      "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g293734-d11453345-Evening_Marrakech_Gastronomic_and_Market_Tour_Inside_the_Medina-Marrakech_Marrakec.html"
     },
     {
       "tour_id": 13,
@@ -101,7 +113,8 @@
       "description": "Visit beautiful temples, bamboo forests, and traditional tea houses. Peaceful and scenic.",
       "latitude": 35.011665,
       "longitude": 135.768326,
-      "photo_url": "https://images.pexels.com/photos/161401/fushimi-inari-taisha-shrine-kyoto-japan-temple-161401.jpeg"
+      "photo_url": "https://images.pexels.com/photos/161401/fushimi-inari-taisha-shrine-kyoto-japan-temple-161401.jpeg",
+      "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g298564-d27160422-Kyoto_Zen_Meditation_Garden_Tour_at_a_Zen_Temple_with_Lunch-Kyoto_Kyoto_Prefecture.html"
     },
     {
       "tour_id": 14,
@@ -109,7 +122,8 @@
       "description": "See the Sagrada Familia, Park Güell, and other famous Gaudi landmarks. Full of unique architecture.",
       "latitude": 41.403629,
       "longitude": 2.174356,
-      "photo_url": "https://images.pexels.com/photos/1388030/pexels-photo-1388030.jpeg"
+      "photo_url": "https://images.pexels.com/photos/1388030/pexels-photo-1388030.jpeg",
+      "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g187497-d12898698-Gaudi_s_Casa_Vicens_Skip_the_Line_Ticket_with_Audioguide-Barcelona_Catalonia.html"
     },
     {
       "tour_id": 15,
@@ -117,15 +131,17 @@
       "description": "Take a boat ride through the canals and visit the Van Gogh Museum. A perfect mix of culture and fun.",
       "latitude": 52.367573,
       "longitude": 4.904139,
-      "photo_url": "https://res.cloudinary.com/lastminute-contenthub/s--oCpS-iT_--/c_limit,h_999999,w_1920/f_auto/q_auto:eco/v1/DAM/Photos/Destinations/Europe/Netherlands/Amsterdam/shutterstock_245364502_Rijksmuseum"
+      "photo_url": "https://res.cloudinary.com/lastminute-contenthub/s--oCpS-iT_--/c_limit,h_999999,w_1920/f_auto/q_auto:eco/v1/DAM/Photos/Destinations/Europe/Netherlands/Amsterdam/shutterstock_245364502_Rijksmuseum",
+      "tripAdvisor_link": "https://www.tripadvisor.com/Attraction_Review-g188590-d2187717-Reviews-Museum_of_the_Canals-Amsterdam_North_Holland_Province.html"
     },
     {
       "tour_id": 16,
-      "name": "Athens Ancient Ruins & Acropolis Tour",
+      "name": "Athens Ancient Ruins, Acropolis Tour",
       "description": "Explore the Acropolis and Parthenon, and walk through the ancient Agora. Discover the cradle of Western civilization.",
       "latitude": 37.971532,
       "longitude": 23.726705,
-      "photo_url": "https://lp-cms-production.imgix.net/2022-06/Greece_Athens_Zeus-temple.jpg?auto=format,compress&q=72&w=1440&h=810&fit=crop"
+      "photo_url": "https://lp-cms-production.imgix.net/2022-06/Greece_Athens_Zeus-temple.jpg?auto=format,compress&q=72&w=1440&h=810&fit=crop",
+      "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g189400-d11476899-Acropolis_and_Parthenon_Guided_Walking_Tour-Athens_Attica.html"
     },
     {
       "tour_id": 17,
@@ -133,7 +149,8 @@
       "description": "Hike the famous Inca Trail and explore the lost city of the Incas. A breathtaking adventure in the Peruvian mountains.",
       "latitude": -13.163141,
       "longitude": -72.545019,
-      "photo_url": "https://static.toiimg.com/thumb/msid-58047049,width-550,height-433/58047049.jpg"
+      "photo_url": "https://static.toiimg.com/thumb/msid-58047049,width-550,height-433/58047049.jpg",
+      "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g294318-Machu_Picchu_Sacred_Valley_Cusco_Region-Vacations.html"
     },
     {
       "tour_id": 18,
@@ -141,7 +158,8 @@
       "description": "Marvel at the Great Pyramids of Giza and the Sphinx, then visit the Egyptian Museum to see ancient treasures.",
       "latitude": 29.979175,
       "longitude": 31.134235,
-      "photo_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/7e/7d/2c/pyramids-of-giza.jpg?w=1200&h=1200&s=1"
+      "photo_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/7e/7d/2c/pyramids-of-giza.jpg?w=1200&h=1200&s=1",
+      "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g294201-d17845319-Tour_to_Giza_Pyramids_and_The_Egyptian_Museum-Cairo_Cairo_Governorate.html"
     },
     {
       "tour_id": 19,
@@ -149,7 +167,8 @@
       "description": "Explore London's iconic landmarks including the Tower of London, Buckingham Palace, and Big Ben.",
       "latitude": 51.507351,
       "longitude": -0.127758,
-      "photo_url": "https://uktravelplanning.com/wp-content/uploads/2021/03/Tower-of-London-1.jpg"
+      "photo_url": "https://uktravelplanning.com/wp-content/uploads/2021/03/Tower-of-London-1.jpg",
+      "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g186338-London_England-Vacations.html"
     },
     {
       "tour_id": 20,
@@ -157,7 +176,8 @@
       "description": "Discover the Rose City of Petra, a UNESCO World Heritage site with stunning rock-cut architecture.",
       "latitude": 30.328459,
       "longitude": 35.444362,
-      "photo_url": "https://i0.wp.com/www.touristjordan.com/wp-content/uploads/2022/05/shutterstock_1030695895-scaled.jpg?resize=2000%2C800&ssl=1"
+      "photo_url": "https://i0.wp.com/www.touristjordan.com/wp-content/uploads/2022/05/shutterstock_1030695895-scaled.jpg?resize=2000%2C800&ssl=1",
+      "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g318895-Petra_Wadi_Musa_Ma_an_Governorate-Vacations.html"
     },
     {
       "tour_id": 21,
@@ -165,31 +185,35 @@
       "description": "Cruise through Helsinki's beautiful archipelago, stopping at charming islands and enjoying stunning sea views.",
       "latitude": 60.169855,
       "longitude": 24.938379,
-      "photo_url": "https://veronikasadventure.com/wp-content/uploads/2024/07/2-hours-private-modern-boat-tour-in-helsinki-archipelago-2.jpg"
+      "photo_url": "https://veronikasadventure.com/wp-content/uploads/2024/07/2-hours-private-modern-boat-tour-in-helsinki-archipelago-2.jpg",
+      "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g189934-d18273153-Archipelago_Excursion_from_Helsinki_with_Lunch_and_Transportation-Helsinki_Uusimaa.html"
     },
     {
       "tour_id": 22,
-      "name": "Argentina & Culture Tour",
+      "name": "Argentina ,Culture Tour",
       "description": "Experience the heart of Argentina’s culture with a guided tour through Buenos Aires' vibrant neighborhoods.",
       "latitude": -34.603684,
       "longitude": -58.381559,
-      "photo_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/e0/63/16/caption.jpg?w=500&h=400&s=1"
+      "photo_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/e0/63/16/caption.jpg?w=500&h=400&s=1",
+      "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g312741-Buenos_Aires_Capital_Federal_District-Vacations.html"
     },
     {
       "tour_id": 23,
-      "name": "Seoul Palaces & Modern Culture Tour",
+      "name": "Seoul Palaces ,Modern Culture Tour",
       "description": "Visit the Gyeongbokgung Palace and Bukchon Hanok Village, then explore Seoul’s modern shopping districts.",
       "latitude": 37.566535,
       "longitude": 126.977969,
-      "photo_url": "https://w0.peakpx.com/wallpaper/47/522/HD-wallpaper-seoul-skyscrapers-sunset-modern-buildings-south-korea-houses-streets.jpg"
+      "photo_url": "https://w0.peakpx.com/wallpaper/47/522/HD-wallpaper-seoul-skyscrapers-sunset-modern-buildings-south-korea-houses-streets.jpg",
+      "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g294197-d11454649-Seoul_City_Sightseeing_Tour_Including_Gyeongbokgung_Palace_N_Seoul_Tower_and_Namsa.html"
     },
     {
       "tour_id": 24,
-      "name": "Dubai Desert Safari & Adventure Tour",
+      "name": "Dubai Desert Safari, Adventure Tour",
       "description": "Go on a thrilling desert safari with dune bashing, camel rides, and a traditional Bedouin-style dinner.",
       "latitude": 24.426607,
       "longitude": 55.715426,
-      "photo_url": "https://www.mediaoffice.ae/-/media/2024/december/05-12/11/gdmo2-p01-05-12-24.jpg"
+      "photo_url": "https://images.travelandleisureasia.com/wp-content/uploads/sites/3/2024/05/06143218/Desert-safari-in-Dubai.jpg?tr=w-1200,q-60",
+      "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g295424-d16703361-Evening_Red_Dunes_Desert_Safari_BBQ_Dinner_Adventure_Awaits-Dubai_Emirate_of_Dubai.html"
     },
     {
       "tour_id": 25,
@@ -197,7 +221,8 @@
       "description": "Visit the stunning Gardens by the Bay, featuring the iconic Supertree Grove and Cloud Forest. Enjoy a light show in the evening amidst beautiful flora.",
       "latitude": 1.2816,
       "longitude": 103.8637,
-      "photo_url": "https://d3iso9mq9tb10q.cloudfront.net/magefan_blog/g/a/gardens-by-the-bay_article.jpg"
+      "photo_url": "https://d3iso9mq9tb10q.cloudfront.net/magefan_blog/g/a/gardens-by-the-bay_article.jpg",
+      "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g294265-d25022111-Singapore_Gardens_by_the_Bay_Admission_Skip_The_Line_E_Ticket-Singapore.html"
     },
     {
       "tour_id": 26,
@@ -205,7 +230,8 @@
       "description": "Experience a scenic cruise on the Bosphorus Strait, witnessing the stunning skyline of Istanbul. Visit historic palaces and enjoy traditional Turkish tea.",
       "latitude": 41.0082,
       "longitude": 28.9784,
-      "photo_url": "https://res.klook.com/image/upload/c_fill,w_627,h_470/q_80/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/sddws2d1dxpaxzyylkew.webp"
+      "photo_url": "https://res.klook.com/image/upload/c_fill,w_627,h_470/q_80/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/sddws2d1dxpaxzyylkew.webp",
+      "tripAdvisor_link": "https://www.tripadvisor.com/Attraction_Review-g293974-d295190-Reviews-Bosphorus_Cruise-Istanbul.html"
     },
     {
       "tour_id": 27,
@@ -213,7 +239,8 @@
       "description": "See Table Mountain, penguins at Boulders Beach, and stunning coastal views. Includes a cable car ride.",
       "latitude": -33.924870,
       "longitude": 18.424055,
-      "photo_url": "https://images.pexels.com/photos/2901209/pexels-photo-2901209.jpeg"
+      "photo_url": "https://images.pexels.com/photos/2901209/pexels-photo-2901209.jpeg",
+      "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g312659-d14061614-Scenic_Cape_Point_Helicopter_Tour_from_Cape_Town-Cape_Town_Central_Western_Cape.html"
     },
     {
       "tour_id": 28,
@@ -221,7 +248,8 @@
       "description": "See the Eiffel Tower light up at night, then explore the charming streets of Montmartre. Enjoy a coffee at a cozy café with great views.",
       "latitude": 48.858093,
       "longitude": 2.294694,
-      "photo_url": "https://images.pexels.com/photos/17185651/pexels-photo-17185651/free-photo-of-ville-soleil-couchant-coucher-de-soleil-coucher-du-soleil.jpeg?auto=compress&cs=tinysrgb&w=600"
+      "photo_url": "https://images.pexels.com/photos/17185651/pexels-photo-17185651/free-photo-of-ville-soleil-couchant-coucher-de-soleil-coucher-du-soleil.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g187147-d20065410-Paris_Eiffel_Tower_Notre_Dame_Louvre_and_Montmartre_Guided_Tour-Paris_Ile_de_Franc.html"
     },
     {
       "tour_id": 29,
@@ -229,23 +257,26 @@
       "description": "Visit Christ the Redeemer, Sugarloaf Mountain, and Copacabana Beach. Experience Rio’s vibrant culture.",
       "latitude": -22.911014,
       "longitude": -43.209373,
-      "photo_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/8c/62/4d/caption.jpg?w=500&h=400&s=1"
+      "photo_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/8c/62/4d/caption.jpg?w=500&h=400&s=1",
+      "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g303506-Rio_de_Janeiro_State_of_Rio_de_Janeiro-Vacations.html"
     },
     {
       "tour_id": 30,
-      "name": "Venice Gondola & Canals Tour",
+      "name": "Venice Gondola, Canals Tour",
       "description": "Take a romantic gondola ride through Venice’s canals and visit St. Mark’s Square. Includes gelato tasting.",
       "latitude": 45.434336,
       "longitude": 12.338785,
-      "photo_url": "https://images.pexels.com/photos/7245328/pexels-photo-7245328.jpeg"
+      "photo_url": "https://images.pexels.com/photos/7245328/pexels-photo-7245328.jpeg",
+      "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g187870-d13221857-Venice_Private_Gondola_Ride_Explore_Hidden_Canals_and_Sights-Venice_Veneto.html"
     },
     {
       "tour_id": 31,
-      "name": "Kuala Lumpur Urban Exploration & Culture Tour",
+      "name": "Kuala Lumpur Urban Exploration, Culture Tour",
       "description": "Experience the stunning skyline of Kuala Lumpur, home to the world-renowned **Petronas Twin Towers** and the futuristic **KL Tower**. Afterward, immerse yourself in the city's rich heritage with a visit to the **Batu Caves**, an ancient Hindu temple complex, followed by a stroll through **Central Market** for local crafts and cuisine.",
       "latitude": 3.139003,
       "longitude": 101.6869,
-      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Kuala_Lumpur_Skyline_at_dusk_1.jpg"
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Kuala_Lumpur_Skyline_at_dusk_1.jpg",
+      "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g298570-d12928519-Private_Half_Day_Kuala_Lumpur_Culture_And_Communities_Exploration_Tour-Kuala_Lumpu.html"
     },
     {
       "tour_id": 32,
@@ -253,7 +284,8 @@
       "description": "Climb the 272 steps to the majestic Batu Caves, where colorful temples meet towering limestone cliffs. Discover the sacred Hindu shrines and feel the spiritual energy that flows through the cavernous halls.",
       "latitude": 3.2379,
       "longitude": 101.6831,
-      "photo_url": "https://herasianadventures.com/wp-content/uploads/2024/09/9-1.jpg"
+      "photo_url": "https://herasianadventures.com/wp-content/uploads/2024/09/9-1.jpg",
+      "tripAdvisor_link": "https://www.tripadvisor.com/Attraction_Review-g3198092-d317520-Reviews-Batu_Caves-Batu_Caves_Selangor.html"
     },
     {
       "tour_id": 33,
@@ -261,7 +293,8 @@
       "description": "Marvel at the iconic Petronas Twin Towers glowing against the Kuala Lumpur skyline. Walk the skybridge, capture unforgettable photos, and feel the pulse of Malaysia’s modern heartbeat.",
       "latitude": 3.1579,
       "longitude": 101.7111,
-      "photo_url": "https://cdn.getyourguide.com/image/format=auto,fit=crop,gravity=auto,quality=60,width=450,height=450,dpr=2/tour_img/57071d6fca705.jpeg"
+      "photo_url": "https://cdn.getyourguide.com/image/format=auto,fit=crop,gravity=auto,quality=60,width=450,height=450,dpr=2/tour_img/57071d6fca705.jpeg",
+      "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g298570-d12948107-Private_Night_Tour_Petronas_Twin_Tower_And_Shopping-Kuala_Lumpur_Wilayah_Persekutu.html"
     },
     {
       "tour_id": 34,
@@ -269,7 +302,8 @@
       "description": "Relax on the white sand beaches of Langkawi, surrounded by emerald waters and ancient rainforests. Take a cable car up Gunung Mat Cincang and feel deeply connected to the island’s untamed beauty.",
       "latitude": 6.35,
       "longitude": 99.8,
-      "photo_url": "https://www.kkday.com/en-ph/blog/wp-content/uploads/my_langkawi_cable_cars-1170x680.jpg"
+      "photo_url": "https://www.kkday.com/en-ph/blog/wp-content/uploads/my_langkawi_cable_cars-1170x680.jpg",
+      "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g298283-d25057777-Mega_Langkawi_Jet_Ski_Tour_Exploring_The_Beauty_Of_Island_Nature-Langkawi_Langkawi.html"
     },
     {
       "tour_id": 35,
@@ -277,15 +311,17 @@
       "description": "Stroll through the colorful streets of Malacca, a UNESCO World Heritage site rich with Portuguese, Dutch, and British history. Visit ancient temples and taste local Peranakan cuisine in Jonker Street.",
       "latitude": 2.1896,
       "longitude": 102.2501,
-      "photo_url": "https://www.tripsavvy.com/thmb/HGx2LbxCK6b36r7v73ztmffkKg4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/melaka_tour_01-83cec3bde78c4284bc6ada92559341dd.jpg"
+      "photo_url": "https://www.tripsavvy.com/thmb/HGx2LbxCK6b36r7v73ztmffkKg4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/melaka_tour_01-83cec3bde78c4284bc6ada92559341dd.jpg",
+      "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g298570-d12451517-Malacca_Chinese_Heritage_Walking_Trail_Tour-Kuala_Lumpur_Wilayah_Persekutuan.html"
     },
     {
       "tour_id": 36,
-      "name": "Cameron Highlands Tea & Mist Tour",
+      "name": "Cameron Highlands Tea, Mist Tour",
       "description": "Breathe in the crisp mountain air as you explore lush tea plantations nestled in the Cameron Highlands. Wander through mossy forests and discover a peaceful world suspended in the clouds.",
       "latitude": 4.4706,
       "longitude": 101.3774,
-      "photo_url": "https://cdn.getyourguide.com/img/tour/98f231b0af40ee66a7b71dc9ded33f0907969ecf86c307457ce8dbda67740677.png/97.jpg"
+      "photo_url": "https://cdn.getyourguide.com/img/tour/98f231b0af40ee66a7b71dc9ded33f0907969ecf86c307457ce8dbda67740677.png/97.jpg",
+      "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g298570-d15040147-Cameron_Highlands_Day_Tour_Strawberry_Park_Tea_Plantation_Iskandar_Waterfalls-Kual.html"
     },
     {
       "tour_id": 37,
@@ -293,7 +329,8 @@
       "description": "Hike across Argentina's iconic Perito Moreno Glacier in Los Glaciares National Park. Ice picks and crampons provided for this Patagonian adventure.",
       "latitude": -50.4826,
       "longitude": -73.0489,
-      "photo_url": "https://cdn.adventure-life.com/60/13/5/v4jwf53p/1300x820.webp"
+      "photo_url": "https://cdn.adventure-life.com/60/13/5/v4jwf53p/1300x820.webp",
+      "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g1949199-d18275947-Perito_Moreno_Patagonia_Argentina_Glacier_from_Puerto_Natales-Perito_Moreno_Provi.html"
     },
       {
         "tour_id": 38,
@@ -301,7 +338,8 @@
         "description": "Experience Japan's ancient tea culture in Kyoto. Participate in a traditional matcha ceremony by lantern light inside a 17th-century teahouse.",
         "latitude": 35.0116,
         "longitude": 135.7681,
-        "photo_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/e3/ea/c1/tea-ceremony-maikoya.jpg?w=1200&h=-1&s=1"
+        "photo_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/e3/ea/c1/tea-ceremony-maikoya.jpg?w=1200&h=-1&s=1",
+        "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g298564-d13797885-Kimono_Tea_Ceremony_at_Kyoto_Maikoya_NISHIKI-Kyoto_Kyoto_Prefecture_Kinki.html"
       },
       {
         "tour_id": 39,
@@ -309,15 +347,17 @@
         "description": "Explore Romania's Bran Castle (Dracula’s lair) and misty Carpathian villages. Dive into vampire folklore with a local guide.",
         "latitude": 45.5152,
         "longitude": 25.3671,
-        "photo_url": "https://visit-transylvania.eu/wp-content/uploads/2019/03/dracula-tours-generic-image-big-1024x893.jpg"
+        "photo_url": "https://visit-transylvania.eu/wp-content/uploads/2019/03/dracula-tours-generic-image-big-1024x893.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g608956-d26830089-Dracula_s_Tour_Vampires_Ghosts_and_Haunted_Places_in_Bran-Bran_Brasov_County_Centr.html"
       },
       {
         "tour_id": 40,
-        "name": "Portugal: Lisbon Fado Music & Alfama Tour",
+        "name": "Portugal: Lisbon Fado Music, Alfama Tour",
         "description": "Immerse in Portugal's soulful fado music in a candlelit Lisbon tavern. Wander Alfama’s cobblestone alleys, the oldest district in the city.",
         "latitude": 38.7223,
         "longitude": -9.1393,
-        "photo_url": "https://assets.cityfans.com/uploads/product_image/highlights_of_lisbon_fado_alfama_street_tram_big.jpg"
+        "photo_url": "https://assets.cityfans.com/uploads/product_image/highlights_of_lisbon_fado_alfama_street_tram_big.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g189158-Lisbon_Lisbon_District_Central_Portugal-Vacations.html"
       },
       {
         "tour_id": 41,
@@ -325,7 +365,8 @@
         "description": "Trek to Bhutan’s sacred Tiger’s Nest Monastery, clinging to cliffs in the Paro Valley. Learn about Himalayan Buddhism from a local monk.",
         "latitude": 27.4924,
         "longitude": 89.3636,
-        "photo_url": "https://www.culturaobscura.com/wp-content/uploads/2019/05/IMG_2030-Version-2-copy-1200x750.jpg"
+        "photo_url": "https://www.culturaobscura.com/wp-content/uploads/2019/05/IMG_2030-Version-2-copy-1200x750.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g293844-Bhutan-Vacations.html"
       },
       {
         "tour_id": 42,
@@ -333,7 +374,8 @@
         "description": "Live with Mongolia’s Kazakh nomads in the Altai Mountains. Ride horses and learn the ancient art of golden eagle hunting.",
         "latitude": 48.0223,
         "longitude": 91.5567,
-        "photo_url": "https://www.responsibletravel.com/imagesclient/L_242039.jpg"
+        "photo_url": "https://www.responsibletravel.com/imagesclient/L_242039.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g293956-d19887102-The_Wilderness_of_Western_Mongolia_and_the_Kazakh_Eagle_Hunters_July_2020-Ulaanbaa.html"
       },
       {
         "tour_id": 43,
@@ -341,7 +383,8 @@
         "description": "Walk Bolivia’s surreal Salar de Uyuni, the world’s largest salt flat. Visit Incahuasi Island and spot pink flamingos at sunset.",
         "latitude": -20.1338,
         "longitude": -67.4891,
-        "photo_url": "https://discovery.sndimg.com/content/dam/images/discovery/fullset/2020/3/3/GettyImages-697551975.jpg.rend.hgtvcom.1280.960.suffix/1583271262173.jpeg"
+        "photo_url": "https://discovery.sndimg.com/content/dam/images/discovery/fullset/2020/3/3/GettyImages-697551975.jpg.rend.hgtvcom.1280.960.suffix/1583271262173.jpeg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g317033-Uyuni_Potosi_Department-Vacations.html"
       },
       {
         "tour_id": 44,
@@ -349,15 +392,17 @@
         "description": "Wander Stone Town’s spice markets in Zanzibar. Sail a traditional dhow at sunset along the Indian Ocean.",
         "latitude": -6.1659,
         "longitude": 39.2026,
-        "photo_url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/07/36/58/9b.jpg"
+        "photo_url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/07/36/58/9b.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g488129-Stone_Town_Zanzibar_City_Zanzibar_Island_Zanzibar_Archipelago-Vacations.html"
       },
       {
         "tour_id": 45,
-        "name": "Faroe Islands: Sheep Village & Puffin Tour",
+        "name": "Faroe Islands: Sheep Village, Puffin Tour",
         "description": "Visit grass-roofed villages with iconic sheep. Hike cliffs to puffin colonies in the North Atlantic wilderness.",
         "latitude": 62.0446,
         "longitude": -6.9118,
-        "photo_url": "https://cdn.fstoppers.com/styles/full/s3/media/2018/06/17/faroe_5_of_15.jpg"
+        "photo_url": "https://cdn.fstoppers.com/styles/full/s3/media/2018/06/17/faroe_5_of_15.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g190329-Faroe_Islands-Vacations.html"
       },
       {
         "tour_id": 46,
@@ -365,7 +410,8 @@
         "description": "Taste fine chocolate in Vienna’s historic cafés. Enjoy Sachertorte, espresso, and Habsburg-style elegance.",
         "latitude": 48.2082,
         "longitude": 16.3738,
-        "photo_url": "https://viennatouristinformation.com/en/wp-content/uploads/2024/08/Vienna-Chocolate-Workshop-in-Chocolate-Museum-with-Tasting-6.jpg"
+        "photo_url": "https://viennatouristinformation.com/en/wp-content/uploads/2024/08/Vienna-Chocolate-Workshop-in-Chocolate-Museum-with-Tasting-6.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g190454-Vienna-Vacations.html"
       },
       {
         "tour_id": 47,
@@ -373,7 +419,8 @@
         "description": "Watch the Northern Lights from a heated glass igloo. Reindeer sledding and Sami storytelling under Arctic skies.",
         "latitude": 68.1477,
         "longitude": 24.0246,
-        "photo_url": "https://i0.wp.com/theflainstravel.com/wp-content/uploads/2023/09/lyngen-north-2.jpg?fit=1652%2C1104&ssl=1"
+        "photo_url": "https://i0.wp.com/theflainstravel.com/wp-content/uploads/2023/09/lyngen-north-2.jpg?fit=1652%2C1104&ssl=1",
+        "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g190475-Tromso_Troms_Northern_Norway-Vacations.html"
       },
       {
         "tour_id": 48,
@@ -381,31 +428,35 @@
         "description": "Sleep in a glass underwater villa. Snorkel coral reefs, swim with tropical fish, and enjoy private island luxury.",
         "latitude": 4.1755,
         "longitude": 73.5093,
-        "photo_url": "https://d2qwq69i2ic1pk.cloudfront.net/sites/8/2022/02/Meeru-Diving-Featured-image-min-1110x700.jpg"
+        "photo_url": "https://d2qwq69i2ic1pk.cloudfront.net/sites/8/2022/02/Meeru-Diving-Featured-image-min-1110x700.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g293953-Maldives-Vacations.html"
       },
       {
         "tour_id": 49,
-        "name": "Thailand: Elephant Sanctuary & Jungle Trek",
+        "name": "Thailand: Elephant Sanctuary, Jungle Trek",
         "description": "Walk with rescued elephants in Chiang Mai. Bathe them and hike jungle trails with waterfalls and bamboo.",
         "latitude": 18.7904,
         "longitude": 98.9847,
-        "photo_url": "https://cdn-jhfnh.nitrocdn.com/iGtImbKeFrliSHINMRaKwFaacUtZqbqS/assets/images/optimized/rev-850f0fd/simbaseatrips.com/wp-content/uploads/2023/07/elephant-trekking-featured.jpg"
+        "photo_url": "https://cdn-jhfnh.nitrocdn.com/iGtImbKeFrliSHINMRaKwFaacUtZqbqS/assets/images/optimized/rev-850f0fd/simbaseatrips.com/wp-content/uploads/2023/07/elephant-trekking-featured.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g297930-d23946889-Elephant_Sanctuary_Small_Group_Tour_in_Phuket-Patong_Kathu_Phuket.html"
       },
       {
         "tour_id": 50,
-        "name": "Chile: Atacama Desert Night Sky & Salt Flats",
+        "name": "Chile: Atacama Desert Night Sky, Salt Flats",
         "description": "Stargaze in Chile’s Atacama Desert. Visit salt flats, pink lagoons, steaming geysers, and lunar valleys.",
         "latitude": -23.1085,
         "longitude": -68.2147,
-        "photo_url": "https://www.travelandleisure.com/thmb/J8zSOjR7HItnmfbp8bmrd-iCL7g=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/09-stars-atacama-chile-milky-way-ATACAMA1217-fc8c434c7f3a45a699b993f965c2bf5e.jpg"
+        "photo_url": "https://www.travelandleisure.com/thmb/J8zSOjR7HItnmfbp8bmrd-iCL7g=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/09-stars-atacama-chile-milky-way-ATACAMA1217-fc8c434c7f3a45a699b993f965c2bf5e.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g303681-San_Pedro_de_Atacama_Antofagasta_Region-Vacations.html"
       },
       {
         "tour_id": 51,
-        "name": "Bali: Ubud Yoga Retreat & Waterfall Healing",
+        "name": "Bali: Ubud Yoga Retreat, Waterfall Healing",
         "description": "Practice yoga in Ubud’s rice fields. Experience sound healing, waterfall blessings, and bamboo forest serenity.",
         "latitude": -8.5069,
         "longitude": 115.2625,
-        "photo_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/96/1b/f4/waterfall.jpg?w=1200&h=1200&s=1"
+        "photo_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/96/1b/f4/waterfall.jpg?w=1200&h=1200&s=1",
+        "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g297701-Ubud_Gianyar_Regency_Bali-Vacations.html"
       },
       {
         "tour_id": 52,
@@ -413,7 +464,232 @@
         "description": "Visit the El Jem Colosseum, Africa’s answer to Rome. This UNESCO Roman amphitheatre echoes the grandeur of the Colosseum, with vast arches, underground gladiator tunnels, and preserved Roman architecture.",
         "latitude": 35.2967,
         "longitude": 10.7109,
-        "photo_url": "https://my-make-bucket.s3.eu-north-1.amazonaws.com/Photos/fs9cuqwn1dnae8w67g74.webp"
-      }
-      
+        "photo_url": "https://my-make-bucket.s3.eu-north-1.amazonaws.com/Photos/fs9cuqwn1dnae8w67g74.webp",
+        "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g293755-El_Jem_Mahdia_Governorate-Vacations.html"
+      },
+        {
+          "tour_id": 53,
+          "name": "Patagonia Glacier Trek",
+          "description": "Embark on a glacier trekking adventure in Torres del Paine National Park, Patagonia. Traverse icy blue glaciers, admire jagged granite peaks, and discover turquoise glacial lakes.",
+          "latitude": -50.9423,
+          "longitude": -73.4068,
+          "photo_url": "https://www.nomade-aventure.com/Content/Images/ImgProduits/ARG/6862/692117_QuatreTiers.ori.jpg",
+          "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g670171-Torres_del_Paine_National_Park_Magallanes_Region-Vacations.html"
+        },
+        {
+          "tour_id": 54,
+          "name": "Amazon Rainforest Expedition",
+          "description": "Venture into the Amazon Rainforest, the world’s largest tropical jungle. Spot exotic wildlife like pink river dolphins and macaws, and experience a stay in a jungle eco-lodge.",
+          "latitude": -3.4653,
+          "longitude": -62.2159,
+          "photo_url": "https://www.machupicchu.org/wp-content/uploads/Amazon-rainforest-expeditions-2025.jpg",
+          "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g303226-State_of_Amazonas-Vacations.html"
+        },
+        {
+          "tour_id": 55,
+          "name": "Namib Desert Dunes",
+          "description": "Explore the surreal landscape of the Namib Desert. Climb the red sand dunes of Sossusvlei and photograph the ghostly white Deadvlei salt pan with ancient camelthorn trees.",
+          "latitude": -24.7333,
+          "longitude": 15.4167,
+          "photo_url": "https://www.voyage-afriquedusud.fr/wp-content/uploads/2022/04/desert-namib-sandwich-harbour-1.jpg",
+          "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g298357-Swakopmund_Erongo_Region-Vacations.html"
+        },
+        {
+          "tour_id": 56,
+          "name": "Canadian Rockies Wildlife Safari",
+          "description": "Discover grizzly bears, elk, and wolves on a wildlife safari through Banff and Jasper National Parks in the Canadian Rockies. Experience glacier lakes and alpine forests.",
+          "latitude": 51.4968,
+          "longitude": -115.9281,
+          "photo_url": "https://wildlandtrekking.com/content/uploads/2020/03/image1-33.jpg",
+          "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g181727-Canmore_Kananaskis_Country_Alberta-Vacations.html"
+        },
+        {
+          "tour_id": 57,
+          "name": "New Zealand Glacier Heli-Hike",
+          "description": "Fly by helicopter over rugged peaks and land on a glacier to hike shimmering ice caves and deep crevasses in the Southern Alps.",
+          "latitude": -43.3880,
+          "longitude": 170.1800,
+          "photo_url": "https://www.newzealand.com/assets/externally-managed-assets/tbd-assets/tbd-folder-6276824/img-1713582744-9324-1058532-tbd-asset__aWxvdmVrZWxseQo_CropResizeWzE5MDAsMTAwMCw3NSwianBnIl0.jpg",
+          "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g609169-Fox_Glacier_Westland_Tai_Poutini_National_Park_West_Coast_Region_South_Island-Vacations.html"
+        },        
+        {
+          "tour_id": 58,
+          "name": "Angkor Wat Sunrise Tour",
+          "description": "Watch a golden sunrise at Angkor Wat, Cambodia’s iconic Khmer temple complex. Explore intricate carvings and ancient Buddhist and Hindu architecture.",
+          "latitude": 13.4125,
+          "longitude": 103.8670,
+          "photo_url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/0c/0b/c0/10.jpg",
+          "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g297390-Siem_Reap_Siem_Reap_Province-Vacations.html"
+        },
+        {
+          "tour_id": 59,
+          "name": "Persepolis Ruins",
+          "description": "Step into ancient Persia at the ruins of Persepolis. Discover royal palaces, detailed stone reliefs, and UNESCO-listed archaeological wonders.",
+          "latitude": 29.9355,
+          "longitude": 52.8914,
+          "photo_url": "https://cdn.britannica.com/94/94894-050-C40775EF/Apadana-Darius-I-Persepolis-Iran.jpg",
+          "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g790392-Marvdasht_Fars_Province-Vacations.html"
+        },
+        {
+          "tour_id": 60,
+          "name": "Santorini Cliffside Villages",
+          "description": "Wander through whitewashed villages with blue-domed rooftops perched on volcanic cliffs, overlooking the sparkling Aegean Sea. Explore local art shops, breezy cafes, and unforgettable sunsets.",
+          "latitude": 36.3932,
+          "longitude": 25.4615,
+          "photo_url": "https://yourwaytogreece.com/wp-content/uploads/2023/03/church-2020258_1920-1280x640.jpg",
+          "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g189433-Santorini_Cyclades_South_Aegean-Vacations.html"
+        },
+        {
+          "tour_id": 61,
+          "name": "Mesa Verde Cliff Dwellings",
+          "description": "Explore the Ancestral Puebloan cliff dwellings of Mesa Verde National Park. Discover ancient homes built into canyon walls and learn Indigenous history.",
+          "latitude": 37.2309,
+          "longitude": -108.4618,
+          "photo_url": "https://cdn.5280.com/2021/08/Cliff_Palace_Seth_K_Hughes_Mesa-Verde.jpg",
+          "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g60900-Mesa_Verde_National_Park_Colorado-Vacations.html"
+        },
+        {
+          "tour_id": 62,
+          "name": "Samarkand Silk Road Tour",
+          "description": "Travel the Silk Road to Samarkand, Uzbekistan. Marvel at Registan Square’s turquoise-tiled madrasas and ancient Islamic architecture.",
+          "latitude": 39.6270,
+          "longitude": 66.9750,
+          "photo_url": "https://www.vjv.com/media/t35nk3sb/registan-square_samarkand_shutterstock_793359799.jpg?width=1920&height=1080&quality=60",
+          "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g298068-Samarkand_Samarqand_Province-Vacations.html"
+        },
+        {
+          "tour_id": 63,
+          "name": "Seychelles Private Island Retreat",
+          "description": "Relax on Seychelles' white sand beaches. Spot giant tortoises, snorkel coral reefs, and enjoy granite boulder landscapes in a tropical paradise.",
+          "latitude": -4.6796,
+          "longitude": 55.4920,
+          "photo_url": "https://denisisland.com/wp-content/uploads/2022/04/DenisPrivateIsland_Aerial-1920x1080_DroneBook.jpg",
+          "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g297798-Mahe_Island-Vacations.html"
+        },
+        {
+          "tour_id": 64,
+          "name": "Philippines Palawan Underground River",
+          "description": "Paddle through the Puerto Princesa Subterranean River, a UNESCO World Heritage Site. Discover limestone karst caves and crystal-clear waters.",
+          "latitude": 10.1940,
+          "longitude": 118.9260,
+          "photo_url": "https://nationalparks-15bc7.kxcdn.com/images/parks/puerto-princesa-subterranean-river/Puerto%20Princesa%20Subterranean%20River%20boating%20past%20cave%20sightings.jpg",
+          "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g294257-Puerto_Princesa_Palawan_Island_Palawan_Province_Mimaropa-Vacations.html"
+        },
+        {
+          "tour_id": 65,
+          "name": "Mauritius Seven-Colored Earths",
+          "description": "Visit Chamarel’s multi-colored sand dunes and lush waterfalls. Explore volcanic geology and tropical rainforest on this island retreat.",
+          "latitude": -20.4406,
+          "longitude": 57.3836,
+          "photo_url": "https://oddviser.com/photo/place/1600/392.jpg",
+          "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g293816-Mauritius-Vacations.html"
+        },
+        {
+          "tour_id": 66,
+          "name": "Azores Whale Watching",
+          "description": "Experience whale and dolphin watching in the Azores archipelago. Explore volcanic islands, thermal springs, and lush Atlantic landscapes.",
+          "latitude": 38.5367,
+          "longitude": -28.6447,
+          "photo_url": "https://www.responsibletravel.com/imagesclient/S_297708.jpg",
+          "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g189134-Sao_Miguel_Azores-Vacations.html"
+        },
+        {
+          "tour_id": 67,
+          "name": "Fiji Turquoise Waters, Coral Reefs",
+          "description": "Swim in Fiji’s crystal-clear lagoons, snorkel vibrant coral gardens, and relax on powder-white beaches surrounded by tropical beauty.",
+          "latitude": -17.7920,
+          "longitude": 177.9767,
+          "photo_url": "https://www.turtlefiji.com/wp-content/uploads/2022/06/waters-edge-villa.jpg",
+          "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g294331-Fiji-Vacations.html"
+        },
+        {
+          "tour_id": 68,
+          "name": "Shanghai Skyline, Bund Walk",
+          "description": "Stroll the Bund along the Huangpu River, flanked by colonial buildings and the futuristic skyline of Shanghai, including the Oriental Pearl Tower.",
+          "latitude": 31.2304,
+          "longitude": 121.4737,
+          "photo_url": "https://www.asiaodysseytravel.com/images/china-tours/group-tours/the-bund-700-9.jpg",
+          "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g308272-Shanghai-Vacations.html"
+        },
+        {
+          "tour_id": 69,
+          "name": "Berlin Cold War History Tour",
+          "description": "Discover Berlin’s Cold War legacy. Visit the Berlin Wall, Checkpoint Charlie, and underground bunkers with stories of espionage and division.",
+          "latitude": 52.5200,
+          "longitude": 13.4050,
+          "photo_url": "https://images.squarespace-cdn.com/content/v1/62f74eae268c635eaa1823cc/695c39b5-6c1a-4ffc-a32c-6eddb5c259c9/Brandenburg+Gate+8+Full+Resolution+WEB+960.jpg",
+          "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g187323-Berlin-Vacations.html"
+        },
+        {
+          "tour_id": 70,
+          "name": "Mexico City Street Art, Lucha Libre",
+          "description": "Tour Mexico City's vibrant Roma Norte murals. Then enjoy the spectacle of Lucha Libre with masked wrestlers in a cultural showdown.",
+          "latitude": 19.4326,
+          "longitude": -99.1332,
+          "photo_url": "https://www.brooklynstreetart.com/theblog/wp-content/uploads/2018/01/brooklyn-street-art-curiot-jaime-rojo-Mexico-city-outdoors-11-2017-web-1.jpg",
+          "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g150800-Mexico_City_Central_Mexico_and_Gulf_Coast-Vacations.html"
+        },
+        {
+          "tour_id": 71,
+          "name": "Mumbai Bollywood Studio Tour",
+          "description": "Step into India’s Bollywood studios. Try on film costumes, tour shooting sets, and witness live dance rehearsals.",
+          "latitude": 19.0760,
+          "longitude": 72.8777,
+          "photo_url": "https://travools.com/images/trip/1640587291_61c9601b381b7_banner.jpg",
+          "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g304554-Mumbai_Maharashtra-Vacations.html"
+        },
+        {
+          "tour_id": 72,
+          "name": "Toronto CN Tower EdgeWalk",
+          "description": "Dare to walk the edge of CN Tower, one of North America's tallest buildings. Enjoy unmatched views of Toronto and Lake Ontario.",
+          "latitude": 43.6426,
+          "longitude": -79.3871,
+          "photo_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/81/98/e4/edgewalk.jpg?w=1200&h=-1&s=1",
+          "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g155019-Toronto_Ontario-Vacations.html"
+        },
+        {
+          "tour_id": 73,
+          "name": "Antarctica Penguin Colony Cruise",
+          "description": "Cruise past Antarctic glaciers and icebergs to reach penguin colonies. Witness wildlife like seals and whales in untouched polar wilderness.",
+          "latitude": -64.8255,
+          "longitude": -64.8255,
+          "photo_url": "https://luxeadventuretraveler.com/wp-content/uploads/2019/12/antarctica-cruise-ponant-by-%C2%A9Richard-Harker-1.jpg",
+          "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g660183-Antarctic_Peninsula-Vacations.html"
+        },
+        {
+          "tour_id": 74,
+          "name": "Slovenia Lake Bled Fairy-Tale Tour",
+          "description": "Row across Lake Bled to a tiny island church. Overlook the emerald waters from Bled Castle perched on a cliffside.",
+          "latitude": 46.3691,
+          "longitude": 14.1136,
+          "photo_url": "https://kopershoreexcursions.com/wp-content/uploads/2014/01/Bled-castle-shutterstock2.jpg",
+          "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g274863-Bled_Upper_Carniola_Region-Vacations.html"
+        },
+        {
+          "tour_id": 75,
+          "name": "Madagascar Baobab Avenue Sunset",
+          "description": "Walk the Avenue of the Baobabs at golden hour. Marvel at centuries-old trees silhouetted against the sunset in western Madagascar.",
+          "latitude": -20.2508,
+          "longitude": 44.4186,
+          "photo_url": "https://media-cdn.tripadvisor.com/media/photo-s/17/9c/50/78/avenue-of-the-baobabs.jpg",
+          "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g293808-Madagascar-Vacations.html"
+        },
+        {
+          "tour_id": 76,
+          "name": "Oman Desert Nights",
+          "description": "Camp under the stars in Oman’s Wahiba Sands. Experience Bedouin culture, camel rides, and dramatic dune landscapes.",
+          "latitude": 22.5599,
+          "longitude": 58.1394,
+          "photo_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/394400242.jpg?k=d6d7e9075263b13f49491caaddedbb9373fee087dbc7270804cc9c0d80f89e0b&o=&hp=1",
+          "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g294006-Oman-Vacations.html"
+        },
+        {
+          "tour_id": 77,
+          "name": "Guatemala Tikal Jungle Ruins",
+          "description": "Climb the towering pyramids of Tikal, surrounded by dense rainforest. Hear howler monkeys echoing through ancient Maya temples.",
+          "latitude": 17.2220,
+          "longitude": -89.6237,
+          "photo_url": "https://assets-jpcust.jwpsrv.com/thumbnails/4bv810e1-720.jpg",
+          "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g292015-Tikal_National_Park_Peten_Department-Vacations.html"
+        }      
     ]
