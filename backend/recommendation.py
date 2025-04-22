@@ -8,6 +8,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
+#uvicorn recommendation:app --reload
+
 # Initialize FastAPI
 app = FastAPI()
 
