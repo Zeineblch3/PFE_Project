@@ -2,7 +2,7 @@
     {
       "tour_id": 1,
       "name": "Sidi Bou Said",
-      "description": "A picturesque village, a gem known for blue-and-white architecture, Mediterranean views, charming cafes, art galleries, and peaceful historic streets.",
+      "description": "Stroll through the charming, coastal town of Sidi Bou Said, known for its iconic blue-and-white architecture. Perched on a hill overlooking the Mediterranean, this picturesque village invites you to explore its vibrant art scene, lush gardens, and stunning views",
       "latitude": 36.8494,
       "longitude": 10.3290,
       "photo_url": "https://images.musement.com/cover/0151/54/thumb_15053080_cover_header.jpeg",
@@ -37,8 +37,8 @@
     },
     {
       "tour_id": 5,
-      "name": "Rome",
-      "description": "The Eternal City, known for its rich history, stunning architecture, and iconic landmarks like the Colosseum, Vatican City, and Trevi Fountain. A cultural and historical hub with over 2,500 years of legacy!",
+      "name": "Imperial Rome: Colosseum",
+      "description": "Walk through the remnants of the Roman Empire with a guided tour of the Colosseum’s arena, the political heart at the Roman Forum, and the Vatican’s sacred halls. A deep dive into imperial legacies, ancient engineering, and Christian pilgrimage sites.",
       "latitude": 41.9028,
       "longitude": 12.4964,
       "photo_url": "https://www.graveltravel.com/cdn/shop/articles/best-place-in-rome-vatican-and-river.jpg?v=1685826764",
@@ -46,13 +46,13 @@
     },
     {
       "tour_id": 6,
-      "name": "Dougga Tour",
-      "description": "Explore the ancient ruins of Dougga, from the Roman theatre to the Temple of Saturn. Discover mosaics, monuments, and stunning views of the Atlas Mountains.",
+      "name": "Dougga Roman Archaeological Tour",
+      "description": "Uncover Tunisia’s Roman legacy with a detailed exploration of Dougga’s archaeological site. Visit the Temple of Saturn, the Capitol, and well-preserved Roman baths. Ideal for history buffs and archaeology lovers seeking North Africa’s Roman past.",
       "latitude": 36.4599,
       "longitude": 9.2325,
       "photo_url": "https://www.impressivetunisia.com/wp-content/uploads/2022/03/dougga-panoramique-1.jpg",
       "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g293758-d25375588-Dougga_and_Bulla_Regia_Guided_Tour_From_Tunis-Tunis_Tunis_Governorate.html"
-    },
+    },    
     {
       "tour_id": 7,
       "name": "Palestine: A Journey Through History",
@@ -244,13 +244,13 @@
     },
     {
       "tour_id": 28,
-      "name": "Paris Night Tour: Eiffel Tower & Montmartre",
-      "description": "See the Eiffel Tower light up at night, then explore the charming streets of Montmartre. Enjoy a coffee at a cozy café with great views.",
+      "name": "Paris Night Tour: Eiffel Tower",
+      "description": "Experience the grandeur of Paris by night with a guided visit to the Eiffel Tower and a walk through Montmartre’s historic boulevards. Learn about French art, architecture, and revolutionary history in the City of Lights.",
       "latitude": 48.858093,
       "longitude": 2.294694,
       "photo_url": "https://images.pexels.com/photos/17185651/pexels-photo-17185651/free-photo-of-ville-soleil-couchant-coucher-de-soleil-coucher-du-soleil.jpeg?auto=compress&cs=tinysrgb&w=600",
       "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g187147-d20065410-Paris_Eiffel_Tower_Notre_Dame_Louvre_and_Montmartre_Guided_Tour-Paris_Ile_de_Franc.html"
-    },
+    },    
     {
       "tour_id": 29,
       "name": "Rio de Janeiro City Tour",
@@ -691,5 +691,213 @@
           "longitude": -89.6237,
           "photo_url": "https://assets-jpcust.jwpsrv.com/thumbnails/4bv810e1-720.jpg",
           "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g292015-Tikal_National_Park_Peten_Department-Vacations.html"
-        }      
+        },
+        {
+          "tour_id": 78,
+          "name": "Havana Soul of Cuba",
+          "description": "Discover Havana’s rich soul through its colonial plazas, colorful alleys, and heartfelt stories of resilience. Explore the historic Old Havana, meet local artisans, and feel the enduring spirit of Cuba’s people echoing through every sunlit courtyard and crumbling façade.",
+          "latitude": 23.1136,
+          "longitude": -82.3666,
+          "photo_url": "https://images.musement.com/cover/0003/03/havana-xxl-jpg_header-202667.jpeg?w=1200&h=630&q=95&fit=crop",
+          "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g147271-Havana_Ciudad_de_la_Habana_Province_Cuba-Vacations.html"
+      },
+      {
+          "tour_id": 79,
+          "name": "Edinburgh Castle",
+          "description": "Step into Scotland’s storied past at Edinburgh Castle, perched high on Castle Rock. Wander through ancient halls, gaze over the city from the battlements, and uncover the legends of monarchs, sieges, and centuries of history that shaped the Scottish capital.",
+          "latitude": 55.9533,
+          "longitude": -3.1883,
+          "photo_url": "https://cdn-imgix.headout.com/media/images/112625b3d729ca1f2beb348170dd706a-25265-Edinburgh-sHarryPotterTour-WhiskyTastingExperience-012.jpg",
+          "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g186525-d23871619-Edinburgh_Castle_Guided_Walking_Tour_with_Entry_Ticket-Edinburgh_Scotland.html"
+      },
+      {
+          "tour_id": 80,
+          "name": "Luxor Sunrise Balloon Journey",
+          "description": "Soar above the ancient city of Luxor at dawn, where the golden light reveals the majesty of the Nile, the sprawling Karnak and Hatshepsut temples, and the sacred Valley of the Kings. This aerial voyage offers a profound view of Egypt’s timeless wonders and archaeological splendor.",
+          "latitude": 25.6872,
+          "longitude": 32.6396,
+          "photo_url": "https://www.shouf.io/cdn/shop/products/278849339_749467103131895_8777192951665264292_n-797912_750x.jpg?v=1707574148",
+          "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g294205-d26719749-Sunrise_Hot_Air_Balloon_Journey_Across_Luxor-Luxor_Nile_River_Valley.html"
+      },
+      {
+          "tour_id": 81,
+          "name": "Swiss Alps Jungfraujoch: Alpine Glacier and Ice Cave Adventure",
+          "description": "Embark on a scenic journey aboard Europe’s highest railway to Jungfraujoch, where you’ll experience sweeping panoramic views of the Swiss Alps. Explore the mesmerizing ice caves and marvel at the majestic Aletsch Glacier, one of the largest glaciers in Europe. This adventure offers a unique opportunity to immerse yourself in the natural beauty and alpine wonders of Switzerland.",
+          "latitude": 46.5367,
+          "longitude": 7.9623,
+          "photo_url": "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/6f/b5/46.jpg",
+          "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g188113-d11450092-Jungfraujoch_Day_Trip_from_Zurich_Swiss_Alps_Bernese_Oberland-Zurich.html"
+      },
+      {
+          "tour_id": 82,
+          "name": "Kerala Backwaters: Scenic Houseboat Adventure",
+          "description": "Experience the serene beauty of Kerala's palm-lined backwaters on a traditional houseboat cruise. Glide through tranquil canals, surrounded by lush greenery, and immerse yourself in the local culture. Observe vibrant birdlife, including kingfishers, and savor authentic South Indian cuisine onboard. This peaceful journey offers a unique chance to explore Kerala’s waterways and natural beauty.",
+          "latitude": 9.4981,
+          "longitude": 76.3388,
+          "photo_url": "https://www.thehosteller.com/_next/image/?url=https%3A%2F%2Fstatic.thehosteller.com%2Fhostel%2Fimages%2Fkerala.jpg%2Fkerala-1724266265021.jpg&w=2048&q=75",
+          "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g297633-d11455650-Kochi_Private_Tour_Kerala_Backwater_Houseboat_Day_Cruise_in_Aleppey-Kochi_Cochin_E.html"
+      },
+      {
+          "tour_id": 83,
+          "name": "Yellowstone Wildlife and Geysers Safari",
+          "description": "Discover Yellowstone’s wildlife, including bison, wolves, and grizzly bears. Witness the eruptions of Old Faithful and explore the colorful hot springs in this immersive national park safari.",
+          "latitude": 44.4280,
+          "longitude": -110.5885,
+          "photo_url": "https://media.tacdn.com/media/attractions-content--1x-1/10/0c/69/53.jpg",
+          "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g60999-d17813785-Private_Yellowstone_Wolf_Watching_Wildlife_Safari_lunch-Yellowstone_National_Park_W.html"
+      },
+      {
+          "tour_id": 84,
+          "name": "Bagan Temples",
+          "description": "Explore Bagan's 2,000+ temples on foot, with a knowledgeable guide who shares insights into the rich history and architecture of Myanmar’s ancient capital.",
+          "latitude": 21.1722,
+          "longitude": 94.8606,
+          "photo_url": "https://cdn.audleytravel.com/4484/3203/79/1021746-temples-of-bagan.jpg",
+          "tripAdvisor_link": "https://www.tripadvisor.com/Attraction_Review-g317112-d317585-Reviews-Bagan_Temples-Bagan_Mandalay_Region.html"
+      },
+      {
+          "tour_id": 85,
+          "name": "San Francisco Golden Gate",
+          "description": "Cycle across the iconic Golden Gate Bridge, visit the historic Alcatraz Island, and explore its prison, then enjoy fresh seafood at Fisherman’s Wharf.",
+          "latitude": 37.7749,
+          "longitude": -122.4194,
+          "photo_url": "https://www.roadtrippin.fr/image/spot/3x2-1500/golden-gate-bridge.jpg",
+          "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g60713-d11447774-San_Francisco_Golden_Gate_Bay_Cruise-San_Francisco_California.html"
+      },
+      {
+          "tour_id": 86,
+          "name": "Jerusalem Old City Sacred Sites",
+          "description": "Visit the Western Wall, walk the Via Dolorosa, and explore the Church of the Holy Sepulchre. Discover Jerusalem's historical and spiritual landmarks.",
+          "latitude": 31.7683,
+          "longitude": 35.2137,
+          "photo_url": "https://i0.wp.com/www.touristisrael.com/wp-content/uploads/2021/04/9-13-Day.jpg?fit=1190%2C740&ssl=1",
+          "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g293983-d25176202-Essential_Jerusalem_Old_City_Main_Sites_Tour-Jerusalem_Jerusalem_District.html"
+      },
+      {
+          "tour_id": 87,
+          "name": "Vancouver Island Nature Exploration",
+          "description": "Explore Vancouver Island’s diverse landscapes, from kayaking along the coastline to hiking through ancient rainforests in Pacific Rim National Park.",
+          "latitude": 48.6532,
+          "longitude": -123.4496,
+          "photo_url": "https://img.static-kl.com/images/media/1A04B69D-C75D-4CE6-B31467FF51FF54AE",
+          "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g154944-Vancouver_Island_British_Columbia-Vacations.html"
+      },
+      {
+          "tour_id": 88,
+          "name": "Zermatt Matterhorn Glacier Paradise",
+          "description": "Ride cable cars to Europe’s highest cable car station for close-up views of the Matterhorn. Walk through glacial ice tunnels.",
+          "latitude": 45.9764,
+          "longitude": 7.6586,
+          "photo_url": "https://cdn.getyourguide.com/img/location/5fb2732bad65b-wide.jpeg/99.jpg",
+          "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g188098-Zermatt_Canton_of_Valais_Swiss_Alps-Vacations.html"
+      },
+      {
+          "tour_id": 89,
+          "name": "Hanoi Temple and Tranquil Lakeside Escape",
+          "description": "Immerse in Hanoi’s spiritual heart by visiting ancient temples and tranquil lakes. Enjoy peaceful boat rides and discover the serenity of local gardens and pagodas.",
+          "latitude": 21.0278,
+          "longitude": 105.8342,
+          "photo_url": "https://luxtraveldmc.com/blog/wp-content/uploads/2019/02/Hoan-Kiem-Lake.jpg",
+          "tripAdvisor_link": "https://www.tripadvisor.com/Attraction_Review-g293924-d311083-Reviews-Temple_of_Literature_National_University-Hanoi.html"
+      },
+      {
+          "tour_id": 90,
+          "name": "Copenhagen Canals",
+          "description": "Stroll along Copenhagen’s colorful Nyhavn harbor, explore Viking heritage sites, and enjoy Danish pastries in local bakeries.",
+          "latitude": 10.3158,
+          "longitude": -84.8207,
+          "photo_url": "https://bunny-wp-pullzone-nfqzsydbnl.b-cdn.net/wp-content/uploads/2020/01/iStock-469241836-1.jpg",
+          "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g189541-d11446716-Copenhagen_Sightseeing_Classic_Canal_Tour_With_Live_Guide-Copenhagen_Zealand.html"
+      },
+      {
+        "tour_id": 91,
+        "name": "Salzburg Film Locations and Music Heritage",
+        "description": "Explore iconic filming sites of 'The Sound of Music' in Salzburg. Stroll through Mirabell Gardens and visit the historic von Trapp estate by the lake.",
+        "latitude": 47.8095,
+        "longitude": 13.0550,
+        "photo_url": "https://www.pieterontour.com/wp-content/uploads/2020/08/Festung_Dom-scaled.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g190441-Salzburg-Vacations.html"
+      },
+      {
+        "tour_id": 92,
+        "name": "Santorini Sunset Catamaran Cruise",
+        "description": "Sail along Santorini’s caldera on a luxury catamaran. Swim in volcanic hot springs and enjoy a Mediterranean dinner as the sun sets over whitewashed cliffs.",
+        "latitude": 36.3932,
+        "longitude": 25.4615,
+        "photo_url": "https://kated.com/wp-content/uploads/2020/06/Grc25a-Santorini-sunset-at-dawn-village-of-Oia.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g482942-d11464729-Santorini_Sunset_Luxury_Sailing_Catamaran_Cruise_with_BBQ_drinks_transfer-Fira_San.html"
+      },
+      {
+        "tour_id": 93,
+        "name": "Cappadocia Cave Stay and Valley Trek",
+        "description": "Sleep in a boutique cave hotel carved into soft rock, then hike through Cappadocia’s surreal valleys filled with fairy chimneys and hidden frescoes.",
+        "latitude": 38.6431,
+        "longitude": 34.8316,
+        "photo_url": "https://d19lgisewk9l6l.cloudfront.net/assetbank/Yunak_Evleri_73839.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/Hotel_Review-g297983-d298393-Reviews-Cappadocia_Cave_Suites_Hotel-Goreme_Cappadocia.html"
+      },      
+      {
+        "tour_id": 94,
+        "name": "Essaouira Medina and Atlantic Breeze Walk",
+        "description": "Stroll the white-and-blue medina of Essaouira, explore artisan workshops, and feel the ocean breeze along the historic ramparts.",
+        "latitude": 31.5085,
+        "longitude": -9.7595,
+        "photo_url": "https://storage.googleapis.com/hizan-network-app.appspot.com/marrakechtricks/essaouira%20medina/streets.jpeg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g293732-d15016577-Morning_Casablanca_The_Medina_and_Beyond_Cultural_Walking_Tour-Casablanca_Casablan.html"
+      },      
+      {
+          "tour_id": 95,
+          "name": "Reykjavik Blue Lagoon and Northern Lights",
+          "description": "Immerse yourself in the mineral-rich waters of Iceland’s iconic Blue Lagoon, surrounded by lava fields. As night falls, embark on a guided Northern Lights expedition through Reykjavik’s wilderness for a chance to witness the aurora borealis dance across Arctic skies.",
+          "latitude": 64.1466,
+          "longitude": -21.9426,
+          "photo_url": "https://cdn.prod.website-files.com/64bb16197189ac01d3cda7a3/667710de781277b7042534e6_e5.jpg",
+          "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g189970-d19149867-Blue_Lagoon_Northern_Lights_from_Reykjavik-Reykjavik_Capital_Region.html"
+      },
+      {
+          "tour_id": 96,
+          "name": "Dubrovnik Game of Thrones Walking Tour",
+          "description": "Explore the historic streets of Dubrovnik as you visit real-life locations from the Game of Thrones series, including the imposing Lovrijenac Fortress and iconic Jesuit Staircase. Learn behind-the-scenes filming secrets while discovering the city's medieval architecture, fortified walls, and Adriatic charm.",
+          "latitude": 42.6507,
+          "longitude": 18.0944,
+          "photo_url": "https://wallsofdubrovnik.com/wp-content/uploads/2023/02/jesuit-staircase-walk-of-shame.jpg",
+          "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g295371-d13993061-Dubrovnik_Game_of_Thrones_Walking_Tour-Dubrovnik_Dubrovnik_Neretva_County_Dalmatia.html"
+      },
+      {
+        "tour_id": 97,
+        "name": "Lake Louise Canoe and Alpine Hike",
+        "description": "Glide across the glacial turquoise waters of Lake Louise by canoe, surrounded by the towering peaks of the Canadian Rockies. Continue with a scenic alpine hike to historic mountain tea houses, capturing breathtaking views of waterfalls, wildflowers, and snow-capped landscapes.",
+        "latitude": 51.4254,
+        "longitude": -116.1773,
+        "photo_url": "https://www.outdoorfam.ca/wp-content/uploads/2020/09/img_9753.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g181727-d27488786-Banff_Canmore_Moraine_Lake_Lake_Louise_Hike_Canoe_or_Sightsee-Canmore_Kananaskis_C.html"
+      },      
+      {
+        "tour_id": 98,
+        "name": "Tokyo Neon Streets and Digital Art Adventure",
+        "description": "Discover Tokyo's vibrant neon-lit streets in Shibuya and Harajuku, the heart of Japanese fashion and youth culture. Experience cutting-edge technology and immersive digital art at teamLab Borderless, a futuristic museum where art meets innovation.",
+        "latitude": 35.6762,
+        "longitude": 139.6503,
+        "photo_url": "https://www.mensjournal.com/.image/t_share/MTk2MTM2MDM2NzgxNTk4MjEz/tokyomain.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/Attraction_Review-g1066444-d32839694-Reviews-Tokyo_Art_Tour-Chuo_Tokyo_Tokyo_Prefecture_Kanto.html"
+      },      
+      {
+        "tour_id": 99,
+        "name": "Cape Town and The Winelands Adventure",
+        "description": "Explore Cape Town’s iconic Table Mountain, scenic beaches, and vibrant V&A Waterfront. Discover the beauty of the Winelands with wine tasting experiences in historic towns like Stellenbosch and Franschhoek, surrounded by rolling vineyards and stunning landscapes.",
+        "latitude": -33.9249,
+        "longitude": 18.4241,
+        "photo_url": "https://safari365.com/wp-content/uploads/2024/03/vineyard-landscape-at-sunset-with-mountains-in-stellenbosch-near-cape-town-south-africa.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g312659-Cape_Town_Central_Western_Cape-Vacations.html"
+      },      
+      {
+        "tour_id": 100,
+        "name": "Coorg Coffee Plantation & Waterfall Trek",
+        "description": "Explore Coorg’s lush coffee plantations and rich biodiversity. Hike through tropical forests to discover Abbey Falls, a hidden gem surrounded by natural beauty. Experience authentic coffee culture and immerse yourself in the serene landscapes of southern India.",
+        "latitude": 12.2958,
+        "longitude": 75.7804,
+        "photo_url": "https://www.india.com/wp-content/uploads/2024/09/thar.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g309293-d25029618-Full_Day_Poas_Volcano_La_Paz_Waterfall_Gardens_and_Coffee_Plantation_Experience-Sa.html"
+      }      
+         
     ]
