@@ -8,8 +8,6 @@ from fastapi.middleware.cors import CORSMiddleware
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-#uvicorn recommendation:app --reload
-
 # Initialize FastAPI
 app = FastAPI()
 
@@ -22,11 +20,12 @@ class Tour(BaseModel):
     longitude: float
     photo_url: str
     tripAdvisor_link: str
+    tags: List[str]  # Include tags in the Tour model
 
 
 class RecommendRequest(BaseModel):
     target_tour_id: int
-    top_n: int = 5
+    top_n: int = 3
     alpha: float = 0.7
 
 # Allow CORS requests from any origin (or specify the correct origins)
@@ -45,6 +44,9 @@ with open('dataset.json', 'r') as file:
 # Convert the dataset into Tour objects
 tours = [Tour(**tour) for tour in tours_data]
 
+# Use model_dump() instead of dict() as dict() is deprecated in Pydantic
+df = pd.DataFrame([tour.model_dump() for tour in tours])  # Updated to use model_dump()
+
 # Haversine function to calculate proximity
 def haversine(lat1, lon1, lat2, lon2):
     R = 6371  # Radius of Earth in km
@@ -58,23 +60,23 @@ def haversine(lat1, lon1, lat2, lon2):
 @app.post("/recommend")
 def recommend(req: RecommendRequest):
     # Use the backend-loaded dataset
-    df = pd.DataFrame([tour.dict() for tour in tours])  # Changed model_dump() to dict()
+    df = pd.DataFrame([tour.model_dump() for tour in tours])  # Updated to use model_dump()
 
     target = df[df['tour_id'] == req.target_tour_id].iloc[0]
 
-   # Generate TF-IDF vectorizer for the names and descriptions
+    # Combine name, description, and tags for the TF-IDF vectorization
+    df['combined_text'] = df['name'] + " " + df['description'] + " " + df['tags'].apply(lambda x: " ".join(x))
+    
+    # Generate TF-IDF vectorizer for the combined text (name + description + tags)
     tfidf = TfidfVectorizer(stop_words="english")
-    # Concatenate the name and description for each tour
-    descriptions_and_names = df['name'] + " " + df['description']
-    tfidf_matrix = tfidf.fit_transform(descriptions_and_names.tolist())
+    tfidf_matrix = tfidf.fit_transform(df['combined_text'].tolist())
 
-    # Get the target tour's TF-IDF vector (name + description)
+    # Get the target tour's TF-IDF vector (name + description + tags)
     target_idx = df[df['tour_id'] == req.target_tour_id].index[0]
     target_vector = tfidf_matrix[target_idx]
 
     # Calculate semantic similarity using cosine similarity
     semantic_scores = cosine_similarity(target_vector, tfidf_matrix).flatten()
-
 
     # Compute geographic proximity using the haversine function
     distances = df.apply(lambda row: haversine(target['latitude'], target['longitude'], row['latitude'], row['longitude']), axis=1)
