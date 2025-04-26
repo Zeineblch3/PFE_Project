@@ -16,7 +16,7 @@ export const useTourRecommendations = (targetTourId: string) => {
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
               target_tour_id: Number(targetTourId),
-              top_n: 3,
+              top_n: 4,
               alpha: 0.7,
             }),
           });

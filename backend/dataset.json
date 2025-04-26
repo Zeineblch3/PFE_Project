@@ -305,7 +305,7 @@
       "description": "Experience the stunning skyline of Kuala Lumpur, home to the world-renowned **Petronas Twin Towers** and the futuristic **KL Tower**. Afterward, immerse yourself in the city's rich heritage with a visit to the **Batu Caves**, an ancient Hindu temple complex, followed by a stroll through **Central Market** for local crafts and cuisine.",
       "latitude": 3.139003,
       "longitude": 101.6869,
-      "tags": ["Kuala Lumpur", "city tour", "modern landmarks", "Petronas Towers", "Batu Caves", "cultural heritage"],
+      "tags": ["Kuala Lumpur", "city tour","urban", "modern landmarks", "Petronas Towers", "Batu Caves", "cultural heritage"],
       "photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Kuala_Lumpur_Skyline_at_dusk_1.jpg",
       "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g298570-d12928519-Private_Half_Day_Kuala_Lumpur_Culture_And_Communities_Exploration_Tour-Kuala_Lumpu.html"
     },
@@ -975,7 +975,7 @@
         "description": "Explore Tokyo’s neon streets in Shibuya and Harajuku. Dive into fashion, youth culture, and futuristic digital art at teamLab Borderless.",
         "latitude": 35.6762,
         "longitude": 139.6503,
-        "tags": ["neon streets", "digital art", "youth culture", "futuristic"],
+        "tags": ["neon streets","city", "digital art", "youth culture", "modern", "iconic"],
         "photo_url": "https://www.mensjournal.com/.image/t_share/MTk2MTM2MDM2NzgxNTk4MjEz/tokyomain.jpg",
         "tripAdvisor_link": "https://www.tripadvisor.com/Attraction_Review-g1066444-d32839694-Reviews-Tokyo_Art_Tour-Chuo_Tokyo_Tokyo_Prefecture_Kanto.html"
       },      
@@ -998,6 +998,155 @@
         "tags": ["coffee plantation", "waterfall", "tropical", "nature", "authentic"],
         "photo_url": "https://www.india.com/wp-content/uploads/2024/09/thar.jpg",
         "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g309293-d25029618-Full_Day_Poas_Volcano_La_Paz_Waterfall_Gardens_and_Coffee_Plantation_Experience-Sa.html"
-      }      
-         
+      },
+      {
+        "tour_id": 101,
+        "name": "Byblos Ancient Port Walk",
+        "description": "Wander through Byblos, one of the world’s oldest cities, where ancient Phoenician harbors, medieval castles, and bustling souks reveal Lebanon’s timeless spirit.",
+        "latitude": 34.123,
+        "longitude": 35.6519,
+        "tags": ["history", "Mediterranean", "ancient port", "Phoenician", "heritage", "architecture"],
+        "photo_url": "https://www.walkingbeirut.com/uploads/1/0/3/7/10373098/byblos-ancient-civilisation-port_orig.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/Attraction_Review-g298264-d17437876-Reviews-Byblos_Port-Byblos_Mount_Lebanon_Governorate.html"
+      },
+      {
+        "tour_id": 102,
+        "name": "Chefchaouen: The Blue Pearl of Morocco",
+        "description": "Stroll the dreamy blue alleys of Chefchaouen, nestled against the Rif Mountains. A town painted in every shade of serenity, perfect for photography and soul-soothing wanderings.",
+        "latitude": 35.1714,
+        "longitude": -5.2697,
+        "tags": ["coastal", "artistic", "mountain", "culture", "photography", "authentic"],
+        "photo_url": "https://nextvacay.com/wp-content/uploads/2024/09/blue-city-morroco.jpg.webp",
+        "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g304013-d32227167-Tour_of_Chefchaouen_Discover_the_Blue_Pearl_of_Morocco-Chefchaouen_Tanger_Tetouan_.html"
+      },
+      {
+        "tour_id": 103,
+        "name": "Wadi Rum: Stargazing in the Valley of the Moon",
+        "description": "Under endless desert skies, discover Wadi Rum’s crimson sands and towering rock formations — a sacred landscape where Bedouin stories and constellations dance in the night.",
+        "latitude": 29.5765,
+        "longitude": 35.4194,
+        "tags": ["desert", "UNESCO", "stargazing", "Middle East", "Bedouin", "romantic"],
+        "photo_url": "https://jordanmw.com/wp-content/uploads/2022/05/Stargazing-experience-in-Wadi-Rum-01.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g293986-d23751079-Private_Full_Day_Trip_to_Wadi_Rum_Valley_of_Moon_and_The_Dead_Sea_from_Amman-Amman.html"
+      },      
+      {
+        "tour_id": 104,
+        "name": "Kenroku-en: Kanazawa’s Timeless Garden",
+        "description": "Step into Kenroku-en, where ancient pine trees, shimmering ponds, and winding paths embody the perfect harmony of nature and tradition — a living poem of Japanese serenity.",
+        "latitude": 36.5610,
+        "longitude": 136.6562,
+        "tags": ["Zen", "nature", "culture", "gardens", "Japan", "serenity"],
+        "photo_url": "https://visitkanazawa.jp/lsc/upfile/spot/0001/0106/10106_101_l.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g298115-Kanazawa_Ishikawa_Prefecture_Hokuriku_Chubu-Vacations.html"
+      },      
+      {
+        "tour_id": 105,
+        "name": "Socotra Island: Alien Landscapes",
+        "description": "Explore Socotra’s surreal Dragon’s Blood trees, crystal-clear lagoons, and untouched beaches — a hidden gem where nature still dreams in ancient forms.",
+        "latitude": 12.4634,
+        "longitude": 53.8236,
+        "tags": ["island", "nature", "biodiversity", "remote", "adventure", "exotic"],
+        "photo_url": "https://www.ootlah.com/wp-content/uploads/2018/05/banner-2.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g1420957-d24984500-Explore_Socotra_Island_8_Days_PrivateTour_Oct_2024_May_2025-Socotra_Island.html"
+      },
+      {
+        "tour_id": 106,
+        "name": "Cartagena Old City & Caribbean Forts",
+        "description": "Wander colorful colonial streets and massive stone fortresses in Cartagena, Colombia’s sun-kissed Caribbean jewel rich with history and tropical charm.",
+        "latitude": 10.3910,
+        "longitude": -75.4794,
+        "tags": ["coastal", "colonial", "history", "Caribbean", "vibrant"],
+        "photo_url": "https://www.bookaway.com/blog/wp-content/uploads/2022/07/cartagena-feature.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g297476-d11451927-Walking_Tour_Cartagena_Old_City_with_Gold_Museum_and_Plaza_de_Bolivar-Cartagena_Ca.html"
+      },
+      {
+        "tour_id": 107,
+        "name": "Valley of the Kings, Luxor",
+        "description": "Walk beneath towering cliffs into tombs of pharaohs like Tutankhamun and Ramses, where hieroglyphs and mysteries linger in Egypt’s eternal sands.",
+        "latitude": 25.7402,
+        "longitude": 32.6014,
+        "tags": ["ancient", "history", "Egypt","sahara", "archaeology", "desert", "sacred"],
+        "photo_url": "https://lp-cms-production.imgix.net/2023-07/f6e18c09be072890091813ba173e0fae-valley-of-the-kings.jpeg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/Attraction_Review-g294205-d321166-Reviews-Valley_of_the_Kings-Luxor_Nile_River_Valley.html"
+      },
+      {
+        "tour_id": 108,
+        "name": "Isle of Skye: Fairy Pools Hike",
+        "description": "Hike through misty mountains and crystal pools on Scotland’s Isle of Skye, where legends breathe among waterfalls and rocky peaks.",
+        "latitude": 57.4115,
+        "longitude": -6.2527,
+        "tags": ["nature", "hiking", "island", "mythical", "waterfalls", "Scotland"],
+        "photo_url": "https://www.tripsavvy.com/thmb/fpfUD25893Gb9CZxk3zOkOaFOuU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-531564245-e86234bac09143d7b7fe010e998433ef.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g186585-Isle_of_Skye_The_Hebrides_Scotland-Vacations.html"
+      },
+      {
+        "tour_id": 109,
+        "name": "Bali Rice Terraces, Temple Tour",
+        "description": "Wander the emerald tiers of Bali’s Tegallalang Rice Terraces and offer prayers at the water temples, feeling the deep spiritual rhythm of island life.",
+        "latitude": -8.4095,
+        "longitude": 115.1889,
+        "tags": ["spiritual","history", "nature", "rice terraces", "Bali", "culture", "photography"],
+        "photo_url": "https://i.f1g.fr/media/cms/orig/2021/11/03/197ae0e33fa3eb640a209eb9431c0562651c7a28646c2f6f707fa0cfa2b8696b.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g297701-d13131254-Full_Day_Tour_to_Water_Temples_and_UNESCO_Rice_Terraces_in_Bali-Ubud_Gianyar_Regen.html"
+      },
+      {
+        "tour_id": 110,
+        "name": "Cinque Terre Cliffside Villages",
+        "description": "Cling to the colorful cliffsides of Cinque Terre, Italy. Hike between sun-drenched villages, taste local pesto, and bask in Mediterranean bliss.",
+        "latitude": 44.1277,
+        "longitude": 9.7094,
+        "tags": ["coastal", "Mediterranean", "hiking", "Italy", "colorful villages", "romantic"],
+        "photo_url": "https://images.squarespace-cdn.com/content/v1/66156579a7ea021aab9c4620/d84c00f6-6675-454a-8c47-4b19a88c9fe4/Manarolla+2.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g187817-Cinque_Terre_Italian_Riviera_Liguria-Vacations.html"
+      },
+      {
+        "tour_id": 111,
+        "name": "The Dolomites: Italy’s Skyward Cathedrals",
+        "description": "Hike through the soaring limestone spires of the Dolomites, where mountains rise like prayers and valleys hum with wildflowers.",
+        "latitude": 46.4983,
+        "longitude": 11.3548,
+        "tags": ["mountains", "Italy", "nature", "hiking", "UNESCO", "adventure"],
+        "photo_url": "https://throneandvine.com/wp-content/uploads/2017/05/val-di-funes-dolomites-church-view.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g187870-d20277305-A_day_among_the_most_beautiful_mountains_in_the_world_the_Dolomites_and_Lake_Braie.html"
+      },
+      {
+        "tour_id": 112,
+        "name": "Plitvice Lakes: Croatia’s Waterfall Wonderland",
+        "description": "Walk wooden paths above crystal lakes and roaring waterfalls, where every step is a symphony of water, moss, and emerald dreams.",
+        "latitude": 44.8805,
+        "longitude": 15.6169,
+        "tags": ["nature", "waterfalls", "Croatia", "UNESCO", "lakes", "hiking"],
+        "photo_url": "https://www.planetjanettravels.com/wp-content/uploads/2023/11/1_croatia-plitvice-lakes-national-park.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g303827-d12469011-Plitvice_Lakes_and_Waterfalls_with_Rastoke_Ethno_Village_Day_Trip_from_Zagreb-Plit.html"
+      },
+      {
+        "tour_id": 113,
+        "name": "Mount Roraima: Venezuela’s Lost World",
+        "description": "Climb the towering tabletop of Roraima, where clouds drift beneath your feet and ancient landscapes whisper secrets untouched by time.",
+        "latitude": 5.1412,
+        "longitude": -60.7636,
+        "tags": ["adventure", "mountains", "South America", "nature", "unique", "hiking"],
+        "photo_url": "https://iugs-geoheritage.org/wp-content/uploads/2022/07/081-1_Tsingy-of-Bemaraha.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g660381-d14017848-Mount_Roraima_Trekking_Expedition_09_days_Roraima_Brazil_Venezuela-Boa_Vista_State.html"
+      },
+      {
+        "tour_id": 114,
+        "name": "The Altai Mountains: Mongolia’s Sacred Peaks",
+        "description": "Traverse Mongolia’s Altai Mountains, where golden eagles soar and ancient glaciers whisper the songs of the steppes.",
+        "latitude": 49.0000,
+        "longitude": 88.0000,
+        "tags": ["Mongolia", "mountains", "wilderness", "culture", "adventure", "nature", "water"],
+        "photo_url": "https://peakvisor.com/img/news/Altai-mountain-range.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g680706-d13805159-Mongolia_Trekking_Tour_in_the_Altai_Tavan_Bogd_National_Park-Olgiy_Bayan_Olgii_Pro.html"
+      },
+      {
+        "tour_id": 115,
+        "name": "New York’s Times Square: The City That Never Sleeps",
+        "description": "Feel the electric energy of New York at Times Square, where bright billboards, Broadway lights, and the rush of people create a world of its own.",
+        "latitude": 40.7580,
+        "longitude": -73.9855,
+        "tags": ["urban","neon streets", "city", "culture", "iconic"],
+        "photo_url": "https://miro.medium.com/v2/resize:fit:1400/1*jmoH-1X0b_XC7CMP6rzwMw.jpeg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/Attraction_Review-g60763-d110145-Reviews-Times_Square-New_York_City_New_York.html"
+      }  
     ]
