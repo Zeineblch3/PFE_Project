@@ -105,7 +105,7 @@
       "description": "See geysers, waterfalls, Witness the magical dance of the Northern Lights as they illuminate the arctic sky — a paradise for those who seek nature’s raw, untouched beauty.",
       "latitude": 64.126521,
       "longitude": -21.817439,
-      "tags": ["nature", "Iceland", "northern lights", "geysers", "waterfalls", "scenic"],
+      "tags": ["northern lights", "nature", "Iceland", "scenic", "waterfalls"],
       "photo_url": "https://images.pexels.com/photos/360912/pexels-photo-360912.jpeg",
       "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g189970-d18834280-Golden_Circle_Blue_Lagoon_with_Ticket_and_Kerid_Volcanic_Crater-Reykjavik_Capital_.html"
     },
@@ -136,7 +136,7 @@
       "latitude": 41.403629,
       "longitude": 2.174356,
       "tags": ["Gaudi", "architecture", "art", "Barcelona", "unique", "modernist"],
-      "photo_url": "https://images.pexels.com/photos/1388030/pexels-photo-1388030.jpeg",
+      "photo_url": "https://www.joebananalimos.net/assets/images/public/trips/gallery/big/park-guell_1732522424.png",
       "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g187497-d12898698-Gaudi_s_Casa_Vicens_Skip_the_Line_Ticket_with_Audioguide-Barcelona_Catalonia.html"
     },
     {
@@ -335,7 +335,7 @@
       "description": "Relax on the white sand beaches of Langkawi, surrounded by emerald waters and ancient rainforests. Take a cable car up Gunung Mat Cincang and feel deeply connected to the island’s untamed beauty.",
       "latitude": 6.35,
       "longitude": 99.8,
-      "tags": ["Langkawi", "nature", "island", "beaches", "cable car", "rainforest"],
+      "tags": ["rainforest", "jungle", "nature", "eco-tourism", "island", "adventure", "beaches"],
       "photo_url": "https://www.kkday.com/en-ph/blog/wp-content/uploads/my_langkawi_cable_cars-1170x680.jpg",
       "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g298283-d25057777-Mega_Langkawi_Jet_Ski_Tour_Exploring_The_Beauty_Of_Island_Nature-Langkawi_Langkawi.html"
     },
@@ -462,13 +462,13 @@
       {
         "tour_id": 47,
         "name": "Norway: Northern Lights Glass Igloo",
-        "description": "Watch the Northern Lights from a heated glass igloo. Reindeer sledding and Sami storytelling under Arctic skies.",
+        "description": "Sleep in a glass igloo under the aurora. Ride reindeer sleds and hear Sami stories in snowy Lapland.",
         "latitude": 68.1477,
         "longitude": 24.0246,
-        "tags": ["northern lights", "glass igloo", "Arctic", "reindeer", "storytelling", "wilderness"],
+        "tags": ["glacier", "ice caves", "adventure", "mountains", "nature"],
         "photo_url": "https://i0.wp.com/theflainstravel.com/wp-content/uploads/2023/09/lyngen-north-2.jpg?fit=1652%2C1104&ssl=1",
         "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g190475-Tromso_Troms_Northern_Norway-Vacations.html"
-      },
+      },      
       {
         "tour_id": 48,
         "name": "Maldives: Underwater Villa Snorkeling",
@@ -505,7 +505,7 @@
         "description": "Practice yoga in Ubud’s rice fields. Experience sound healing, waterfall blessings, and bamboo forest serenity.",
         "latitude": -8.5069,
         "longitude": 115.2625,
-        "tags": ["yoga", "healing", "nature", "wellness", "spiritual", "retreat", "forest"],
+        "tags": ["rainforest", "healing", "nature", "spiritual", "retreat", "eco-tourism", "jungle"],
         "photo_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/96/1b/f4/waterfall.jpg?w=1200&h=1200&s=1",
         "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g297701-Ubud_Gianyar_Regency_Bali-Vacations.html"
       },
@@ -555,7 +555,7 @@
           "description": "Discover grizzly bears, elk, and wolves on a wildlife safari through Banff and Jasper National Parks in the Canadian Rockies. Experience glacier lakes and alpine forests.",
           "latitude": 51.4968,
           "longitude": -115.9281,
-          "tags": ["wildlife", "Canada", "glacier", "forests", "safari", "mountains", "nature"],
+          "tags": ["wildlife", "nature", "adventure", "eco-tourism", "forests", "mountains", "safari"],
           "photo_url": "https://wildlandtrekking.com/content/uploads/2020/03/image1-33.jpg",
           "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g181727-Canmore_Kananaskis_Country_Alberta-Vacations.html"
         },
@@ -565,7 +565,7 @@
           "description": "Fly by helicopter over rugged peaks and land on a glacier to hike shimmering ice caves and deep crevasses in the Southern Alps.",
           "latitude": -43.3880,
           "longitude": 170.1800,
-          "tags": ["glacier", "helicopter", "New Zealand", "ice caves", "adventure", "mountains", "nature"],
+          "tags": ["glacier", "ice caves", "adventure", "mountains", "nature"],
           "photo_url": "https://www.newzealand.com/assets/externally-managed-assets/tbd-assets/tbd-folder-6276824/img-1713582744-9324-1058532-tbd-asset__aWxvdmVrZWxseQo_CropResizeWzE5MDAsMTAwMCw3NSwianBnIl0.jpg",
           "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g609169-Fox_Glacier_Westland_Tai_Poutini_National_Park_West_Coast_Region_South_Island-Vacations.html"
         },        
@@ -725,7 +725,7 @@
           "description": "Cruise past Antarctic glaciers and icebergs to reach penguin colonies. Witness wildlife like seals and whales in untouched polar wilderness.",
           "latitude": -64.8255,
           "longitude": -64.8255,
-          "tags": ["remote", "wildlife", "untouched", "glacial", "expedition", "awe-inspiring"],
+          "tags": ["remote", "wildlife", "untouched", "glacial", "expedition", "wilderness"],
           "photo_url": "https://luxeadventuretraveler.com/wp-content/uploads/2019/12/antarctica-cruise-ponant-by-%C2%A9Richard-Harker-1.jpg",
           "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g660183-Antarctic_Peninsula-Vacations.html"
         },
@@ -765,7 +765,7 @@
           "description": "Climb the towering pyramids of Tikal, surrounded by dense rainforest. Hear howler monkeys echoing through ancient Maya temples.",
           "latitude": 17.2220,
           "longitude": -89.6237,
-          "tags": ["ancient", "jungle", "mystical", "adventure", "sacred", "timeless"],
+          "tags": ["jungle", "rainforest", "wildlife", "adventure", "ancient", "eco-tourism", "sacred"],
           "photo_url": "https://assets-jpcust.jwpsrv.com/thumbnails/4bv810e1-720.jpg",
           "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g292015-Tikal_National_Park_Peten_Department-Vacations.html"
         },
@@ -865,7 +865,7 @@
           "description": "Explore Vancouver Island’s diverse landscapes, from kayaking along the coastline to hiking through ancient rainforests in Pacific Rim National Park.",
           "latitude": 48.6532,
           "longitude": -123.4496,
-          "tags": ["coastline", "rainforest", "hiking", "kayaking", "wilderness", "Canada"],
+          "tags": ["rainforest", "eco-tourism", "wildlife", "nature", "adventure", "wilderness", "Canada"],
           "photo_url": "https://img.static-kl.com/images/media/1A04B69D-C75D-4CE6-B31467FF51FF54AE",
           "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g154944-Vancouver_Island_British_Columbia-Vacations.html"
       },
@@ -1148,5 +1148,87 @@
         "tags": ["urban","neon streets", "city", "culture", "iconic"],
         "photo_url": "https://miro.medium.com/v2/resize:fit:1400/1*jmoH-1X0b_XC7CMP6rzwMw.jpeg",
         "tripAdvisor_link": "https://www.tripadvisor.com/Attraction_Review-g60763-d110145-Reviews-Times_Square-New_York_City_New_York.html"
-      }  
+      },
+      {
+        "tour_id": 116,
+        "name": "Singapore City Lights, Heritage Trail",
+        "description": "Walk through Singapore’s glittering Marina Bay district, home to the iconic Marina Bay Sands, the Supertree Grove, and the shimmering skyline. Then explore the soul of the city in Little India and Chinatown, where rich traditions meet contemporary design.",
+        "latitude": 1.3521,
+        "longitude": 103.8198,
+        "tags": ["Singapore", "city tour", "urban", "modern landmarks", "Marina Bay Sands", "cultural heritage"],
+        "photo_url": "https://images.hdqwalls.com/wallpapers/singapore-skyscrapers-marina-bay-sands-evening-4k-es.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g294265-d26731736-Singapore_Starry_Night_Cruise_Garden_Rhapsody_Spectra_Show-Singapore.html"
+      },
+      {
+        "tour_id": 117,
+        "name": "Bangkok Temples, Skyscrapers Experience",
+        "description": "Discover Bangkok’s duality — ascend to rooftop views from the King Power Mahanakhon Tower, then step into the ornate sanctuaries of Wat Pho and Wat Arun. A city pulsing with life, where tradition dances with innovation.",
+        "latitude": 13.7563,
+        "longitude": 100.5018,
+        "tags": ["Bangkok", "city tour", "urban", "modern landmarks", "Wat Pho", "cultural heritage"],
+        "photo_url": "https://www.benoitproperties.com/wp-content/uploads/2023/12/bangkok-real-estate.png",
+        "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g293916-d15750989-Grand_Palace_Temples_of_Bangkok_with_experienced_guide-Bangkok.html"
+      },
+      {
+        "tour_id": 118,
+        "name": "Taipei City Pulse & Temples Tour",
+        "description": "From the soaring Taipei 101 tower to the spiritual stillness of Longshan Temple, Taipei invites you to witness a city where innovation and tradition walk hand in hand. Sample street food in vibrant Ximending and explore the preserved charm of Dihua Street.",
+        "latitude": 25.032969,
+        "longitude": 121.565418,
+        "tags": ["Taipei", "city tour", "urban", "modern landmarks", "Taipei 101", "cultural heritage"],
+        "photo_url": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2019/10/16/09/taipei-overview.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/Attraction_Review-g293913-d6215708-Reviews-Pause_Break_Taipei_City_Tour_Private_Driving_Tour-Taipei.html"
+      },
+      {
+        "tour_id": 119,
+        "name": "Pompeii & Mount Vesuvius Tour",
+        "description": "Step back in time to the ancient Roman city of Pompeii, destroyed by the eruption of Mount Vesuvius. Explore the ruins of homes, temples, and baths that paint a vivid picture of daily life in the Roman Empire.",
+        "latitude": 40.7499,
+        "longitude": 14.4867,
+        "tags": ["ancient", "history", "empire", "Rome", "archaeology", "Pompeii", "ruins"],
+        "photo_url": "https://www.guemartravel.com/assets/images/public/trips/big/guemar-travel-pompeii_u6_t1673429415.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g187782-d12137599-Skip_the_Line_Pompeii_Mt_Vesuvius_Day_Trip_from_Sorrento-Sorrento_Province_of_Napl.html"
+      },
+      {
+        "tour_id": 120,
+        "name": "Istanbul: Hagia Sophia and Byzantine Empire Tour",
+        "description": "Journey through Istanbul’s layered past with a tour of the Hagia Sophia. Once a Roman cathedral, then a mosque, this architectural wonder bridges empires and faiths with Byzantine mosaics and Islamic calligraphy.",
+        "latitude": 41.0086,
+        "longitude": 28.9802,
+        "tags": ["Byzantine", "history", "Christian", "Islamic", "architecture"],
+        "photo_url": "https://www.shoreexcursionsgroup.com/img/tour/EUISKMANBYOFDAY-2.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g293974-d11454699-Istanbul_Byzantine_and_Ottoman_Tour_Hagia_Sophia_Topkapi_Palace_Blue_Mosque_and_Gr.html"
+      },
+      {
+        "tour_id": 121,
+        "name": "Split: Diocletian’s Palace Walk",
+        "description": "Uncover Roman imperial architecture in Croatia with a tour of Diocletian’s Palace. Once a fortress-residence for a Roman emperor, it now pulses with life, shops, and layered stone secrets.",
+        "latitude": 43.5081,
+        "longitude": 16.4402,
+        "tags": ["Roman", "Croatia", "architecture", "imperial", "history"],
+        "photo_url": "https://www.shoreexcursionsgroup.com/img/tour/EUSLWALK-2.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g295370-d25313699-Walking_Tour_of_Split_and_Diocletian_s_Palace-Split_Split_Dalmatia_County_Dalmatia.html"
+      },
+      {
+        "tour_id": 122,
+        "name": "Hadrian’s Villa and Villa d'Este Tour",
+        "description": "Explore the grand Hadrian’s Villa, a vast Roman complex that showcases the imperial architecture of ancient Rome. Then visit the beautiful Villa d'Este, renowned for its Renaissance fountains and gardens.",
+        "latitude": 41.9576,
+        "longitude": 12.7923,
+        "tags": ["ancient", "history", "empire", "Rome", "architecture", "Hadrian", "gardens"],
+        "photo_url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/06/70/0e/d9.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g187791-d11447249-Hadrian_s_Villa_and_Villa_d_Este_Half_Day_Trip_from_Rome-Rome_Lazio.html"
+      },
+      {
+        "tour_id": 123,
+        "name": "Okinawa: Coral Coast Snorkeling, Island Retreat",
+        "description": "Discover Okinawa’s vibrant coral reefs with guided snorkeling tours, relax on white sandy beaches, and unwind in luxurious seaside resorts steeped in Ryukyu culture.",
+        "latitude": 26.3344,
+        "longitude": 127.8056,
+        "tags": ["snorkeling", "coral reef", "tropical", "island", "luxury", "beach", "Ryukyu culture"],
+        "photo_url": "https://www.japanfortwo.travel/wp-content/uploads/2024/08/okinawa.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g298221-Okinawa_Prefecture_Kyushu-Vacations.html"
+      }
+      
+      
     ]

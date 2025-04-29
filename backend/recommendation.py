@@ -56,37 +56,45 @@ def haversine(lat1, lon1, lat2, lon2):
     a = math.sin(dphi / 2)**2 + math.cos(phi1) * math.cos(phi2) * math.sin(dlambda / 2)**2
     return R * (2 * math.atan2(math.sqrt(a), math.sqrt(1 - a)))
 
+def compute_tag_overlap_score(tags1, tags2):
+    set1, set2 = set(tags1), set(tags2)
+    if not set1 or not set2:
+        return 0.0
+    return len(set1 & set2) / len(set1 | set2)
+
 # Endpoint for recommendations
 @app.post("/recommend")
 def recommend(req: RecommendRequest):
-    # Use the backend-loaded dataset
-    df = pd.DataFrame([tour.model_dump() for tour in tours])  # Updated to use model_dump()
+    df = pd.DataFrame([tour.model_dump() for tour in tours])
 
     target = df[df['tour_id'] == req.target_tour_id].iloc[0]
 
-    # Combine name, description, and tags for the TF-IDF vectorization
+    # Combine name, description, and tags for TF-IDF
     df['combined_text'] = df['name'] + " " + df['description'] + " " + df['tags'].apply(lambda x: " ".join(x))
-    
-    # Generate TF-IDF vectorizer for the combined text (name + description + tags)
+
     tfidf = TfidfVectorizer(stop_words="english")
     tfidf_matrix = tfidf.fit_transform(df['combined_text'].tolist())
 
-    # Get the target tour's TF-IDF vector (name + description + tags)
     target_idx = df[df['tour_id'] == req.target_tour_id].index[0]
     target_vector = tfidf_matrix[target_idx]
 
-    # Calculate semantic similarity using cosine similarity
+    # Semantic similarity
     semantic_scores = cosine_similarity(target_vector, tfidf_matrix).flatten()
 
-    # Compute geographic proximity using the haversine function
-    distances = df.apply(lambda row: haversine(target['latitude'], target['longitude'], row['latitude'], row['longitude']), axis=1)
+    # Proximity score using Haversine
+    distances = df.apply(
+        lambda row: haversine(target['latitude'], target['longitude'], row['latitude'], row['longitude']),
+        axis=1
+    )
     proximity_scores = 1 - (distances - distances.min()) / (distances.max() - distances.min())
 
-    # Combine the semantic similarity and proximity scores
-    combined_scores = req.alpha * semantic_scores + (1 - req.alpha) * proximity_scores
-    df['score'] = combined_scores
-    df = df[df['tour_id'] != req.target_tour_id]  # Remove the target tour from the results
+    # Tag Overlap Score (Jaccard Similarity)
+    tag_scores = df['tags'].apply(lambda tags: compute_tag_overlap_score(target['tags'], tags))
 
-    # Return top N recommendations
+    # Final Combined Score
+    combined_scores = req.alpha * semantic_scores + (1 - req.alpha) * proximity_scores + 0.2 * tag_scores
+    df['score'] = combined_scores
+    df = df[df['tour_id'] != req.target_tour_id]
+
     top_results = df.sort_values(by='score', ascending=False).head(req.top_n)
     return top_results.to_dict(orient='records')

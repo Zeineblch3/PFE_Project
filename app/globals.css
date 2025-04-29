@@ -104,3 +104,17 @@ body {
   0% { opacity: 0.15; }
   100% { opacity: 0.35; }
 }
+
+/* For modern browsers */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #4b5563; /* Tailwind's gray-600 */
+  border-radius: 9999px;
+}
