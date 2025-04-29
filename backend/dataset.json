@@ -1318,5 +1318,194 @@
         "tags": ["giraffes", "wildlife", "Nairobi", "conservation", "Kenya", "safari"],
         "photo_url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/0b/c0/a9.jpg",
         "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g294207-d16796751-Tour_to_the_Nairobi_Giraffe_Centre_Optional_Elephant_Orphanage-Nairobi.html"
+      },
+      {
+        "tour_id": 133,
+        "name": "Torres del Paine: Wild Patagonia Trek",
+        "description": "Hike through Torres del Paine's granite peaks, icy rivers, and wind-carved valleys in Chile’s untamed Patagonia.",
+        "latitude": -51.2531,
+        "longitude": -72.3450,
+        "tags": ["Patagonia", "trekking", "Chile", "mountains", "nature"],
+        "photo_url": "https://cdn.kimkim.com/files/a/content_articles/featured_photos/be7701bd222ceae4e14b3cef822b576c132778e8/big-cf86b912d6d2f12ce5567ec7fa31f811.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g12133551-Torres_del_Paine_Magallanes_Region-Vacations.html"
+      },
+      {
+        "tour_id": 134,
+        "name": "Fiordland: New Zealand Cruise Adventure",
+        "description": "Sail through glacial fiords, waterfalls, and misty cliffs in New Zealand’s raw wilderness.",
+        "latitude": -45.4154,
+        "longitude": 167.7180,
+        "tags": ["New Zealand", "cruise", "nature", "fiord", "adventure", "waterfall"],
+        "photo_url": "https://www.relaxingjourneys.co.nz/wp-content/uploads/2023/08/ha-fiordland-1.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/Attraction_Review-g255124-d12503869-Reviews-Fiordland_Cruises-Te_Anau_Fiordland_National_Park_Southland_Region_South_Island.html"
+      },
+      {
+        "tour_id": 135,
+        "name": "Merzouga: Sahara Desert Star Camp",
+        "description": "Ride camels across golden dunes and sleep under a sea of stars in a traditional Berber desert camp.",
+        "latitude": 31.1000,
+        "longitude": -4.0000,
+        "tags": ["Morocco", "Sahara", "desert", "Berber", "stars", "romantic"],
+        "photo_url": "https://cdn.kimkim.com/files/a/images/366269e1bc2def010f055138c5a290782a18c71f/original-d50429ec778a43c76c812732b608901c.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g293734-d23944558-3_Day_Sahara_Desert_Tour_Marrakech_To_Merzouga_Luxury_Camp-Marrakech_Marrakech_Saf.html"
+      },
+      {
+        "tour_id": 136,
+        "name": "Douro Valley: Wine and River Escape",
+        "description": "Glide along the gentle bends of the Douro River, where sunlit terraces cradle ancient vineyards and rustic villages whisper the stories of Portugal’s winemaking soul.",        "latitude": 41.1836,
+        "longitude": -7.7949,
+        "tags": ["Portugal", "River","coastal", "valley", "Douro", "scenic", "nature walk"],
+        "photo_url": "https://www.thenaturaladventure.com/wp-content/uploads/2024/10/cycling-the-douro-valley-9.png",
+        "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g189180-d11455792-Complete_Douro_Valley_Wine_Tour_with_Lunch_Wine_Tastings_and_River_Cruise-Porto_Po.html"
+      },
+      {
+        "tour_id": 131,
+        "name": "Lapland: Arctic Reindeer Adventure",
+        "description": "Chase the Northern Lights across snowy forests, ride with reindeer herders, and feel the silence of Lapland's frozen beauty.",
+        "latitude": 67.8558,
+        "longitude": 20.2253,
+        "tags": ["nature", "Arctic", "mountains", "northern lights","glacier", "snow", "aurora", "adventure"],
+        "photo_url": "https://res.cloudinary.com/manawa/image/private/f_auto,c_limit,w_1080,q_auto/02b4342654c669d36fa95c35c45e909b",
+        "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g154966-d19586047-Yellowknife_5_Day_Northern_Lights_Adventure_Aurora_Arctic_Wonders-Yellowknife_Nort.html"
+      },
+      {
+        "tour_id": 132,
+        "name": "Bhutan: Monastic Mountain Path",
+        "description": "Wander Himalayan trails and visit sacred monasteries like Tiger's Nest, enveloped by clouds and prayer flags.",
+        "latitude": 27.4735,
+        "longitude": 89.6336,
+        "tags": ["Bhutan", "monastery", "mountain", "spiritual", "hiking", "temple", "Asia"],
+        "photo_url": "https://www.actionchallenge.com/wp-content/uploads/2021/12/Bhutan-Druk-Path-Hero-5.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g293845-d19255763-Off_the_Beaten_Path_Discovering_Bhutan_s_Hidden_Gems_in_09_Days-Thimphu_Thimphu_Di.html"
+      },
+      {
+        "tour_id": 133,
+        "name": "Colombia: Coffee Region Horseback Journey",
+        "description": "Ride through emerald hills dotted with coffee farms, learn traditional roasting, and sip fresh brews under giant wax palms.",
+        "latitude": 4.4526,
+        "longitude": -75.7664,
+        "tags": ["Colombia", "coffee", "horseback", "culture", "nature", "mountain views", "wildlife", "adventure"],
+        "photo_url": "https://www.ourescapeclause.com/wp-content/uploads/2018/03/SalentoHorseAndValley-1.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g294074-d24179465-Colombia_s_3_Axis_of_Diversity_Bogota_Coffee_Region_and_Cartagena_8_Day_Tour-Bogot.html"
+      },
+      {
+        "tour_id": 134,
+        "name": "Faroe Islands: Coastal Cliff Odyssey",
+        "description": "Explore dramatic sea cliffs, turf-roofed villages, and windswept solitude where ocean meets ancient stone.",
+        "latitude": 62.0079,
+        "longitude": -6.7900,
+        "tags": ["Faroe Islands", "cliffs", "coast", "islands", "hiking"],
+        "photo_url": "https://www.onetraveller.co.uk/assets/images/thumbnails/og_image/isles-landscapes-L8MK.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g190336-d33004943-Vestmanna_Sea_Cliffs_Leynar_and_Kvivik_in_Faroe_Islands-Vestmanna_Streymoy.html"
+      },
+      {
+        "tour_id": 135,
+        "name": "Uzbekistan: Silk Road Caravan Experience",
+        "description": "Stroll ancient streets of Samarkand, explore turquoise-domed madrassas, and relive Silk Road glory.",
+        "latitude": 39.6542,
+        "longitude": 66.9597,
+        "tags": ["Uzbekistan", "Silk Road", "history", "architecture", "culture"],
+        "photo_url": "https://strafari.com/wp-content/uploads/2023/11/strafari-voyage-travel-ouzbekistan-header.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g293968-d12466616-11_Day_Tour_Magical_Cities_of_Uzbekistan_Discover_The_Great_Silk_Road_with_us-Tash.html"
+      },
+      {
+        "tour_id": 138,
+        "name": "Taiwan: Taroko Gorge Hike and Temple",
+        "description": "Trek marble cliffs and canyons, pausing at serene temples tucked in lush Taiwanese wilderness.",
+        "latitude": 24.1667,
+        "longitude": 121.6167,
+        "tags": ["Taiwan", "Taroko", "gorge", "temples", "hiking", "historic"],
+        "photo_url": "https://peakvisor.com/photo/Taroko-National-Park-Hsiangte-temple.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g13808515-d20395200-5_Day_Premium_Eastern_Taiwan_and_Taroko_Gorge_Private_Tour_from_Taipei-Xinyi_Dis.html"
+      },
+      {
+        "tour_id": 139,
+        "name": "Scotland: Highland Castles and Lochs",
+        "description": "Step into misty moorlands where ancient castles watch over lochs and bagpipes echo through glens.",
+        "latitude": 57.1200,
+        "longitude": -4.7100,
+        "tags": ["Scotland", "Highlands", "castles", "lochs", "nature"],
+        "photo_url": "https://cdn.tourcms.com/a/11676/515/1/large.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g186525-d11454854-Edinburgh_West_Highland_Lochs_Mountains_Castles-Edinburgh_Scotland.html"
+      },
+      {
+        "tour_id": 141,
+        "name": "Montenegro: Bay of Kotor Sailing Escape",
+        "description": "Glide along the fjord-like waters of Kotor Bay, where medieval villages and misty peaks meet the Adriatic breeze.",
+        "latitude": 42.4247,
+        "longitude": 18.7712,
+        "tags": ["Montenegro", "Kotor", "sailing", "Adriatic", "medieval", "Mediterranean", "coastal"],
+        "photo_url": "https://www.sz-reisen.de/fileadmin/Media/Medien/31534-Perast_-_Kleinstadt_in_Montenegro_copyright_Givaga__AdobeStock.jpeg.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g635648-Montenegro-Vacations.html"
+      },
+      {
+        "tour_id": 142,
+        "name": "Georgia: Tbilisi to Kazbegi Mountain Drive",
+        "description": "Travel the Georgian Military Road through vast canyons to alpine churches and snow-capped serenity.",
+        "latitude": 42.6594,
+        "longitude": 44.6426,
+        "tags": ["Georgia", "Kazbegi", "mountains", "scenic drive", "culture", "nature"],
+        "photo_url": "https://www.atlasandboots.com/wp-content/uploads/2022/11/Kazbegi-things-to-do-lead-Image.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g294195-d11477766-10_Day_Tour_to_Georgia_Tbilisi_Caucasus_Mountains_and_Black_Sea-Tbilisi.html"
+      },
+      {
+        "tour_id": 143,
+        "name": "Kyrgyzstan: Yurt Stay on Song-Kul Lake",
+        "description": "Live like a nomad on the shores of Song-Kul, where herders, stars, and mountain stillness shape the rhythm of life.",
+        "latitude": 41.8481,
+        "longitude": 75.1300,
+        "tags": ["Kyrgyzstan", "yurt", "lake", "nomadic", "nature"],
+        "photo_url": "https://people-travels.com/storage/images/BgJoywTfDc5DUzfcW0ANwkOelUGcW583vcohvRzS.webp",
+        "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g293948-d20118226-2_Days_in_Song_Kul_Lake_as_Nomad_horseback_riding_Yurt_stay-Bishkek.html"
+      },
+      {
+        "tour_id": 144,
+        "name": "South Korea: Jeju Island Lava Trails",
+        "description": "Uncover the mystical beauty of Jeju Island—trek up volcanic peaks, descend into ancient lava tubes, and relax beside cascading waterfalls in this UNESCO-protected paradise shaped by fire and sea.",
+        "latitude": 33.4996,
+        "longitude": 126.5312,
+        "tags": ["Jeju Island", "nature retreat", "South Korea", "waterfalls", "island adventure"],
+        "photo_url": "https://ca-times.brightspotcdn.com/dims4/default/40d675d/2147483647/strip/true/crop/1643x1080+0+0/resize/1200x789!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F63%2Ff2%2Fd3263df6400d9bdf95423021035a%2Fadobestock-177536059.jpeg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g983296-d12329940-Jeju_Island_SouthWest_UNESCO_Day_Tour-Jeju_Island.html"
+      },
+      {
+        "tour_id": 145,
+        "name": "Italy: Apulian Trulli",
+        "description": "Roam the sunlit countryside of Puglia, with its cone-roofed trulli homes and endless silver-green olive trees.",
+        "latitude": 40.7833,
+        "longitude": 17.2333,
+        "tags": ["Italy", "Puglia", "trulli", "countryside", "heritage", "coastal"],
+        "photo_url": "https://www.turismovieste.it/index/wp-content/uploads/2023/01/trulli-1.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g580227-d21122590-Typical_Apulian_Trulli_tour_with_wine_tasting-Alberobello_Province_of_Bari_Puglia.html"
+      },
+      {
+        "tour_id": 146,
+        "name": "Iceland: Volcano Craters and Glacier Lagoons",
+        "description": "Walk black sand fields, circle ancient craters, and drift past blue icebergs under northern skies.",
+        "latitude": 64.0486,
+        "longitude": -16.1790,
+        "tags": ["Iceland", "volcano", "glacier", "lagoon", "nature"],
+        "photo_url": "https://www.heyiceland.is/asset/20867/geysir-hotspring-area-south-iceland.jpg?w=1200",
+        "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g612425-d12561350-Airplane_flight_over_glacier_lagoons_and_Iceland_s_highest_peak-Skaftafell_Vatnajo.html"
+      },
+      {
+        "tour_id": 147,
+        "name": "Chile: Atacama Desert Moon Valley Tour",
+        "description": "Explore a Martian landscape of salt caves, flaming sunsets, and ancient desert silence in the driest place on Earth.",
+        "latitude": -22.9250,
+        "longitude": -68.2200,
+        "tags": ["Chile", "Atacama", "desert", "valleys", "stargazing", "moon", "mountain views"],
+        "photo_url": "https://i.pinimg.com/736x/59/38/c5/5938c5d9e6701e77c1bb9f279d611a68.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g303681-d27708534-Explore_the_Atacama_Desert_and_The_Valley_of_the_Moon_on_a_Bike-San_Pedro_de_Ataca.html"
+      },
+      {
+        "tour_id": 148,
+        "name": "Bosnia: Mostar Bridge and River Walk",
+        "description": "Step into a poetic blend of East and West as you stroll along the Neretva River and gaze at the iconic Stari Most.",
+        "latitude": 43.3377,
+        "longitude": 17.8144,
+        "tags": ["Bosnia", "Mostar", "bridge", "culture", "heritage", "nature", "river", "village life"],
+        "photo_url": "https://images.squarespace-cdn.com/content/v1/5f0741c1e4ac9c3b05c9964e/1645857165908-IKI861IUVOPO6T9LTAFA/Stari+Most+-+shutterstock_573424564.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g295388-d11452030-Private_Transfer_Mostar_Medjugorje_and_Sarajevo_Hotels_in_Bosnia_and_Herzegovina_t.html"
       }
     ]
