@@ -1228,7 +1228,95 @@
         "tags": ["snorkeling", "coral reef", "tropical", "island", "luxury", "beach", "Ryukyu culture"],
         "photo_url": "https://www.japanfortwo.travel/wp-content/uploads/2024/08/okinawa.jpg",
         "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g298221-Okinawa_Prefecture_Kyushu-Vacations.html"
+      },
+      {
+        "tour_id": 124,
+        "name": "Maasai Mara: Safari Adventure",
+        "description": "Experience the thrill of a Maasai Mara safari, where you'll witness the great migration, the 'Big Five,' and breathtaking African landscapes.",
+        "latitude": -1.4232,
+        "longitude": 35.0202,
+        "tags": ["Maasai Mara", "safari", "wildlife", "adventure", "Africa"],
+        "photo_url": "https://www.tranquilkilimanjaro.com/wp-content/uploads/masai-mara-national-reserve-safari.jpeg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g294207-d19496825-3_day_Maasai_Mara_Adventure_Group_Safari-Nairobi.html"
+      },
+      {
+        "tour_id": 125,
+        "name": "Mount Kenya: Trekking Expedition",
+        "description": "Conquer the majestic Mount Kenya, Africa’s second-highest peak, with an expert guide, and enjoy stunning views from the summit.",
+        "latitude": -0.1605,
+        "longitude": 37.3083,
+        "tags": ["Mount Kenya", "trekking", "adventure", "mountain", "Africa", "hiking", "nature"],
+        "photo_url": "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/25/58/3f.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/Attraction_Review-g294207-d11560995-Reviews-Mount_Kenya_Climbing-Nairobi.html"
+      },
+      {
+        "tour_id": 126,
+        "name": "Amboseli National Park: Elephants and Kilimanjaro Views",
+        "description": "Explore Amboseli National Park, famous for its large elephant herds and stunning views of Mount Kilimanjaro in the backdrop.",
+        "latitude": -2.6531,
+        "longitude": 37.3066,
+        "tags": ["Amboseli", "safari", "elephants", "Kilimanjaro", "wildlife"],
+        "photo_url": "https://www.micato.com/wp-content/uploads/2018/09/amboseli-national-park-1110x700.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g294207-d19350253-Private_Safari_Amboseli_National_Park_Kilimanjaro_views-Nairobi.html"
+      },
+      {
+        "tour_id": 127,
+        "name": "Lake Nakuru: Birdwatching and Wildlife",
+        "description": "Discover Lake Nakuru, a UNESCO World Heritage site known for its pink flamingos, rich biodiversity, and stunning landscapes.",
+        "latitude": -0.3031,
+        "longitude": 36.0800,
+        "tags": ["Lake Nakuru", "birdwatching", "wildlife", "flamingos", "Africa"],
+        "photo_url": "https://www.newmarketholidays.co.uk/media/10pc2wec/hundreds-of-flamingos-in-lake-nakuru.jpg?format=webp&v=1d9ebce03f839d0",
+        "tripAdvisor_link": "https://www.tripadvisor.com/Attraction_Review-g303975-d555773-Reviews-Lake_Nakuru-Lake_Nakuru_National_Park_Rift_Valley_Province.html"
+      },
+      {
+        "tour_id": 128,
+        "name": "Lamu Island: Cultural, Coastal Escape",
+        "description": "Immerse yourself in the rich Swahili culture of Lamu Island, with its historic architecture, pristine beaches, and traditional dhow cruises.",
+        "latitude": -2.2833,
+        "longitude": 40.9000,
+        "tags": ["Lamu Island", "culture", "beaches", "dhow cruise", "coastal"],
+        "photo_url": "https://prideofafricaadventures.com/wp-content/uploads/2022/07/lamu-beach4.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/Attractions-g294208-Activities-Lamu_Island_Coast_Province.html"
+      },
+      {
+        "tour_id": 129,
+        "name": "Okavango Delta: Water Safari in Botswana",
+        "description": "Glide through the lush channels of the Okavango Delta in a traditional mokoro canoe, spotting hippos, elephants, and exotic birds in one of Africa’s most pristine ecosystems.",
+        "latitude": -19.5000,
+        "longitude": 22.9000,
+        "tags": ["Okavango Delta", "Botswana", "safari", "wildlife", "wetlands"],
+        "photo_url": "https://www.southerndestinations.com/wp-content/uploads/2024/01/Sitatunga-Private-Island.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g317055-d15600345-3_Days_Mokoro_Safari_in_Okavango_Delta_Botswana-Maun_Ngamiland_East_North_West_Dis.html"
+      },
+      {
+        "tour_id": 130,
+        "name": "Lake Malawi: Village Life and Blue Waters",
+        "description": "Journey to the heart of Malawi where crystal-clear waters meet warm village hospitality. Snorkel among colorful cichlids, sail on dugout canoes, and connect with local communities in a setting of natural serenity.",
+        "latitude": -12.0953,
+        "longitude": 34.1746,
+        "tags": ["Lake Malawi", "Malawi", "village life", "snorkeling", "Africa", "culture", "nature"],
+        "photo_url": "https://africa.com/wp-content/uploads/2019/01/Malawi.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/Attraction_Review-g3546047-d3533948-Reviews-Lake_Chilwa-Kachulu_Central_Region.html"
+      },
+      {
+        "tour_id": 131,
+        "name": "Diani Beach: Paradise on the Coast",
+        "description": "Relax on the beautiful sandy beaches of Diani, swim in the clear waters, and explore the coral reefs on a guided snorkel tour.",
+        "latitude": -4.2833,
+        "longitude": 39.5942,
+        "tags": ["Diani Beach", "beach", "snorkeling", "paradise", "coastal", "sea"],
+        "photo_url": "https://www.businessdailyafrica.com/resource/image/4799496/landscape_ratio16x9/1600/900/e5d2148a5689dc9a75684cf29f17bc8d/ii/diani.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g775870-Diani_Beach_Ukunda_Coast_Province-Vacations.html"
+      },
+      {
+        "tour_id": 132,
+        "name": "Giraffe Centre: Feeding the Giants",
+        "description": "Get up close and personal with the endangered Rothschild giraffes at the Giraffe Centre, a short drive from Nairobi.",
+        "latitude": -1.3740,
+        "longitude": 36.7252,
+        "tags": ["giraffes", "wildlife", "Nairobi", "conservation", "Kenya", "safari"],
+        "photo_url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/0b/c0/a9.jpg",
+        "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g294207-d16796751-Tour_to_the_Nairobi_Giraffe_Centre_Optional_Elephant_Orphanage-Nairobi.html"
       }
-      
-      
     ]
