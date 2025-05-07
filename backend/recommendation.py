@@ -27,7 +27,7 @@ class RecommendRequest(BaseModel):
     description: str
     latitude: float
     longitude: float
-    tags: List[str]
+    tags: Optional[List[str]] = None  # Default to empty list if no tags are provided
     top_n: int = 3
     alpha: float = 0.7
 
@@ -50,7 +50,7 @@ for tour in tours_data:
         tour["photo_urls"] = [tour["photo_urls"]]
 
 tours = [Tour(**tour) for tour in tours_data]
-df = pd.DataFrame([tour.model_dump() for tour in tours])
+df = pd.DataFrame([tour.dict() for tour in tours])  # Adjust for new FastAPI model
 
 # Distance calculation
 def haversine(lat1, lon1, lat2, lon2):
@@ -61,19 +61,23 @@ def haversine(lat1, lon1, lat2, lon2):
     a = math.sin(dphi / 2)**2 + math.cos(phi1) * math.cos(phi2) * math.sin(dlambda / 2)**2
     return R * (2 * math.atan2(math.sqrt(a), math.sqrt(1 - a)))
 
-# Tag similarity
+# Tag similarity (Handle cases when there are no tags)
 def compute_tag_overlap_score(tags1, tags2):
     set1, set2 = set(tags1), set(tags2)
     if not set1 or not set2:
-        return 0.0
+        return 0.0  # Return 0 if either set is empty (no tags)
     return len(set1 & set2) / len(set1 | set2)
 
 # Main endpoint
 @app.post("/recommend")
 def recommend(req: RecommendRequest):
+    # If no tags are provided, treat as empty list
+    if req.tags is None:
+        req.tags = []
+
     # Prepare combined text for TF-IDF
     df['combined_text'] = df['name'] + " " + df['description'] + " " + df['tags'].apply(lambda x: " ".join(x))
-    target_text = f"{req.name} {req.description} {' '.join(req.tags)}"
+    target_text = f"{req.name} {req.description} {' '.join(req.tags)}"  # Handle empty tags in the target
 
     tfidf = TfidfVectorizer(stop_words="english")
     tfidf_matrix = tfidf.fit_transform([target_text] + df['combined_text'].tolist())
@@ -90,8 +94,11 @@ def recommend(req: RecommendRequest):
     )
     proximity_scores = 1 - (distances - distances.min()) / (distances.max() - distances.min())
 
-    # Tag overlap score
-    tag_scores = df['tags'].apply(lambda tags: compute_tag_overlap_score(req.tags, tags))
+    # Tag overlap score (only calculate if tags exist)
+    if req.tags:
+        tag_scores = df['tags'].apply(lambda tags: compute_tag_overlap_score(req.tags, tags))
+    else:
+        tag_scores = pd.Series([1.0] * len(df))  # Assign full score if no tags are provided
 
     # Combine scores
     combined_scores = req.alpha * semantic_scores + (1 - req.alpha) * proximity_scores + 0.2 * tag_scores
