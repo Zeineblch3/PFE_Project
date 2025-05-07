@@ -49,7 +49,7 @@ const AI: React.FC<AIProps> = ({ onClose, recommendations }) => {
           {/* Image */}
           <div className="w-full h-56 bg-gray-700 rounded-xl overflow-hidden shadow-inner">
             <img
-              src={recommendations[currentIndex].photo_url}
+              src={recommendations[currentIndex].photo_urls}
               alt={recommendations[currentIndex].name}
               className="w-full h-full object-cover"
             />
