@@ -15,7 +15,7 @@
       "description": "Explore iconic landmarks of New York City: Times Square, Central Park, the Statue of Liberty, and more. Experience the vibrant streets, skyline views, and cultural heartbeat of America's most famous metropolis.",
       "latitude": 40.748817,
       "longitude": -73.985428,
-      "tags": ["urban", "landmarks", "culture", "skyline", "metropolis", "USA"],
+      "tags": ["urban", "skyline", "metropolis", "USA"],
       "photo_urls": "https://images.pexels.com/photos/2190283/pexels-photo-2190283.jpeg",
       "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g60763-d17533937-Highlights_of_Manhattan_Luxury_Bus_Tour-New_York_City_New_York.html"
     },
@@ -31,13 +31,12 @@
     },
     {
       "id": 9,
-      "name": "Shanghai Architecture, Riverside Culture Walk",
-      "description": "Stroll along the historic Bund and admire Shanghai’s skyline where colonial facades meet futuristic towers. Explore local street food, traditional tea houses, and riverfront art galleries in this fusion of old and new China.",
-      "latitude": 31.2304,
+      "name": "Singapore Riverfront, Marina Bay Discovery",
+      "description": "Explore Marina Bay’s skyline and riverside charm. Visit Marina Bay Sands, stroll the Esplanade, and enjoy Singapore’s vibrant fusion of modern design and local culture.",      "latitude": 31.2304,
       "longitude": 121.4737,
-      "tags": ["urban", "riverside", "architecture", "China", "skyline", "cultural fusion"],
-      "photo_urls": "https://chine365.fr/images/2000x1300/shanghai-architecture-moderne.jpg",
-      "tripAdvisor_link": "https://www.tripadvisor.com/Attraction_Review-g308272-d1979523-Reviews-Bund_International_Architecture_Exhibition-Shanghai.html"
+      "tags": ["urban", "city tour", "modern landmarks", "Singapore", "skyline", "cultural fusion"],
+      "photo_urls": "https://media.cnn.com/api/v1/images/stellar/prod/220920120539-09-moshe-safdie-architect-marina-bay-sands-restricted.jpg?q=w_1110,c_fill",
+      "tripAdvisor_link": "https://www.tripadvisor.com/Hotel_Review-g294265-d300855-Reviews-PARKROYAL_COLLECTION_Marina_Bay_Singapore-Singapore.html"
     },
     {
       "id": 10,
@@ -52,7 +51,7 @@
     {
       "id": 11,
       "name": "Iceland Golden Circle Tour",
-      "description": "See geysers, waterfalls, Witness the magical dance of the Northern Lights as they illuminate the arctic sky — a paradise for those who seek nature’s raw, untouched beauty.",
+      "description": "See geysers, waterfalls, Witness the magical dance of the Northern Lights as they illuminate the arctic sky, a paradise for those who seek nature raw, untouched beauty.",
       "latitude": 64.126521,
       "longitude": -21.817439,
       "tags": ["northern lights", "nature", "Iceland", "scenic", "waterfalls"],
@@ -162,7 +161,7 @@
     {
       "id": 22,
       "name": "Argentina ,Culture Tour",
-      "description": "Experience the heart of Argentina’s culture with a guided tour through Buenos Aires' vibrant neighborhoods.",
+      "description": "Experience the heart of Argentina culture with a guided tour through Buenos Aires' vibrant neighborhoods.",
       "latitude": -34.603684,
       "longitude": -58.381559,
       "tags": ["cultural", "urban", "city tour", "South America"],
@@ -175,7 +174,7 @@
       "description": "Visit the Gyeongbokgung Palace and Bukchon Hanok Village, then explore Seoul’s modern shopping districts.",
       "latitude": 37.566535,
       "longitude": 126.977969,
-      "tags": ["cultural", "urban", "historical site", "Asia"],
+      "tags": ["Korea", "city tour","urban", "modern landmarks","cultural heritage"],
       "photo_urls": "https://w0.peakpx.com/wallpaper/47/522/HD-wallpaper-seoul-skyscrapers-sunset-modern-buildings-south-korea-houses-streets.jpg",
       "tripAdvisor_link": "https://www.tripadvisor.com/AttractionProductReview-g294197-d11454649-Seoul_City_Sightseeing_Tour_Including_Gyeongbokgung_Palace_N_Seoul_Tower_and_Namsa.html"
     },
@@ -232,7 +231,7 @@
     {
       "id": 29,
       "name": "Rio de Janeiro City Tour",
-      "description": "Visit Christ the Redeemer, Sugarloaf Mountain, and Copacabana Beach. Experience Rio’s vibrant culture.",
+      "description": "Visit Christ the Redeemer, Sugarloaf Mountain, and Copacabana Beach. Experience Rio vibrant culture.",
       "latitude": -22.911014,
       "longitude": -43.209373,
       "tags": ["cultural", "tropical", "urban", "South America"],
@@ -242,7 +241,7 @@
     {
       "id": 30,
       "name": "Venice Gondola, Canals Tour",
-      "description": "Take a romantic gondola ride through Venice’s canals and visit St. Mark’s Square. Includes gelato tasting.",
+      "description": "Take a romantic gondola ride through Venice canals and visit St. Mark Square. Includes gelato tasting.",
       "latitude": 45.434336,
       "longitude": 12.338785,
       "tags": ["romantic", "coast", "boat tour", "Europe", "historical site"],
@@ -262,7 +261,7 @@
     {
       "id": 33,
       "name": "Petronas Twin Towers Night Tour",
-      "description": "Marvel at the iconic Petronas Twin Towers glowing against the Kuala Lumpur skyline. Walk the skybridge, capture unforgettable photos, and feel the pulse of Malaysia’s modern heartbeat.",
+      "description": "Marvel at the iconic Petronas Twin Towers glowing against the Kuala Lumpur skyline. Walk the skybridge, capture unforgettable photos, and feel the pulse of Malaysia modern heartbeat.",
       "latitude": 3.1579,
       "longitude": 101.7111,
       "tags": ["Kuala Lumpur", "Petronas Towers", "night tour", "skyline", "modern landmarks"],
@@ -272,7 +271,7 @@
     {
       "id": 34,
       "name": "Langkawi Island Nature Escape",
-      "description": "Relax on the white sand beaches of Langkawi, surrounded by emerald waters and ancient rainforests. Take a cable car up Gunung Mat Cincang and feel deeply connected to the island’s untamed beauty.",
+      "description": "Relax on the white sand beaches of Langkawi, surrounded by emerald waters and ancient rainforests. Take a cable car up Gunung Mat Cincang and feel deeply connected to the island untamed beauty.",
       "latitude": 6.35,
       "longitude": 99.8,
       "tags": ["rainforest", "jungle", "nature", "eco-tourism", "island", "adventure", "beaches"],
@@ -422,7 +421,7 @@
       {
         "id": 51,
         "name": "Bali: Ubud Yoga Retreat, Waterfall Healing",
-        "description": "Practice yoga in Ubud’s rice fields. Experience sound healing, waterfall blessings, and bamboo forest serenity.",
+        "description": "Practice yoga in Ubud rice fields. Experience sound healing, waterfall blessings, and bamboo forest serenity.",
         "latitude": -8.5069,
         "longitude": 115.2625,
         "tags": ["rainforest", "healing", "nature", "spiritual", "retreat", "eco-tourism", "jungle"],
@@ -432,7 +431,7 @@
       {
         "id": 52,
         "name": "Tunisia: El Jem Roman Amphitheatre Tour",
-        "description": "Visit the El Jem Colosseum, Africa’s answer to Rome. This UNESCO Roman amphitheatre echoes the grandeur of the Colosseum, with vast arches, underground gladiator tunnels, and preserved Roman architecture.",
+        "description": "Visit the El Jem Colosseum, Africa answer to Rome. This UNESCO Roman amphitheatre echoes the grandeur of the Colosseum, with vast arches, underground gladiator tunnels, and preserved Roman architecture.",
         "latitude": 35.2967,
         "longitude": 10.7109,
         "tags": ["history", "UNESCO", "Roman", "architecture", "ancient", "archaeology"],
@@ -552,7 +551,7 @@
         {
           "id": 65,
           "name": "Mauritius Seven-Colored Earths",
-          "description": "Visit Chamarel’s multi-colored sand dunes and lush waterfalls. Explore volcanic geology and tropical rainforest on this island retreat.",
+          "description": "Visit Chamarel’s multi colored sand dunes and lush waterfalls. Explore volcanic geology and tropical rainforest on this island retreat.",
           "latitude": -20.4406,
           "longitude": 57.3836,
           "tags": ["geological", "colorful", "spiritual", "rainforest", "island", "tranquil"],
@@ -572,7 +571,7 @@
         {
           "id": 67,
           "name": "Fiji Turquoise Waters, Coral Reefs",
-          "description": "Swim in Fiji’s crystal-clear lagoons, snorkel vibrant coral gardens, and relax on powder-white beaches surrounded by tropical beauty.",
+          "description": "Swim in Fiji crystal-clear lagoons, snorkel vibrant coral gardens, and relax on powder-white beaches surrounded by tropical beauty.",
           "latitude": -17.7920,
           "longitude": 177.9767,
           "tags": ["romantic", "snorkeling", "tropical", "relaxation", "blue-lagoon", "island-vibes"],
@@ -585,7 +584,7 @@
           "description": "Stroll the Bund along the Huangpu River, flanked by colonial buildings and the futuristic skyline of Shanghai, including the Oriental Pearl Tower.",
           "latitude": 31.2304,
           "longitude": 121.4737,
-          "tags": ["urban", "modern", "cultural-contrast", "futuristic", "iconic", "vibrant"],
+          "tags": ["china", "city tour","urban", "modern landmarks","cultural heritage"],
           "photo_urls": "https://www.asiaodysseytravel.com/images/china-tours/group-tours/the-bund-700-9.jpg",
           "tripAdvisor_link": "https://www.tripadvisor.com/Tourism-g308272-Shanghai-Vacations.html"
         },
@@ -712,7 +711,7 @@
       {
           "id": 81,
           "name": "Swiss Alps Jungfraujoch: Alpine Glacier and Ice Cave Adventure",
-          "description": "Embark on a scenic journey aboard Europe’s highest railway to Jungfraujoch, Europe's highest railway, with panoramic views of the Swiss Alps, ice caves, and Aletsch Glacier.",
+          "description": "Embark on a scenic journey aboard Europe highest railway to Jungfraujoch, Europe highest railway, with panoramic views of the Swiss Alps, ice caves, and Aletsch Glacier.",
           "latitude": 46.5367,
           "longitude": 7.9623,
           "tags": ["glacier", "ice cave", "mountain views", "rail journey", "Europe", "adventure"],
@@ -732,7 +731,7 @@
       {
           "id": 83,
           "name": "Yellowstone Wildlife and Geysers Safari",
-          "description": "Discover Yellowstone’s wildlife, including bison, wolves, and grizzly bears. Witness the eruptions of Old Faithful and explore the colorful hot springs in this immersive national park safari.",
+          "description": "Discover Yellowstone wildlife, including bison, wolves, and grizzly bears. Witness the eruptions of Old Faithful and explore the colorful hot springs in this immersive national park safari.",
           "latitude": 44.4280,
           "longitude": -110.5885,
           "tags": ["geysers", "wildlife", "national park", "safari", "North America", "photography"],
@@ -752,7 +751,7 @@
       {
           "id": 85,
           "name": "San Francisco Golden Gate",
-          "description": "Cycle across the iconic Golden Gate Bridge, visit the historic Alcatraz Island, and explore its prison, then enjoy fresh seafood at Fisherman’s Wharf.",
+          "description": "Cycle across the iconic Golden Gate Bridge, visit the historic Alcatraz Island, and explore its prison, then enjoy fresh seafood at Fisherman Wharf.",
           "latitude": 37.7749,
           "longitude": -122.4194,
           "tags": ["cityscape", "bridge", "urban adventure", "USA", "cycling", "coastal"],
@@ -802,7 +801,7 @@
       {
           "id": 90,
           "name": "Copenhagen Canals",
-          "description": "Stroll along Copenhagen’s colorful Nyhavn harbor, explore Viking heritage sites, and enjoy Danish pastries in local bakeries.",
+          "description": "Stroll along Copenhagen colorful Nyhavn harbor, explore Viking heritage sites, and enjoy Danish pastries in local bakeries.",
           "latitude": 10.3158,
           "longitude": -84.8207,
           "tags": ["canals", "harbor", "heritage", "Europe", "bakeries", "colorful"],
@@ -822,7 +821,7 @@
       {
         "id": 92,
         "name": "Santorini Sunset Catamaran Cruise",
-        "description": "Sail along Santorini’s caldera on a luxury catamaran. Swim in volcanic hot springs and enjoy a Mediterranean dinner as the sun sets over whitewashed cliffs.",
+        "description": "Sail along Santorini caldera on a luxury catamaran. Swim in volcanic hot springs and enjoy a Mediterranean dinner as the sun sets over whitewashed cliffs.",
         "latitude": 36.3932,
         "longitude": 25.4615,
         "tags": ["sunset", "luxury cruise", "Mediterranean", "adventure", "sea", "romantic"],
@@ -852,7 +851,7 @@
       {
           "id": 95,
           "name": "Reykjavik Blue Lagoon and Northern Lights",
-          "description": "Soak in Iceland’s Blue Lagoon, surrounded by lava rock and steam. At night, chase the aurora borealis through Reykjavik’s wild Arctic landscapes.",
+          "description": "Soak in Iceland Blue Lagoon, surrounded by lava rock and steam. At night, chase the aurora borealis through Reykjavik wild Arctic landscapes.",
           "latitude": 64.1466,
           "longitude": -21.9426,
           "tags": ["Blue Lagoon", "Northern Lights", "Arctic", "nature"],
@@ -952,7 +951,7 @@
       {
         "id": 106,
         "name": "Cartagena Old City & Caribbean Forts",
-        "description": "Wander colorful colonial streets and massive stone fortresses in Cartagena, Colombia’s sun-kissed Caribbean jewel rich with history and tropical charm.",
+        "description": "Wander colorful colonial streets and massive stone fortresses in Cartagena, Colombia sun-kissed Caribbean jewel rich with history and tropical charm.",
         "latitude": 10.3910,
         "longitude": -75.4794,
         "tags": ["coastal", "colonial", "history", "Caribbean", "vibrant"],
@@ -962,7 +961,7 @@
       {
         "id": 107,
         "name": "Valley of the Kings, Luxor",
-        "description": "Walk beneath towering cliffs into tombs of pharaohs like Tutankhamun and Ramses, where hieroglyphs and mysteries linger in Egypt’s eternal sands.",
+        "description": "Walk beneath towering cliffs into tombs of pharaohs like Tutankhamun and Ramses, where hieroglyphs and mysteries linger in Egypt eternal sands.",
         "latitude": 25.7402,
         "longitude": 32.6014,
         "tags": ["ancient", "history", "Egypt","sahara", "archaeology", "desert", "sacred"],
@@ -972,7 +971,7 @@
       {
         "id": 108,
         "name": "Isle of Skye: Fairy Pools Hike",
-        "description": "Hike through misty mountains and crystal pools on Scotland’s Isle of Skye, where legends breathe among waterfalls and rocky peaks.",
+        "description": "Hike through misty mountains and crystal pools on Scotland Isle of Skye, where legends breathe among waterfalls and rocky peaks.",
         "latitude": 57.4115,
         "longitude": -6.2527,
         "tags": ["nature", "hiking", "island", "mythical", "waterfalls", "Scotland"],
@@ -982,7 +981,7 @@
       {
         "id": 109,
         "name": "Bali Rice Terraces, Temple Tour",
-        "description": "Wander the emerald tiers of Bali’s Tegallalang Rice Terraces and offer prayers at the water temples, feeling the deep spiritual rhythm of island life.",
+        "description": "Wander the emerald tiers of Bali Tegallalang Rice Terraces and offer prayers at the water temples, feeling the deep spiritual rhythm of island life.",
         "latitude": -8.4095,
         "longitude": 115.1889,
         "tags": ["spiritual","history", "nature", "rice terraces", "Bali", "culture", "photography"],
@@ -1001,7 +1000,7 @@
       },
       {
         "id": 111,
-        "name": "The Dolomites: Italy’s Skyward Cathedrals",
+        "name": "The Dolomites: Italy Skyward Cathedrals",
         "description": "Hike through the soaring limestone spires of the Dolomites, where mountains rise like prayers and valleys hum with wildflowers.",
         "latitude": 46.4983,
         "longitude": 11.3548,
@@ -1011,7 +1010,7 @@
       },
       {
         "id": 112,
-        "name": "Plitvice Lakes: Croatia’s Waterfall Wonderland",
+        "name": "Plitvice Lakes: Croatia Waterfall Wonderland",
         "description": "Walk wooden paths above crystal lakes and roaring waterfalls, where every step is a symphony of water, moss, and emerald dreams.",
         "latitude": 44.8805,
         "longitude": 15.6169,
@@ -1021,7 +1020,7 @@
       },
       {
         "id": 113,
-        "name": "Mount Roraima: Venezuela’s Lost World",
+        "name": "Mount Roraima: Venezuela Lost World",
         "description": "Climb the towering tabletop of Roraima, where clouds drift beneath your feet and ancient landscapes whisper secrets untouched by time.",
         "latitude": 5.1412,
         "longitude": -60.7636,
@@ -1041,7 +1040,7 @@
       },
       {
         "id": 115,
-        "name": "New York’s Times Square: The City That Never Sleeps",
+        "name": "New York Times Square: The City That Never Sleeps",
         "description": "Feel the electric energy of New York at Times Square, where bright billboards, Broadway lights, and the rush of people create a world of its own.",
         "latitude": 40.7580,
         "longitude": -73.9855,
@@ -1092,7 +1091,7 @@
       {
         "id": 120,
         "name": "Istanbul: Hagia Sophia and Byzantine Empire Tour",
-        "description": "Journey through Istanbul’s layered past with a tour of the Hagia Sophia. Once a Roman cathedral, then a mosque, this architectural wonder bridges empires and faiths with Byzantine mosaics and Islamic calligraphy.",
+        "description": "Journey through Istanbul layered past with a tour of the Hagia Sophia. Once a Roman cathedral, then a mosque, this architectural wonder bridges empires and faiths with Byzantine mosaics and Islamic calligraphy.",
         "latitude": 41.0086,
         "longitude": 28.9802,
         "tags": ["Byzantine", "history", "Christian", "Islamic", "architecture"],
@@ -1101,8 +1100,8 @@
       },
       {
         "id": 121,
-        "name": "Split: Diocletian’s Palace Walk",
-        "description": "Uncover Roman imperial architecture in Croatia with a tour of Diocletian’s Palace. Once a fortress-residence for a Roman emperor, it now pulses with life, shops, and layered stone secrets.",
+        "name": "Split: Diocletian Palace Walk",
+        "description": "Uncover Roman imperial architecture in Croatia with a tour of Diocletian Palace. Once a fortress-residence for a Roman emperor, it now pulses with life, shops, and layered stone secrets.",
         "latitude": 43.5081,
         "longitude": 16.4402,
         "tags": ["Roman", "Croatia", "architecture", "imperial", "history"],
@@ -1111,9 +1110,8 @@
       },
       {
         "id": 122,
-        "name": "Hadrian’s Villa and Villa d'Este Tour",
-        "description": "Explore the grand Hadrian’s Villa, a vast Roman complex that showcases the imperial architecture of ancient Rome. Then visit the beautiful Villa d'Este, renowned for its Renaissance fountains and gardens.",
-        "latitude": 41.9576,
+        "name": "Hadrian Villa and Villa d'Este Tour",
+        "description": "Wander Hadrian’s Villa, a vast Roman imperial retreat, then marvel at Villa d’Este’s Renaissance fountains and lush gardens.",        "latitude": 41.9576,
         "longitude": 12.7923,
         "tags": ["ancient", "history", "empire", "Rome", "architecture", "Hadrian", "gardens"],
         "photo_urls": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/06/70/0e/d9.jpg",
@@ -1122,7 +1120,7 @@
       {
         "id": 123,
         "name": "Okinawa: Coral Coast Snorkeling, Island Retreat",
-        "description": "Discover Okinawa’s vibrant coral reefs with guided snorkeling tours, relax on white sandy beaches, and unwind in luxurious seaside resorts steeped in Ryukyu culture.",
+        "description": "Discover Okinawa vibrant coral reefs with guided snorkeling tours, relax on white sandy beaches, and unwind in luxurious seaside resorts steeped in Ryukyu culture.",
         "latitude": 26.3344,
         "longitude": 127.8056,
         "tags": ["snorkeling", "coral reef", "tropical", "island", "luxury", "beach", "Ryukyu culture"],
@@ -1172,7 +1170,7 @@
       {
         "id": 129,
         "name": "Okavango Delta: Water Safari in Botswana",
-        "description": "Glide through the lush channels of the Okavango Delta in a traditional mokoro canoe, spotting hippos, elephants, and exotic birds in one of Africa’s most pristine ecosystems.",
+        "description": "Glide through the lush channels of the Okavango Delta in a traditional mokoro canoe, spotting hippos, elephants, and exotic birds in one of Africa most pristine ecosystems.",
         "latitude": -19.5000,
         "longitude": 22.9000,
         "tags": ["Okavango Delta", "Botswana", "safari", "wildlife", "wetlands"],

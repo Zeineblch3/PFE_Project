@@ -101,8 +101,19 @@ def recommend(req: RecommendRequest):
         tag_scores = pd.Series([1.0] * len(df))  # Assign full score if no tags are provided
 
     # Combine scores
-    combined_scores = req.alpha * semantic_scores + (1 - req.alpha) * proximity_scores + 0.2 * tag_scores
+    # Combine scores using fixed intuitive weights
+    semantic_weight = 0.75
+    proximity_weight = 0.10
+    tag_weight = 0.15
+
+
+    combined_scores = (
+        semantic_weight * semantic_scores +
+        proximity_weight * proximity_scores +
+        tag_weight * tag_scores
+    )
     df['score'] = combined_scores
+
 
     top_results = df.sort_values(by='score', ascending=False).head(req.top_n)
     return top_results.to_dict(orient='records')
