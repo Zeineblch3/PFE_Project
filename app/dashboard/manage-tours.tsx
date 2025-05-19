@@ -6,16 +6,15 @@ import TourSearch from './tourSearch';
 import * as tourService from '../Services/tourService';
 import Export from './Export';
 
-// URL validation helper function
 const isValidUrl = (url: string) => {
-    const trimmedUrl = url.trim(); // Remove leading/trailing whitespace
+    const trimmedUrl = url.trim();
     const regex = /^(https?:\/\/)?([a-z0-9]+(-[a-z0-9]+)*\.)+[a-z]{2,}(:\d+)?(\/.*)?$/i;
     return regex.test(trimmedUrl);
 };
 
 export default function ManageTours() {
     const [tours, setTours] = useState<any[]>([]);
-    const [selectedTours, setSelectedTours] = useState<Set<string>>(new Set()); // Track selected tours
+    const [selectedTours, setSelectedTours] = useState<Set<string>>(new Set()); 
 
     const [showModal, setShowModal] = useState<boolean>(false);
     const [isEditing, setIsEditing] = useState<boolean>(false);
@@ -25,7 +24,7 @@ export default function ManageTours() {
     const [description, setDescription] = useState('');
     const [latitude, setLatitude] = useState<number | string>(''); 
     const [longitude, setLongitude] = useState<number | string>(''); 
-    const [photoUrls, setPhotoUrls] = useState<string[]>([]); // Changed to an array
+    const [photoUrls, setPhotoUrls] = useState<string[]>([]); 
     const [price, setPrice] = useState<number | string>(''); 
     const [tripAdvisor_link, setTripAdvisor_link] = useState('');
     const [book_link, setBook_link] = useState('');
@@ -52,7 +51,7 @@ export default function ManageTours() {
     const openAddModal = () => {
         setShowModal(true);
         setIsEditing(false);
-        setPhotoUrls([]); // Reset photoUrls when adding a new tour
+        setPhotoUrls([]); 
     };
 
     const openEditModal = (tour: any) => {
@@ -63,7 +62,7 @@ export default function ManageTours() {
         setDescription(tour.description);
         setLatitude(tour.latitude);
         setLongitude(tour.longitude);
-        setPhotoUrls(tour.photo_urls || []); // Set the existing photo URLs
+        setPhotoUrls(tour.photo_urls || []); 
         setPrice(tour.price);
         setTripAdvisor_link(tour.tripAdvisor_link || '');
         setBook_link(tour.book_link || '');
@@ -81,7 +80,7 @@ export default function ManageTours() {
         setDescription('');
         setLatitude('');
         setLongitude('');
-        setPhotoUrls([]); // Clear the photo URLs array
+        setPhotoUrls([]); 
         setPrice('');
         setTripAdvisor_link('');
         setPhotoUrlError('');
@@ -215,14 +214,13 @@ export default function ManageTours() {
                 'This tour is linked to existing tour events.\n\nPlease delete the related events before deleting this tour.'
             );
         } else {
-            // Log to console in dev only, silently fail in prod
             if (process.env.NODE_ENV === 'development') {
                 console.warn('Unexpected error while deleting tour:', error.message || error);
             }
             window.alert('Could not delete the tour. Please try again later.');
         }
 
-        return; // Prevent propagation
+        return; 
     }
 
     fetchTours();
@@ -238,12 +236,10 @@ export default function ManageTours() {
     };
       
       
-    // Add new photo URL to the list
     const addPhotoUrl = () => {
-        setPhotoUrls([...photoUrls, '']); // Add an empty string for a new URL
+        setPhotoUrls([...photoUrls, '']); 
     };
 
-    // Handle checkbox selection
     const handleCheckboxChange = (tourId: string) => {
         setSelectedTours((prev) => {
             const newSelectedTours = new Set(prev);
@@ -279,9 +275,9 @@ export default function ManageTours() {
             </button>
             <div className="flex justify-end">
                 <Export
-                    data={tours.filter((tour) => selectedTours.has(tour.id))} // Filter selected tours
-                    columns={tourColumns} // Pass the columns to be exported
-                    fileName="Selected_Tours" // Customize the file name
+                    data={tours.filter((tour) => selectedTours.has(tour.id))} 
+                    columns={tourColumns} 
+                    fileName="Selected_Tours" 
                     className="p-2 bg-black text-white rounded flex items-center"
                 />
             </div>

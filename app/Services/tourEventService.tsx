@@ -1,7 +1,6 @@
 import { supabase } from "@/lib/supbase";
 import { Tourist } from "../dashboard/tourEvents";
 
-// Fetch Tour Events
 export const fetchTourEvents = async () => {
   const { data, error } = await supabase
     .from("tour_events")
@@ -14,14 +13,12 @@ export const fetchTourEvents = async () => {
 
   return data.map((event) => ({
     ...event,
-    tours: Array.isArray(event.tours) ? event.tours[0] : event.tours, // Ensure tours is a single object
+    tours: Array.isArray(event.tours) ? event.tours[0] : event.tours,
   }));
 };
 
-// Fetch Tour Event by ID
 export const fetchTourEventById = async (eventId: string) => {
   try {
-    // Fetch the event details, including the tour (but not tourists yet)
     const { data: eventData, error: eventError } = await supabase
       .from("tour_events")
       .select(`
@@ -40,21 +37,19 @@ export const fetchTourEventById = async (eventId: string) => {
       throw new Error("Failed to fetch event: " + eventError.message);
     }
 
-    // Fetch tourists linked directly to this event from the tourist table
     const { data: touristData, error: touristError } = await supabase
       .from("tourists")
       .select("id, name, email, country, notes")
-      .eq("tour_event_id", eventId); // Assuming the `tour_event_id` column exists in the `tourists` table
+      .eq("tour_event_id", eventId); 
 
     if (touristError) {
       throw new Error("Failed to fetch tourists: " + touristError.message);
     }
 
-    // Combine the event and tourists data
     return {
       ...eventData,
       tours: eventData.tours ? (Array.isArray(eventData.tours) ? eventData.tours[0] : eventData.tours) : null,
-      tourists: touristData || [], // Include the fetched tourists data
+      tourists: touristData || [], 
     };
   } catch (error) {
     console.error("Error fetching tour event details:", error);
@@ -62,7 +57,6 @@ export const fetchTourEventById = async (eventId: string) => {
   }
 };
 
-// Archive Tour Event
 export const archiveTourEvent = async (eventId: string) => {
   const { error } = await supabase
     .from("tour_events")
@@ -76,7 +70,6 @@ export const archiveTourEvent = async (eventId: string) => {
   return { success: true };
 };
 
-// Unarchive Tour Event
 export const unarchiveTourEvent = async (eventId: string) => {
   const { error } = await supabase
     .from("tour_events")
@@ -90,10 +83,8 @@ export const unarchiveTourEvent = async (eventId: string) => {
   return { success: true, message: "Tour event unarchived successfully" };
 };
 
-// Update Tour Event Tourists ONLY
 export const updateTourEventTourist = async (eventId: string, tourists: Tourist[]) => {
   try {
-    // Assuming 'tourists' contains 'id', we want to update existing tourists and upsert new ones
     const { success, message } = await saveTourists(tourists, eventId);
     if (!success) {
       return { success: false, message };
@@ -107,7 +98,6 @@ export const updateTourEventTourist = async (eventId: string, tourists: Tourist[
 };
 
 
-// Create the Tour Event
 export const createTourEvent = async (eventName: string, dateFrom: string, dateTo: string, selectedTour: string | null, tourists: Tourist[]) => {
   const { data: eventData, error: eventError } = await supabase
     .from("tour_events")
@@ -126,18 +116,15 @@ export const createTourEvent = async (eventName: string, dateFrom: string, dateT
     return { success: false, message: "Error creating tour event." };
   }
 
-  // Save tourists and link them to the created event
   const { success, message } = await saveTourists(tourists, eventData[0].id);
   if (!success) {
     return { success: false, message };
   }
 
-  return { success: true, eventId: eventData[0].id }; // Return event ID for further processing
+  return { success: true, eventId: eventData[0].id }; 
 };
 
-// Save Tourists
 export const saveTourists = async (tourists: Tourist[], eventId: string) => {
-  // Fetch existing tourists for this event
   const { data: existingTourists, error: existingTouristsError } = await supabase
     .from("tourists")
     .select("id")
@@ -148,22 +135,18 @@ export const saveTourists = async (tourists: Tourist[], eventId: string) => {
     return { success: false, message: "Error fetching existing tourists." };
   }
 
-  // Filter out tourists that are already associated with this event
   const existingTouristIds = existingTourists.map((tourist: any) => tourist.id);
 
-  // Check which tourists need to be updated (those with matching `id`)
   const touristsToUpdate = tourists.filter((tourist) => existingTouristIds.includes(tourist.id));
   
-  // Check which tourists are new (those without `id` or not present in existing tourists)
   const touristsToAdd = tourists.filter((tourist) => !existingTouristIds.includes(tourist.id));
 
-  // First, upsert new tourists
   if (touristsToAdd.length > 0) {
     const { data: touristsData, error: touristsError } = await supabase
       .from("tourists")
       .upsert(
         touristsToAdd.map((tourist) => ({
-          ...(tourist.id ? { id: tourist.id } : {}), // Include ID only if it exists
+          ...(tourist.id ? { id: tourist.id } : {}), 
           name: tourist.name,
           email: tourist.email,
           country: tourist.country,
@@ -179,13 +162,12 @@ export const saveTourists = async (tourists: Tourist[], eventId: string) => {
     }
   }
 
-  // Then, update existing tourists' fields
   if (touristsToUpdate.length > 0) {
     const { data: updatedTourists, error: updateError } = await supabase
       .from("tourists")
       .upsert(
         touristsToUpdate.map((tourist) => ({
-          id: tourist.id, // Ensure `id` is included for updates
+          id: tourist.id, 
           name: tourist.name,
           email: tourist.email,
           country: tourist.country,
@@ -206,7 +188,6 @@ export const saveTourists = async (tourists: Tourist[], eventId: string) => {
 
 
 
-// Link Tourists to the Event (this step is now redundant with the direct `tour_event_id` in the tourists table, but keeping it for reference)
 export const linkTouristsToEvent = async (eventId: string, touristsData: any[]) => {
   const touristLinks = touristsData.map((tourist) => ({
     tour_event_id: eventId,
@@ -238,7 +219,6 @@ export const deleteTourist = async (touristId: string) => {
 
 export const deleteTourEventWithTourists = async (eventId: string) => {
   try {
-    // First delete tourists linked to this event
     const { error: touristError } = await supabase
       .from("tourists")
       .delete()
@@ -248,7 +228,6 @@ export const deleteTourEventWithTourists = async (eventId: string) => {
       throw new Error("Failed to delete linked tourists: " + touristError.message);
     }
 
-    // Then delete the event itself
     const { error: eventError } = await supabase
       .from("tour_events")
       .delete()

@@ -8,7 +8,7 @@ import { Canvas } from '@react-three/fiber';
 import Stars from './Stars';
 import { X } from 'lucide-react';
 import { FaGlobe } from 'react-icons/fa';
-import AIModal from '../components/AI'; // Adjust the path if different
+import AIModal from '../components/AI'; 
 
 const GlobePage: React.FC = () => {
   const controlsRef = useRef(null);

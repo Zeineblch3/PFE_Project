@@ -11,8 +11,8 @@ interface ColumnDefinition {
 }
 
 interface ExportProps {
-  data: any[]; // the data to export
-  columns: ColumnDefinition[]; // define which columns (key and header) to export
+  data: any[]; 
+  columns: ColumnDefinition[]; 
   fileName: string;
   className?: string;
 }
@@ -22,7 +22,6 @@ const Export: React.FC<ExportProps> = ({ data, columns, fileName, className }) =
   const [exportType, setExportType] = useState<'csv' | 'pdf' | null>(null);
 
   const handleExportCSV = () => {
-    // Map data using the provided columns
     const exportData = data.map((item) => {
       const mapped: any = {};
       columns.forEach((col) => {
@@ -40,10 +39,8 @@ const Export: React.FC<ExportProps> = ({ data, columns, fileName, className }) =
   };
 
   const handleExportPDF = () => {
-    // Use landscape for more horizontal space
     const doc = new jsPDF({ orientation: 'landscape' });
   
-    // Prepare columns and rows
     const tableColumn = columns.map(col => col.label);
     const tableRows = data.map(item =>
       columns.map(col => {
@@ -54,11 +51,9 @@ const Export: React.FC<ExportProps> = ({ data, columns, fileName, className }) =
       })
     );
   
-    // Title
     doc.setFontSize(12);
     doc.text(`${fileName} Export`, 14, 15);
   
-    // Table with controlled column widths
     autoTable(doc, {
       head: [tableColumn],
       body: tableRows,
@@ -66,7 +61,7 @@ const Export: React.FC<ExportProps> = ({ data, columns, fileName, className }) =
       styles: {
         fontSize: 8,
         cellPadding: 2,
-        overflow: 'linebreak', // Break lines when necessary
+        overflow: 'linebreak', 
       },
       headStyles: {
         fillColor: [0, 0, 0],
@@ -76,19 +71,17 @@ const Export: React.FC<ExportProps> = ({ data, columns, fileName, className }) =
       alternateRowStyles: { fillColor: [245, 245, 245] },
       margin: { top: 20, left: 14, right: 14 },
   
-      // Custom column widths
       columnStyles: {
-        0: { cellWidth: 20 }, // Name column width
-        1: { cellWidth: 50 }, // Description column width
-        2: { cellWidth: 20 }, // Price column width
-        3: { cellWidth: 50 }, // Link column width
+        0: { cellWidth: 20 },
+        1: { cellWidth: 50 }, 
+        2: { cellWidth: 20 }, 
+        3: { cellWidth: 50 }, 
         4: { cellWidth: 20 },
         5: { cellWidth: 20 },
         6: { cellWidth: 20 },
         7: { cellWidth: 20 },
       },
   
-      // Automatically adjust table width to fit within the page
       tableWidth: 'auto',
     });
   
@@ -100,7 +93,7 @@ const Export: React.FC<ExportProps> = ({ data, columns, fileName, className }) =
 
   const handleExportClick = (type: 'csv' | 'pdf') => {
     setExportType(type);
-    setDropdownOpen(false); // Close the dropdown after selection
+    setDropdownOpen(false);
     if (type === 'csv') {
       handleExportCSV();
     } else if (type === 'pdf') {

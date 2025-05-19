@@ -14,7 +14,6 @@ const ResetPassword = () => {
   const router = useRouter();
 
   useEffect(() => {
-    // Get the URL query parameters
     const urlParams = new URLSearchParams(window.location.search);
     const token = urlParams.get('access_token');
     const expiresAt = urlParams.get('expires_at');

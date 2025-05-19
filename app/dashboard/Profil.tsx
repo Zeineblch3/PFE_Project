@@ -1,21 +1,21 @@
 'use client';
 
 import React, { useEffect, useState } from 'react';
-import { supabase } from '@/lib/supbase'; // Ensure the path is correct for your Supabase client
-import { Camera } from 'lucide-react'; // Using lucide-react for the camera icon
+import { supabase } from '@/lib/supbase'; 
+import { Camera } from 'lucide-react'; 
 
 const Profil = () => {
-    const [fullName, setFullName] = useState<string>(''); // Username from Supabase Auth
-    const [email, setEmail] = useState<string>(''); // Properly typed as string
+    const [fullName, setFullName] = useState<string>(''); 
+    const [email, setEmail] = useState<string>(''); 
     const [profilePicture, setProfilePicture] = useState<string | null>(null);
-    const [bio, setBio] = useState<string>(''); // State for bio
-    const [loading, setLoading] = useState<boolean>(true); // State to handle loading
-    const [error, setError] = useState<string | null>(null); // State to handle errors
+    const [bio, setBio] = useState<string>(''); 
+    const [loading, setLoading] = useState<boolean>(true); 
+    const [error, setError] = useState<string | null>(null); 
 
     useEffect(() => {
         const getUserData = async () => {
             try {
-                setLoading(true); // Start loading while fetching user data
+                setLoading(true); 
                 const { data, error } = await supabase.auth.getUser();
                 if (error) {
                     setError('Error fetching user data');
@@ -24,13 +24,13 @@ const Profil = () => {
 
                 const user = data?.user;
                 if (user) {
-                    setEmail(user.email || ''); // Set email from authenticated user
-                    setFullName(user.user_metadata?.username || ''); // Set full name from username in user metadata
+                    setEmail(user.email || '');
+                    setFullName(user.user_metadata?.username || ''); 
                 }
             } catch (err) {
                 setError('An error occurred while fetching user data');
             } finally {
-                setLoading(false); // Stop loading after fetching user data
+                setLoading(false); 
             }
         };
 
@@ -38,15 +38,13 @@ const Profil = () => {
     }, []);
 
     const handleCancel = () => {
-        // Handle cancel logic, for example, resetting the form values
-        setFullName(''); // Reset to empty or initial state
+        setFullName(''); 
         setEmail('');
         setProfilePicture(null);
         setBio('');
       };
     
     const handleSaveChanges = () => {
-        // Handle saving the changes, for example, send to Supabase
         console.log('Changes saved');
     };
     
@@ -93,7 +91,7 @@ const Profil = () => {
                             id="profile-picture-upload"
                             type="file"
                             onChange={handleFileChange}
-                            className="hidden" // Hides the default file input element
+                            className="hidden"
                         />
                         <p className="text-xs text-gray-500 mt-1">Upload a photo to personalize your account. Recommended: Square JPG, PNG, or GIF, at least 400x400 pixels.</p>
                     </div>

@@ -32,7 +32,7 @@ export const updateTour = async (updatedTour: any, tourId: string) => {
 
 export const deleteTour = async (tourId: string) => {
   const { data, error } = await supabase.from('tours').delete().eq('id', tourId);
-  return { data, error }; // No throwing or logging here
+  return { data, error }; 
 };
 
 export const archiveTour = async (tourId: string) => {

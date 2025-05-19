@@ -20,17 +20,16 @@ interface TourSearchProps {
 }
 
 const TourSearch: React.FC<TourSearchProps> = ({ setTours }) => {
-    const [searchQuery, setSearchQuery] = useState<string>(''); // Explicitly declare state type
+    const [searchQuery, setSearchQuery] = useState<string>(''); 
     const [loading, setLoading] = useState<boolean>(false);
     const [error, setError] = useState<string>('');
 
-    // Debounce functionality: delay search after typing stops
     useEffect(() => {
         const timer = setTimeout(() => {
             handleSearch();
-        }, 500); // Delay of 500ms
+        }, 500); 
 
-        return () => clearTimeout(timer); // Cleanup the timeout if searchQuery changes before 500ms
+        return () => clearTimeout(timer); 
     }, [searchQuery]);
 
     const handleSearch = async () => {
@@ -45,14 +44,11 @@ const TourSearch: React.FC<TourSearchProps> = ({ setTours }) => {
         try {
             let query = supabase.from('tours').select('*');
             
-            // Check if search query is a valid number (for ID search)
             const isNumber = /^-?\d*(\.\d+)?$/.test(searchQuery.trim());
 
             if (isNumber) {
-                // If it's a number, search by ID
                 query = query.eq('id', searchQuery.trim());
             } else {
-                // If it's not a number, search by name
                 query = query.ilike('name', `%${searchQuery}%`);
             }
 
@@ -65,7 +61,7 @@ const TourSearch: React.FC<TourSearchProps> = ({ setTours }) => {
             setTours(data || []);
         } catch (err) {
             setError('Failed to fetch tours. Please try again.');
-            console.error('Error fetching tours:', err);  // Log the actual error object for debugging
+            console.error('Error fetching tours:', err);  
         } finally {
             setLoading(false);
         }
@@ -96,18 +92,18 @@ const TourSearch: React.FC<TourSearchProps> = ({ setTours }) => {
                 placeholder="Search Tours..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="border-b-2 border-gray-300 p-2 w-72 text-gray-800 focus:outline-none focus:ring-0" // Remove outline and focus ring
+                className="border-b-2 border-gray-300 p-2 w-72 text-gray-800 focus:outline-none focus:ring-0" 
             />
             <button
                 onClick={handleSearch}
                 className="ml-2 text-blue-500 p-2 rounded-full"
-                disabled={loading} // Disable button while loading
+                disabled={loading} 
             >
                 <FaSearch className="text-gray-800" />
             </button>
 
-            {error && <div className="text-red-500 mt-2">{error}</div>} {/* Display error message */}
-            {loading && <div className="mt-2 text-gray-500">Loading...</div>} {/* Loading spinner */}
+            {error && <div className="text-red-500 mt-2">{error}</div>} 
+            {loading && <div className="mt-2 text-gray-500">Loading...</div>}
         </div>
     );
 };

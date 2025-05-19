@@ -1,8 +1,7 @@
 import { useEffect, useState } from 'react';
 import { fetchTouristsWithEvents } from '../Services/ClientService';
-import Export from './Export'; // Make sure to import the Export component
+import Export from './Export'; 
 
-// Define Tourist type
 type Tourist = {
   name: string;
   email: string;
@@ -16,17 +15,16 @@ const Clients = () => {
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
 
-  // States for filtering
   const [selectedCountry, setSelectedCountry] = useState<string>('');
   const [selectedEventName, setSelectedEventName] = useState<string>('');
 
   useEffect(() => {
     const getTourists = async () => {
       try {
-        const fetchedTourists = await fetchTouristsWithEvents(); // Fetch tourists with events
+        const fetchedTourists = await fetchTouristsWithEvents(); 
         setTourists(fetchedTourists);
       } catch (error: any) {
-        setError('Failed to fetch tourists: ' + error.message); // Include the error message
+        setError('Failed to fetch tourists: ' + error.message); 
       } finally {
         setLoading(false);
       }
@@ -35,7 +33,6 @@ const Clients = () => {
     getTourists();
   }, []);
 
-  // Filter tourists based on selected country and event
   const filteredTourists = tourists.filter((tourist) => {
     const isCountryMatch = selectedCountry ? tourist.country === selectedCountry : true;
     const isEventMatch = selectedEventName ? tourist.event_name === selectedEventName : true;
@@ -45,7 +42,6 @@ const Clients = () => {
   if (loading) return <div>Loading...</div>;
   if (error) return <div>{error}</div>;
 
-  // Get unique countries and events for dropdown options
   const uniqueCountries = Array.from(new Set(tourists.map((tourist) => tourist.country)));
   const uniqueEvents = Array.from(new Set(tourists.map((tourist) => tourist.event_name)));
 

@@ -13,7 +13,6 @@ import {
   deleteTourEventWithTourists
 } from '../Services/tourEventService';
 
-// Define a type for Tourist
 export type Tourist = {
   id?: string;
   name: string;
@@ -35,7 +34,6 @@ export default function TourEvent() {
   const [showModal, setShowModal] = useState<boolean>(false);
   const [selectedEvent, setSelectedEvent] = useState<any | null>(null);
 
-  // Reset form fields (used for new events)
   const resetForm = () => {
     setEventName('');
     setDateFrom('');
@@ -44,14 +42,12 @@ export default function TourEvent() {
     setTourists([{ name: '', email: '', country: '', notes: '' }]);
   };
 
-  // Open modal for adding a new event
   const openAddModal = () => {
     setSelectedEvent(null);
     resetForm();
     setShowModal(true);
   };
 
-  // Open modal for modifying an existing event (only tourist info)
   const openModifyModal = async (event: any) => {
     try {
       const eventDetails = await fetchTourEventById(event.id);
@@ -65,7 +61,6 @@ export default function TourEvent() {
   
   
 
-  // Fetch tours and events on mount
   useEffect(() => {
     let isMounted = true;
 
@@ -102,9 +97,8 @@ export default function TourEvent() {
 
   const handleAddTourist = () => {
     setTourists(prevTourists => {
-      // Check for duplicates before adding
       if (prevTourists.some(t => t.email === '' && t.name === '')) {
-        return prevTourists; // Avoid adding duplicate empty tourists
+        return prevTourists;
       }
       return [...prevTourists, { name: '', email: '', country: '', notes: '' }];
     });
@@ -114,16 +108,15 @@ export default function TourEvent() {
   const handleRemoveTourist = async (index: number) => {
     const touristToRemove = tourists[index];
     
-    // Only remove the tourist if they have an ID and delete them from the database
     if (touristToRemove.id) {
       try {
-        await deleteTourist(touristToRemove.id); // Deleting from DB
+        await deleteTourist(touristToRemove.id);
       } catch (error) {
         console.error("Error removing tourist:", error);
       }
     }
     
-    setTourists(tourists.filter((_, i) => i !== index)); // Removing from state
+    setTourists(tourists.filter((_, i) => i !== index)); 
   };
   
   
@@ -132,7 +125,7 @@ export default function TourEvent() {
     const updatedTourists = tourists.map((tourist, i) =>
       i === index ? { ...tourist, [field]: value } : tourist
     );
-    setTourists(updatedTourists); // Update state to reflect changes
+    setTourists(updatedTourists); 
   };
   
   
@@ -146,11 +139,9 @@ export default function TourEvent() {
       let successMessage = '';
 
       if (selectedEvent) {
-        // Modify existing event and tourist data (ensure no 'id' is sent here)
         await updateTourEventTourist(selectedEvent.id, tourists);
         successMessage = 'Event updated successfully!';
       } else {
-        // Create new event here
         const result = await createTourEvent(eventName, dateFrom, dateTo, selectedTour, tourists);
         
         if (!result.success) {
@@ -162,7 +153,6 @@ export default function TourEvent() {
 
       console.log(successMessage);
 
-      // Ensure we fetch the updated list after creation
       const updatedEvents = await fetchTourEvents();
       setTourEvents(updatedEvents.filter((event: any) => !event.archived));
       setShowModal(false);

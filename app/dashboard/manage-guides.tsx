@@ -91,7 +91,6 @@ export default function ManageGuides() {
 
         let isValid = true;
 
-        // Validate each field
         if (!name) {
             setNameError('Name is required.');
             isValid = false;
@@ -145,7 +144,6 @@ export default function ManageGuides() {
 
         let isValid = true;
 
-        // Validate each field
         if (!name) {
             setNameError('Name is required.');
             isValid = false;

@@ -7,34 +7,29 @@ import { supabase } from '@/lib/supbase';
 const Archive = ({ tours }: { tours: any[] }) => {
   const [archivedTours, setArchivedTours] = useState<any[]>([]);
 
-  // Fetch archived tours from the database
   const fetchArchivedTours = async () => {
     try {
       const { data, error } = await supabase
         .from('tours')
         .select('*')
-        .eq('archived', true); // Fetch only archived tours
+        .eq('archived', true); 
 
       if (error) throw error;
 
-      // Update the state with fetched archived tours
       setArchivedTours(data);
     } catch (error) {
       console.error('Error fetching archived tours:', error);
     }
   };
 
-  // Fetch archived tours when the component mounts
   useEffect(() => {
     fetchArchivedTours();
   }, []);
 
-  // Handle unarchiving a tour (update both in the database and UI)
   const handleUnarchiveTour = async (id: string) => {
     if (!window.confirm('Are you sure you want to unarchive this tour?')) return;
 
     try {
-      // Update the archived status in the Supabase database
       const { error } = await supabase
         .from('tours')
         .update({ archived: false })
@@ -42,7 +37,6 @@ const Archive = ({ tours }: { tours: any[] }) => {
 
       if (error) throw error;
 
-      // Fetch the updated list of archived tours after unarchiving
       fetchArchivedTours();
     } catch (error) {
       console.error('Error unarchiving tour:', error);

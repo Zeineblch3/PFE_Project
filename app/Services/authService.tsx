@@ -19,7 +19,6 @@ export const signOut = async () => {
   await supabase.auth.signOut();
 };
 
-// Login via email/password
 export const loginWithEmail = async (email: string, password: string): Promise<string | null> => {
   try {
     const { error } = await supabase.auth.signInWithPassword({ email, password });
@@ -34,12 +33,11 @@ export const loginWithEmail = async (email: string, password: string): Promise<s
   }
 };
 
-// Login via Google OAuth
 export const loginWithGoogle = async (): Promise<string | null> => {
   try {
     const { error } = await supabase.auth.signInWithOAuth({ provider: 'google' });
     if (error) throw new Error(error.message);
-    return null; // Successful login
+    return null; 
   } catch (error: unknown) {
     if (error instanceof Error) {
       return error.message || 'An unexpected error occurred.';
@@ -49,14 +47,13 @@ export const loginWithGoogle = async (): Promise<string | null> => {
   }
 };
 
-// Reset password
 export const resetPassword = async (resetEmail: string): Promise<string | null> => {
   try {
     const { error } = await supabase.auth.resetPasswordForEmail(resetEmail, {
       redirectTo: `http://localhost:3000/reset-password`,
     });
     if (error) throw new Error(error.message);
-    return 'Password reset link sent! Check your email.'; // Success message
+    return 'Password reset link sent! Check your email.'; 
   } catch (error: unknown) {
     if (error instanceof Error) {
       return error.message || 'An unexpected error occurred.';
